@@ -1,7 +1,8 @@
-function (request, response) {
-   const dynamicDate = new Date();
-   
-   response.json({date: dynamicDate})
+function scenario (request, response) {
+    const dynamicDate = new Date();
+    console.log(request);
+  
+    response.json({date: dynamicDate});
 }
 
 export default scenario;
