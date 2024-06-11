@@ -1,0 +1,27 @@
+.Scenario {
+}
+
+.Scenario__SubTitle {
+  color: #e9e0cf;
+  font-size: 17px;
+  letter-spacing: 0.04rem;
+  font-family: "Alfa Slab One", serif;
+}
+
+.Scenario__Title {
+  color: #67e1da;
+  font-size: 32px;
+  letter-spacing: 0.04rem;
+  margin-bottom: 32px;
+}
+
+.Scenario__Card {
+  background-color: #e9e0cf;
+  padding: 40px;
+  color: #4f352b;
+}
+
+.Scenario__Card h2 {
+  font-size: 21px;
+  margin-bottom: 16px;
+}
