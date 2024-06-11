@@ -18,7 +18,7 @@
         },
         {
             "title": "Evento 4",
-            "description": "<p>Uma mala antiga. Bem antiga. Tipo,  foi e voltou do inferno. Não custa nada dar uma olhada dentro. Investigue. <br><br> <b>0:</b> Quem em sã consciência guarda uma mala cheia de ossos? Animais, humanos e alguns que... é difícil de explicar. Apenas não parece certo. Remova o Evento 4. Você perde 1 Humanity e ganha <b>The Shakes</b>.<br><br><b>1+:</b> Ossos. Até o talo de ossos. Todos os tipos de ossos. E apenas alguns deles são humanos. Um parece um pouco mais limpo do que os outros... Para cada sucesso depois do primeiro, você pode se mover 1. Puxe um Rabbit's Foot do Bindle, depois sacuda bem o Bindle. Então remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span>.</p>"
+            "description": "<p>Uma mala antiga. Bem antiga. Tipo,  foi e voltou do inferno. Não custa nada dar uma olhada dentro. Investigue. <br><br> <b>0:</b> Quem em sã consciência guarda uma mala cheia de ossos? Animais, humanos e alguns que... é difícil de explicar. Apenas não parece certo. Remova o Evento 4. Você perde 1 Humanity e ganha <b>The Shakes (&#9899)</b>.<br><br><b>1+:</b> Ossos. Até o talo de ossos. Todos os tipos de ossos. E apenas alguns deles são humanos. Um parece um pouco mais limpo do que os outros... Para cada sucesso depois do primeiro, você pode se mover 1. Puxe um Rabbit's Foot do Bindle, depois sacuda bem o Bindle. Então remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span>.</p>"
         },
         {
             "title": "Evento 5",
@@ -30,7 +30,7 @@
         },
         {
             "title": "Evento 7",
-            "description": "<p>Todo o maldito trem começa a sacudir como um cachorro molhado. Isso não pode ser bom. Cada Vagrant rola 1 Bone e resolve um efeito com base no valor rolado. Depois remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span>. <br><br><b>1-2:</b> Ganhe <b>Spooked</b>. <br><b>3-4:</b> Mova 3 em direção ao Round side. <br><b>5-6:</b> Mova 3 em direção ao Break side. <br><br>Se o movimento de um Vagrant terminar devido a uma Edge ou Terrain, esse Vagrant finaliza o movimento e perde 3 Humanity. <br><br><b>Lembre-se:</b> Quando um Haint Breaks, pule a próxima ação do Haint e todos os Vagrants ganham 1 Humanity. Os Turned Faces também têm o efeito quando Break que permite que os Vagrants realizem Rummage 1 se escolherem.</p>"
+            "description": "<p>Todo o maldito trem começa a sacudir como um cachorro molhado. Isso não pode ser bom. Cada Vagrant rola 1 Bone e resolve um efeito com base no valor rolado. Depois remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span>. <br><br><b>1-2:</b> Ganhe <b>Spooked (&#9898;)</b>. <br><b>3-4:</b> Mova 3 em direção ao Round side. <br><b>5-6:</b> Mova 3 em direção ao Break side. <br><br>Se o movimento de um Vagrant terminar devido a uma Edge ou Terrain, esse Vagrant finaliza o movimento e perde 3 Humanity. <br><br><b>Lembre-se:</b> Quando um Haint Breaks, pule a próxima ação do Haint e todos os Vagrants ganham 1 Humanity. Os Turned Faces também têm o efeito quando Break que permite que os Vagrants realizem Rummage 1 se escolherem.</p>"
         },
         {
             "title": "Evento 8",

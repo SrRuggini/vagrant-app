@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react';
 import styles from '/src/app/styles/scenario.module.css';
 import { importJsonByName } from '/src/app/utils/importJson';
 import Collapsible from '/src/app/components/collapsible';
+import Link from 'next/link';
+import Image from 'next/image';
 import PropTypes from 'prop-types';
 
 export default function Scenarios({ params }) {
@@ -27,6 +29,16 @@ export default function Scenarios({ params }) {
     return (
         <main className={styles.main}>
             <div className="container">
+                <div className="Logo">
+                    <Link href={'/'}>
+                        <Image
+                            src="/logotipo.png"
+                            width={265}
+                            height={45}
+                            alt="Vagrantsong"
+                        />
+                    </Link>
+                </div>
                 {scenarioData && (
                     <>
                         <h5 className={styles.Scenario__SubTitle}>
@@ -41,9 +53,14 @@ export default function Scenarios({ params }) {
                                     __html: scenarioData?.storyDescription,
                                 }}
                             />
-                            <br/><br/>
+                            <br />
+                            <br />
                             {scenarioData?.events.map((event, index) => (
-                                <Collapsible description={event?.description} title={event?.title} key={index} />
+                                <Collapsible
+                                    description={event?.description}
+                                    title={event?.title}
+                                    key={index}
+                                />
                             ))}
                         </div>
                     </>

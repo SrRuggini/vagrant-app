@@ -88,8 +88,9 @@ body {
 }
 
 body {
-  background-image: url("../../../public/cover.jpg");
-  background-position: center;
+  background-image: url("/background.png");
+  background-attachment: fixed;
+  background-position: center top;
   background-repeat: no-repeat;
   background-color: #161616;
   padding: 32px 16px;
@@ -115,6 +116,11 @@ a {
 .content-wrap {
   background-color: #e9e0cf;
   padding: 16px;
+}
+
+.Logo {
+  text-align: center;
+  padding: 32px 0;
 }
 
 h1,
