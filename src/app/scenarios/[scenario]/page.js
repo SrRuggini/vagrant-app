@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from '/src/app/styles/scenario.module.css';
 import { importJsonByName } from '/src/app/utils/importJson';
+import Collapsible from '/src/app/components/collapsible';
 import PropTypes from 'prop-types';
 
 export default function Scenarios({ params }) {
@@ -29,13 +30,21 @@ export default function Scenarios({ params }) {
                 {scenarioData && (
                     <>
                         <h5 className={styles.Scenario__SubTitle}>
-                            cenário {scenarioData?.key}
+              cenário {scenarioData?.key}
                         </h5>
                         <h1 className={styles.Scenario__Title}>{scenarioData?.title}</h1>
 
                         <div className={styles.Scenario__Card}>
                             <h2>{scenarioData?.storyName}</h2>
-                            <div dangerouslySetInnerHTML={{ __html: scenarioData?.storyDescription }} />
+                            <div
+                                dangerouslySetInnerHTML={{
+                                    __html: scenarioData?.storyDescription,
+                                }}
+                            />
+                            <br/><br/>
+                            {scenarioData?.events.map((event, index) => (
+                                <Collapsible description={event?.description} title={event?.title} key={index} />
+                            ))}
                         </div>
                     </>
                 )}

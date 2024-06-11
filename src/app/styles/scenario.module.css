@@ -1,6 +1,3 @@
-.Scenario {
-}
-
 .Scenario__SubTitle {
   color: #e9e0cf;
   font-size: 17px;
@@ -17,7 +14,7 @@
 
 .Scenario__Card {
   background-color: #e9e0cf;
-  padding: 40px;
+  padding: 4vh 8%;
   color: #4f352b;
 }
 

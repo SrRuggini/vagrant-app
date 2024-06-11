@@ -2,5 +2,47 @@
     "key": 1,
     "title": "Shelter from the Storm",
     "storyName": "Sofrendo Desde Hazlehurst",
-    "storyDescription": "<p>Você é apenas mais um dos muitos viajantes de trem tentando encontrar abrigo da tempestade. Você não reconhece nenhum rosto familiar e, pensando bem, nem sequer lembra de ter visto eles embarcarem no trem com você. <br/><br/> Mas todos juram de pés juntos que acabaram de chegar aqui. E com base na sua própria experiência, você não pode deixar de acreditar neles. O estranho é que todos parecem ser de uma parte diferente da cidade - ou cidades - lugares que você nunca nem ouviu falar.<br/><br/> Depois de alguns apertos de mão e apresentações, todos tentam se acomodar o melhor que podem. Mas sem um monte de feno ou uma velha almofada chamando pelo seu nome, nem o trem nem a situação trazem muito conforto.<br/><br/> A única coisa que todos têm em comum, ao que parece, é a mão acolhedora que ajudou cada um a embarcar. Luva branca, pele frouxa... você não poderia esquecer se tentasse. Você não sabe dizer se é bom ou ruim que o Sr. Mão de Boas-Vindas pareça estar ausente.<br/><br/> De qualquer forma, espera-se que as coisas permaneçam calmas e pacíficas neste trecho da jornada. Mas aquela sensação de frio na barriga diz o ontrário.</p>"
+    "storyDescription": "<p>Você é apenas mais um dos muitos viajantes de trem tentando encontrar abrigo da tempestade. Você não reconhece nenhum rosto familiar e, pensando bem, nem sequer lembra de ter visto eles embarcarem no trem com você. <br/><br/> Mas todos juram de pés juntos que acabaram de chegar aqui. E com base na sua própria experiência, você não pode deixar de acreditar neles. O estranho é que todos parecem ser de uma parte diferente da cidade - ou cidades - lugares que você nunca nem ouviu falar.<br/><br/> Depois de alguns apertos de mão e apresentações, todos tentam se acomodar o melhor que podem. Mas sem um monte de feno ou uma velha almofada chamando pelo seu nome, nem o trem nem a situação trazem muito conforto.<br/><br/> A única coisa que todos têm em comum, ao que parece, é a mão acolhedora que ajudou cada um a embarcar. Luva branca, pele frouxa... você não poderia esquecer se tentasse. Você não sabe dizer se é bom ou ruim que o Sr. Mão de Boas-Vindas pareça estar ausente.<br/><br/> De qualquer forma, espera-se que as coisas permaneçam calmas e pacíficas neste trecho da jornada. Mas aquela sensação de frio na barriga diz o ontrário.</p>",
+    "events": [
+        {
+            "title": "Evento 1",
+            "description": "<p>Está muito escuro aqui dentro, mas pelo menos está quieto. Ah, parece que vocês não foram o único grupo a embarcar, afinal. Talvez seja hora de se apresentarem. Mova os Turned Faces 2 espaços em direção ao Break Side. <br><br> <b>Lembre-se:</b> Haints podem se mover sobre Terrains, mas os Vagrants não podem!</p>"
+        },
+        {
+            "title": "Evento 2",
+            "description": "<p>Parece que deixaram algo para trás. Que tipo de vagabundo viajante começa a se desfazer de todas as suas coisas?<br /><br /> <b>0: </b> Seja lá o que for, não parece valer a pena pegar. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> no tabuleiro do trem. <br /><br /> <b>1+:</b> Oh, bem... isso aqui com certeza parece útil. Rummage 2. Só mantenha um dos Tokens encontrados dessa forma, mas você pode dar o outro Token encontrado para qualquer outro Vagrant. Após manter um Token encontrado, adicione os Tokens de Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>8</span> e <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>9</span> no Bindle, e então sacuda bem o Bindle. Depois, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span>. <br/><br/> <b>Lembre-se:</b> Quando você realiza a ação de Rummage 2, retire 2 Tokens do Bindle. Seu valor de Rummage indica quantos Tokens você pode carregar. Para mais informações sobre Rummaging, vá para pg. 15.</p>"
+        },
+        {
+            "title": "Evento 3",
+            "description": "<p>Você ouve algo atrás de você: um baque pesado e depois um arrasto lento. Coisas, hã, caem do topo dos vagões de trem o tempo todo, certo? Coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span> em qualquer espaço aberto adjacente ao round Side no Vagão A. Depois, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span>.</p>"
+        },
+        {
+            "title": "Evento 4",
+            "description": "<p>Uma mala antiga. Bem antiga. Tipo,  foi e voltou do inferno. Não custa nada dar uma olhada dentro. Investigue. <br><br> <b>0:</b> Quem em sã consciência guarda uma mala cheia de ossos? Animais, humanos e alguns que... é difícil de explicar. Apenas não parece certo. Remova o Evento 4. Você perde 1 Humanity e ganha <b>The Shakes</b>.<br><br><b>1+:</b> Ossos. Até o talo de ossos. Todos os tipos de ossos. E apenas alguns deles são humanos. Um parece um pouco mais limpo do que os outros... Para cada sucesso depois do primeiro, você pode se mover 1. Puxe um Rabbit's Foot do Bindle, depois sacuda bem o Bindle. Então remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span>.</p>"
+        },
+        {
+            "title": "Evento 5",
+            "description": "<p>Eles não conseguem ver que não há porta ali? Mude o Mood dos Turned Faces para But Not Alone, então os Turned Faces imediatamente realizam sua ação Rabbit’s Foot (On the Yonder). Depois de realizar a ação Haint, Vagrants no Range 2 dos Turned Faces perdem 2 Humanity.</p>"
+        },
+        {
+            "title": "Evento 6",
+            "description": "<p>Entalhado na madeira está uma cabeça de flecha apontada para baixo. Você já viu isso antes na estrada. É o Código. Prepare-se para se defender. <b>Automaticamente tenha sucesso nesta ação de Investigate.</b> <br><br>Escolha um (então remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span>): <br><br><b>1.</b> Você pode fazer qualquer Vagrant no Range 3 ganhar 2 Humanity. <br><b>2.</b> Você pode dar a outro Vagrant um dos seus Tokens de Rummage. Se fizer isso, realize Rummage 1.</p>"
+        },
+        {
+            "title": "Evento 7",
+            "description": "<p>Todo o maldito trem começa a sacudir como um cachorro molhado. Isso não pode ser bom. Cada Vagrant rola 1 Bone e resolve um efeito com base no valor rolado. Depois remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span>. <br><br><b>1-2:</b> Ganhe <b>Spooked</b>. <br><b>3-4:</b> Mova 3 em direção ao Round side. <br><b>5-6:</b> Mova 3 em direção ao Break side. <br><br>Se o movimento de um Vagrant terminar devido a uma Edge ou Terrain, esse Vagrant finaliza o movimento e perde 3 Humanity. <br><br><b>Lembre-se:</b> Quando um Haint Breaks, pule a próxima ação do Haint e todos os Vagrants ganham 1 Humanity. Os Turned Faces também têm o efeito quando Break que permite que os Vagrants realizem Rummage 1 se escolherem.</p>"
+        },
+        {
+            "title": "Evento 8",
+            "description": "<p>Um espelho? Como isso foi parar ali? Encontre Junk Card #21. Adicione ao seu Junk Slot ou aos Pertences se o seu Junk Slot estiver cheio. (Para informações sobre Junk, vá para a página 12). Então descarte o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>8</span> (ele não volta para o Bindle)</p>"
+        },
+        {
+            "title": "Evento 9",
+            "description": "<p>As mãos dele te alcançam, dedos esticados se curvando em punhos cerrados. O metal do trem estica e boceja. Todos os Vagrants no mesmo vagão que os Turned Faces ganham <b>Spooked</b>. Então adicione o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>9</span> de volta no Bindle.</p>"
+        },
+        {
+            "title": "Evento 0",
+            "description": "<p>As vigas de madeira que formam as paredes do vagão começam a se mover e deslizar para fora, criando janelas improvisadas nas paredes. Mas em vez de ver a paisagem ou um pátio de trem do lado de fora, tudo o que você vê são rostos azuis brilhantes, sorrindo. A partir de agora até o final do cenário, o primeiro Vagrant a realizar uma ação de turno perde 4 Humanity. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span>.</p>"
+        }
+    ]
 }
