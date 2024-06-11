@@ -23,9 +23,6 @@ export default function Scenarios({ params }) {
         }
     }, [params.scenario]);
 
-    console.log('params.scenario', params.scenario);
-    console.log('scenarioData', scenarioData);
-
     return (
         <main className={styles.main}>
             <div className="container">
@@ -52,6 +49,13 @@ export default function Scenarios({ params }) {
                                 dangerouslySetInnerHTML={{
                                     __html: scenarioData?.storyDescription,
                                 }}
+                            />
+
+                            <Image className={styles.Scenario__Haint}
+                                src={`/${scenarioData.haintImg}`}
+                                width={370}
+                                height={530}
+                                alt="Vagrantsong"
                             />
                             <br />
                             <br />

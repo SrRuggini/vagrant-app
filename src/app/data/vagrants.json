@@ -1,0 +1,58 @@
+{
+    "vagrants" : [
+        {
+            "image": "cursebearer.jpg",
+            "name": "The Cursebearer",
+            "description": "<p>A Cursebearer está fugindo há muito tempo. Armada com sua astúcia e faca fiel, ela espera derrotar a criatura das trevas que a persegue... ela só precisa descobrir como.</p>",
+            "passive": "Passive - Devil On Your Heels",
+            "passiveDescription": "<p>Uma vez por turno, depois de ser Assombrada, aquele Haint ganha 1 Humanidade.<br/> Um Haint vai se arrepender de assombrar você com esse potente efeito defensivo!</p>",
+            "skills": "Old Knife, Strange Blade (#67) e Distant Memory (#68)",
+            "playstyle": "Uma Vagrant agressiva, focada em Haint, que está sempre em movimento"
+        },
+        {
+            "image": "empress.jpg",
+            "name": "The Empress of America",
+            "description": "<p>Apesar de poucas pessoas reconhecê-la como a Empress of America, ela não parou de espalhar sua mensagem ou tentar reunir um exército. Se algum fantasma acha que pode detê-la, está redondamente enganado.</p>",
+            "passive": "Passive - Boxcar Queen",
+            "passiveDescription": "<p>A primeira vez que você rolar um Booming Boxcar por turno, role um Bone extra.<br/> Com um pouco de sorte, você pode levar vantagem e ensinar algumas coisas a um Haint!</p>",
+            "skills": "General’s Orders (#51) e Strangely Resonant Speech (#52)",
+            "playstyle": "Uma líder nata e forte, que gosta de abraçar o imprevisível."
+        },
+        {
+            "image": "songsmith.jpg",
+            "name": "The Songsmith",
+            "description": "<p>As luzes brilhantes da grande cidade puxam as cordas do Songsmith desde a infância. Ele sonha em se apresentar nesses grandes palcos, derramando a música em seu coração para todos ouvirem.</p>",
+            "passive": "Passive - Upbeat Tempo",
+            "passiveDescription": "<p>Se você tiver apenas 1 Coin em uma Skill, reduza o valor de sucesso dessa Skill em 1.<br/> Espalhar as Skills e Ações que você realiza por turno as tornará um pouco mais fáceis!</p>",
+            "skills": "A Little Rhythm (#35) e An Old Medley (#36)",
+            "playstyle": "Um generalista versátil que se aventura um pouco em tudo - à distância."
+        },
+        {
+            "image": "revivalist.jpg",
+            "name": "The Revivalist",
+            "description": "<p>Depois de não conseguir trazer conforto aos enlutados ao tentar falar com os mortos, o Revivalist deixou sua cidade natal para vagar, esperando encontrar seu propósito.</p>",
+            "passive": "Passive - Selfless",
+            "passiveDescription": "<p>Quando você ganharia Humanidade, você pode fazer com que outro Vagrant em Alcance 2 ganhe essa Humanidade em vez de você.<br/> Este Passivo ajuda o Revivalist a estender seu alcance de cura um pouco mais. Às vezes, isso é tudo que você precisa para manter um amigo com o espírito de luta!</p>",
+            "skills": "Soothing Hymn (#59) e Copal Incense (#60)",
+            "playstyle": "Ele está sempre atento aos seus amigos e ao bem-estar deles."
+        },
+        {
+            "image": "runaway.jpg",
+            "name": "The Runaway",
+            "description": "<p>Acompanhada por seu leal cãozinho, a Runaway fugiu de casa em busca de uma nova aventura. Ela está ansiosa para ver o mundo, mas é definitivamente um pouco intimidador... ou seria, sem seu melhor amigo peludo!</p>",
+            "passive": "Passive - Girl's Best Friend",
+            "passiveDescription": "<p>Você tem o Cãozinho.<br/> A Runaway tem dois personagens: a Runaway e o Cãozinho. Ao colocar os Vagrants durante a Configuração do Cenário, coloque o Cãozinho em um espaço aberto adjacente à Fugitiva. O Cãozinho só é removido do tabuleiro do trem se a Fugitiva for removida. O Cãozinho e a Fugitiva são considerados o mesmo Vagrant. Se ambos, o Cãozinho e a Fugitiva, forem afetados por um único efeito, apenas a Fugitiva é afetada. Eles compartilham Humanidade, Moedas, efeitos de Junk, valor de Rummage e Efeitos de Haint. Moedas podem ser colocadas no cartão do Cãozinho para que o Cãozinho realize Movimentos, Investigue ou Quebre durante o turno da Fugitiva. O Cãozinho é considerado um Vagrant para fins de alvo, mas não é afetado por ser Assombrado por Haints (mas se o Haint terminar seu Movimento no mesmo espaço, então o Cãozinho ainda se moveria 1). O Cãozinho não pode usar Tokens de Rummage ou realizar a Ação de Rummage. Se o Cãozinho encontrar um Token de Rummage através de um Evento, ele é colocado no cartão do Cãozinho. O Cãozinho pode segurá-lo, desde que não exceda o valor de Rummage da Fugitiva. Ele deve ser trocado ou dado a outro Vagrant para ser usado. Se o Cãozinho trocar/der um Token de Rummage para a Fugitiva, a Fugitiva não pode usar um Token de Rummage naquela rodada.</p>",
+            "skills": "Who's a Good Boy?! (#43) and Gumption (#44) - e não se esqueça do Pup card!",
+            "playstyle": "Com dois personagens para controlar, ela pode se espalhar e fazer muitas coisas em um turno."
+        },
+        {
+            "image": "wayfarer.jpg",
+            "name": "The Wayfarer",
+            "description": "<p>Histórias vêm e vão, assim como as pessoas. Para o Wayfarer, esta jornada é apenas mais uma história para contar. Que melhor maneira de tecer uma narrativa do que com novos amigos?</p>",
+            "passive": "Passive - Thrifty",
+            "passiveDescription": "<p>Você pode segurar um Junk adicional.<br/> Junk fornece mais Humanidade e efeitos passivos adicionais, e ter mais um coloca as chances a seu favor. Coloque o segundo Junk ao lado do primeiro no seu cartão de Vagrant.</p>",
+            "skills": "In a Pinch (#75), Feathery Friend (#76), e Writer’s Satchel (Junk #31)",
+            "playstyle": "Ele sempre tem as ferramentas certas para usar nos momentos certos."
+        }       
+    ]
+}

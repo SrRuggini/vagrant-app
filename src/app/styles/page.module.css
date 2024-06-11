@@ -1,18 +1,12 @@
-.Scenario__Item {
+.Section__Item {
   padding: 16px;
   border: solid 2px #d9cfbe;
   margin-bottom: 16px;
 }
 
-.Scenario__Subtitle {
-  font-family: "Alfa Slab One", serif;
-  display: block;
-  color: #df651f;
-}
-
-.Scenario__Title {
+.Section__Title {
   font-family: "Alfa Slab One", serif;
   display: block;
   color: #4f352b;
-  font-size: 23px;
+  font-size: 32px;
 }

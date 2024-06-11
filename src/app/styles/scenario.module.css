@@ -22,3 +22,8 @@
   font-size: 21px;
   margin-bottom: 16px;
 }
+
+.Scenario__Haint {
+  max-width: 100%;
+  height: auto;
+}

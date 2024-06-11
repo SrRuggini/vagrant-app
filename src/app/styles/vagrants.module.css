@@ -1,0 +1,12 @@
+.Vagrant__Item {
+  padding: 16px;
+  border: solid 2px #d9cfbe;
+  margin-bottom: 16px;
+}
+
+.Vagrant__Image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
