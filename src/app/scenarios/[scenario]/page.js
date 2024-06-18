@@ -37,7 +37,9 @@ export default function Scenarios({ params }) {
                 </div>
                 {scenarioData && (
                     <>
-                        <h5 className={styles.Scenario__SubTitle}>cenário {scenarioData?.key}</h5>
+                        <h5 className={styles.Scenario__SubTitle}>
+              cenário {scenarioData?.key}
+                        </h5>
                         <h1 className={styles.Scenario__Title}>{scenarioData?.title}</h1>
 
                         <div className={styles.Scenario__Card}>
@@ -48,15 +50,16 @@ export default function Scenarios({ params }) {
                                 }}
                             />
 
-                            <Image
-                                className={styles.Scenario__Haint}
-                                src={`/${scenarioData.haintImg}`}
-                                width={370}
-                                height={530}
-                                alt="Vagrantsong"
-                            />
-                            
-                            
+                            {scenarioData.haintImg && (
+                                <Image
+                                    className={styles.Scenario__Haint}
+                                    src={`/${scenarioData.haintImg}`}
+                                    width={370}
+                                    height={530}
+                                    alt="Vagrantsong"
+                                />
+                            )}
+
                             {scenarioData?.specialRules && (
                                 <>
                                     <br />
@@ -69,7 +72,7 @@ export default function Scenarios({ params }) {
                                     <br />
                                 </>
                             )}
-                            
+
                             {scenarioData?.terrainEffects && (
                                 <>
                                     <br />
@@ -95,7 +98,7 @@ export default function Scenarios({ params }) {
                                     <br />
                                 </>
                             )}
-                            
+
                             {scenarioData?.breaks && (
                                 <>
                                     <br />
@@ -108,7 +111,7 @@ export default function Scenarios({ params }) {
                                     <br />
                                 </>
                             )}
-                            
+
                             {scenarioData?.seanse && (
                                 <>
                                     <br />
@@ -121,7 +124,7 @@ export default function Scenarios({ params }) {
                                     <br />
                                 </>
                             )}
-                            
+
                             {scenarioData?.victory && (
                                 <>
                                     <br />
@@ -134,8 +137,9 @@ export default function Scenarios({ params }) {
                                     <br />
                                 </>
                             )}
-                            
-                            <br /><br />
+
+                            <br />
+                            <br />
 
                             {scenarioData?.events.map((event, index) => (
                                 <Collapsible

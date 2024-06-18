@@ -10,6 +10,7 @@ export default function Home() {
         'Paradise by the Maco Light',
         'Knock, Knock, Knocking"...',
         'Black & Blue',
+        'When You dig my Grave',
     ];
     return (
         <>
