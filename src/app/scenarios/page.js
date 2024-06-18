@@ -11,6 +11,7 @@ export default function Home() {
         'Knock, Knock, Knocking"...',
         'Black & Blue',
         'When You dig my Grave',
+        'The Walls are Closing in',
     ];
     return (
         <>
