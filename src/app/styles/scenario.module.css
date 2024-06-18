@@ -23,7 +23,18 @@
   margin-bottom: 16px;
 }
 
+.Scenario__Card h4 {
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+.Scenario__Card ul li {
+  margin-bottom: 8px;
+}
+
 .Scenario__Haint {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin: auto;
 }

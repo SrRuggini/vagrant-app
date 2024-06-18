@@ -18,7 +18,6 @@ export default function Scenarios({ params }) {
 
     useEffect(() => {
         if (params.scenario) {
-            console.log('test');
             fetchScenarioData(params.scenario);
         }
     }, [params.scenario]);
@@ -27,7 +26,7 @@ export default function Scenarios({ params }) {
         <main className={styles.main}>
             <div className="container">
                 <div className="Logo">
-                    <Link href={'/'}>
+                    <Link href={'/scenarios'}>
                         <Image
                             src="/logotipo.png"
                             width={265}
@@ -38,9 +37,7 @@ export default function Scenarios({ params }) {
                 </div>
                 {scenarioData && (
                     <>
-                        <h5 className={styles.Scenario__SubTitle}>
-              cenário {scenarioData?.key}
-                        </h5>
+                        <h5 className={styles.Scenario__SubTitle}>cenário {scenarioData?.key}</h5>
                         <h1 className={styles.Scenario__Title}>{scenarioData?.title}</h1>
 
                         <div className={styles.Scenario__Card}>
@@ -51,14 +48,95 @@ export default function Scenarios({ params }) {
                                 }}
                             />
 
-                            <Image className={styles.Scenario__Haint}
+                            <Image
+                                className={styles.Scenario__Haint}
                                 src={`/${scenarioData.haintImg}`}
                                 width={370}
                                 height={530}
                                 alt="Vagrantsong"
                             />
-                            <br />
-                            <br />
+                            
+                            
+                            {scenarioData?.specialRules && (
+                                <>
+                                    <br />
+                                    <h4>Regras Especiais</h4>
+                                    <div
+                                        dangerouslySetInnerHTML={{
+                                            __html: scenarioData.specialRules,
+                                        }}
+                                    />
+                                    <br />
+                                </>
+                            )}
+                            
+                            {scenarioData?.terrainEffects && (
+                                <>
+                                    <br />
+                                    <h4>Efeitos de Terrenos</h4>
+                                    <div
+                                        dangerouslySetInnerHTML={{
+                                            __html: scenarioData.terrainEffects,
+                                        }}
+                                    />
+                                    <br />
+                                </>
+                            )}
+
+                            {scenarioData?.haintEffects && (
+                                <>
+                                    <br />
+                                    <h4>Efeitos dos Haints</h4>
+                                    <div
+                                        dangerouslySetInnerHTML={{
+                                            __html: scenarioData.haintEffects,
+                                        }}
+                                    />
+                                    <br />
+                                </>
+                            )}
+                            
+                            {scenarioData?.breaks && (
+                                <>
+                                    <br />
+                                    <h4>Breaks</h4>
+                                    <div
+                                        dangerouslySetInnerHTML={{
+                                            __html: scenarioData.breaks,
+                                        }}
+                                    />
+                                    <br />
+                                </>
+                            )}
+                            
+                            {scenarioData?.seanse && (
+                                <>
+                                    <br />
+                                    <h4>Seanse</h4>
+                                    <div
+                                        dangerouslySetInnerHTML={{
+                                            __html: scenarioData.seanse,
+                                        }}
+                                    />
+                                    <br />
+                                </>
+                            )}
+                            
+                            {scenarioData?.victory && (
+                                <>
+                                    <br />
+                                    <h4>Vitória</h4>
+                                    <div
+                                        dangerouslySetInnerHTML={{
+                                            __html: scenarioData.victory,
+                                        }}
+                                    />
+                                    <br />
+                                </>
+                            )}
+                            
+                            <br /><br />
+
                             {scenarioData?.events.map((event, index) => (
                                 <Collapsible
                                     description={event?.description}

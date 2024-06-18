@@ -9,6 +9,7 @@ export default function Home() {
         'Under My Skin',
         'Paradise by the Maco Light',
         'Knock, Knock, Knocking"...',
+        'Black & Blue',
     ];
     return (
         <>
@@ -26,16 +27,18 @@ export default function Home() {
                     </div>
                     <div className="content-wrap">
                         {scenarios.map((scenario, index) => {
-                            const slug = scenario.toLowerCase().replace(/['".,]/g, '').replace(/\s+/g, '-');
+                            const slug = scenario
+                                .toLowerCase()
+                                .replace(/['".,]/g, '')
+                                .replace(/\s+/g, '-')
+                                .replace(/['&,]/g, 'and');
                             return (
                                 <div
                                     className={styles.Scenario__Item}
                                     key={`scenario-${index}`}
                                 >
                                     <Link href={`/scenarios/${slug}`}>
-                                        <span className={styles.Scenario__Subtitle}>
-                      Cenário {index+1}
-                                        </span>
+                                        <span className={styles.Scenario__Subtitle}>Cenário {index + 1}</span>
                                         <span className={styles.Scenario__Title}>{scenario}</span>
                                     </Link>
                                 </div>
