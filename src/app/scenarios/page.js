@@ -5,7 +5,6 @@ import styles from '/src/app/styles/scenarios.module.css';
 import { importJsonByName } from '/src/app/utils/importJson';
 
 export default async function Home() {
-    // const {test} = await importJsonByName('scenarios');
     const { scenarios } = await importJsonByName('scenarios');
 
     return (
@@ -22,21 +21,30 @@ export default async function Home() {
                             />
                         </Link>
                     </div>
+                    <h1 className={styles.PageTitle}>Cenários</h1>
+
                     <div className="content-wrap">
                         {scenarios.map((scenario, index) => {
-                            const slug = scenario.name
+                            const { name, page } = scenario;
+
+                            const slug = name
                                 .toLowerCase()
                                 .replace(/['".,]/g, '')
                                 .replace(/\s+/g, '-')
-                                .replace(/['&,]/g, 'and');
+                                .replace(/['&,]/g, 'and')
+                                .normalize('NFD')
+                                .replace(/[\u0300-\u036f]/g, '');
                             return (
                                 <div
                                     className={styles.Scenario__Item}
                                     key={`scenario-${index}`}
                                 >
-                                    <Link href={`/scenarios/${slug}`}>
-                                        <span className={styles.Scenario__Subtitle}>pg. {scenario.key}</span>
-                                        <span className={styles.Scenario__Title}>{scenario.name}</span>
+                                    <Link
+                                        className={styles.Scenario__Link}
+                                        href={`/scenarios/${slug}`}
+                                    >
+                                        <span className={styles.Scenario__Title}>{name}</span>
+                                        <span className={styles.Scenario__Subtitle}>{page}</span>
                                     </Link>
                                 </div>
                             );

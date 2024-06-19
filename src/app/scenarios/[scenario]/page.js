@@ -37,9 +37,6 @@ export default function Scenarios({ params }) {
                 </div>
                 {scenarioData && (
                     <>
-                        <h5 className={styles.Scenario__SubTitle}>
-              cenário {scenarioData?.key}
-                        </h5>
                         <h1 className={styles.Scenario__Title}>{scenarioData?.title}</h1>
 
                         <div className={styles.Scenario__Card}>

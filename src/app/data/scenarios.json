@@ -1,36 +1,96 @@
 {
     "scenarios": [
         {
-            "key": 1,
+            "page": 1,
             "name": "Shelter from the Storm"
         },
         {
-            "key": 5,
+            "page": 5,
             "name": "Under My Skin"
         },
         {
-            "key": 11,
+            "page": 11,
             "name": "Paradise by the Maco Light"
         },
         {
-            "key": 15,
+            "page": 15,
             "name": "Knock, Knock, Knocking'..."
         },
         {
-            "key": 19,
+            "page": 19,
             "name": "Black & Blue"
         },
         {
-            "key": 63,
+            "page": 23,
+            "name": "From the Peak..."
+        },
+        {
+            "page": 27,
+            "name": "The Stillness & the Quiet"
+        },
+        {
+            "page": 31,
+            "name": "Crossroads Calamity"
+        },
+        {
+            "page": 37,
+            "name": "So Far Away"
+        },
+        {
+            "page": 41,
+            "name": "Snowed In"
+        },
+        {
+            "page": 45,
+            "name": "A cold Wind's a Comin'"
+        },
+        {
+            "page": 49,
+            "name": "Bon Appétit"
+        },
+        {
+            "page": 53,
+            "name": "Fire on the Mountain"
+        },
+        {
+            "page": 57,
+            "name": "Dance Macabre"
+        },
+        {
+            "page": 63,
             "name": "When you dig my Grave"
         },
         {
-            "key": 67,
+            "page": 67,
             "name": "Suffocation Station"
         },
         {
-            "key": 71,
+            "page": 71,
             "name": "Set in Stone"
+        },
+        {
+            "page": 75,
+            "name": "For Whom the Bell Tolls"
+        },
+        {
+            "page": 79,
+            "name": "Limb from Phantom Limb"
+        },
+        {
+            "page": 83,
+            "name": "End of Time"
+        },
+        {
+            "page": 87,
+            "name": "Back Together Again"
+        },
+        {
+            "page": 92,
+            "name": "Face the Music"
+        },
+        {
+            "page": 97,
+            "name": "Now or Never Endin'"
         }
     ]
 }
