@@ -1,0 +1,36 @@
+{
+    "scenarios": [
+        {
+            "key": 1,
+            "name": "Shelter from the Storm"
+        },
+        {
+            "key": 5,
+            "name": "Under My Skin"
+        },
+        {
+            "key": 11,
+            "name": "Paradise by the Maco Light"
+        },
+        {
+            "key": 15,
+            "name": "Knock, Knock, Knocking'..."
+        },
+        {
+            "key": 19,
+            "name": "Black & Blue"
+        },
+        {
+            "key": 63,
+            "name": "When you dig my Grave"
+        },
+        {
+            "key": 67,
+            "name": "Suffocation Station"
+        },
+        {
+            "key": 71,
+            "name": "Set in Stone"
+        }
+    ]
+}

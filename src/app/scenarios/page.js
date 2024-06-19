@@ -2,17 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '/src/app/styles/scenarios.module.css';
+import { importJsonByName } from '/src/app/utils/importJson';
 
-export default function Home() {
-    const scenarios = [
-        'Shelter from the Storm',
-        'Under My Skin',
-        'Paradise by the Maco Light',
-        'Knock, Knock, Knocking"...',
-        'Black & Blue',
-        'When You dig my Grave',
-        'The Walls are Closing in',
-    ];
+export default async function Home() {
+    // const {test} = await importJsonByName('scenarios');
+    const { scenarios } = await importJsonByName('scenarios');
+
     return (
         <>
             <main className={styles.main}>
@@ -29,7 +24,7 @@ export default function Home() {
                     </div>
                     <div className="content-wrap">
                         {scenarios.map((scenario, index) => {
-                            const slug = scenario
+                            const slug = scenario.name
                                 .toLowerCase()
                                 .replace(/['".,]/g, '')
                                 .replace(/\s+/g, '-')
@@ -40,8 +35,8 @@ export default function Home() {
                                     key={`scenario-${index}`}
                                 >
                                     <Link href={`/scenarios/${slug}`}>
-                                        <span className={styles.Scenario__Subtitle}>Cenário {index + 1}</span>
-                                        <span className={styles.Scenario__Title}>{scenario}</span>
+                                        <span className={styles.Scenario__Subtitle}>pg. {scenario.key}</span>
+                                        <span className={styles.Scenario__Title}>{scenario.name}</span>
                                     </Link>
                                 </div>
                             );

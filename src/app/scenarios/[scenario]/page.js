@@ -12,7 +12,7 @@ export default function Scenarios({ params }) {
     const [scenarioData, setScenarioData] = useState(null);
 
     const fetchScenarioData = async (name) => {
-        const data = await importJsonByName(name);
+        const data = await importJsonByName('scenario-' + name);
         setScenarioData(data);
     };
 
