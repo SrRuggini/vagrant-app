@@ -5,7 +5,7 @@ import styles from '/src/app/styles/scenarios.module.css';
 import { importJsonByName } from '/src/app/utils/importJson';
 
 export default async function Home() {
-    const { scenarios } = await importJsonByName('scenarios');
+    const { scenarios } = await importJsonByName('scenarios', '');
 
     return (
         <>

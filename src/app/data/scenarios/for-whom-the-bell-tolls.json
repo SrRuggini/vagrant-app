@@ -1,0 +1,46 @@
+{
+  "key": 75,
+  "title": "For Whom the Bell Tolls",
+  "events": [
+    {
+      "title": "Evento 1",
+      "description": "<p>Você de repente esquece o que estava fazendo. Havia algo que... hm. O que era mesmo? Difícil de se concentrar. Isso é uma maldição. Enquanto você tiver esta <b>Curse</b>, você não pode colocar mais de uma <b>Coin</b> em qualquer habilidade. Descarte essa <b>Curse</b> quando ganhar <b>Salt</b>.</p>"
+    },
+    {
+      "title": "Evento 2",
+      "description": "<p>Nada parece estar dando certo, como se toda a sua sorte tivesse sido drenada. Você sente que uma terrível má sorte vai te assombrar pelo resto dos seus dias... Isso é uma maldição. Enquanto você tiver esta <b>Curse</b>, você não se beneficia de <b>Booming Boxcars</b>. Descarte essa <b>Curse</b> quando ganhar um <b>Rabbit's Foot</b>.</p>"
+    },
+    {
+      "title": "Evento 3",
+      "description": "<p>Tudo que você faz parece um pouco mais difícil. Um pouco mais pesado. Como se você estivesse sobrecarregado com algo... Isso é uma maldição. Enquanto você tiver esta <b>Curse</b>, sempre que você realizar um teste, você rola 1 <b>Bone</b>, perde 1 <b>Humanity</b> para cada rolagem que não seja considerada um sucesso. Descarte essa <b>Curse</b> quando você realizar dois (ou mais) sucessos em qualquer habilidade ou ação durante o seu turno.</p>"
+    },
+    {
+      "title": "Evento 4",
+      "description": "<p>Na sua mente, você pode sentir um mal se aproximando... Apesar da onda avassaladora de pavor, algo sobre isso não parece totalmente ruim. Isso é uma maldição. Enquanto você tiver essa <b>Curse</b>, no final do seu turno, role um <b>Bone</b>. Em um 5+, mova igual ao seu valor de movimento +2 em direção ao Vagrant mais próximo. Se você terminar este movimento adjacente a esse Vagrant, role 3 <b>Bones</b> para sua ação de <b>Bust</b>. Esse Vagrant perde 2 <b>Humanity</b> para cada sucesso. Descarte essa <b>Curse</b> quando outro Vagrant no mesmo vagão sofrer uma <b>Wound</b>.</p>"
+    },
+    {
+      "title": "Evento 5",
+      "description": "<p>Você encontra algo, mas não consegue lembrar o que era, mesmo que esteja em sua mão. Além disso, você se sente... bem... Isso é uma maldição. Sempre que a <b>Bell Witch</b> causar a outro Vagrant no mesmo vagão que você a perda de <b>Humanity</b>, eles perdem 1 <b>Humanity</b> adicional. Um Vagrant adjacente a você pode te direcionar e realizar uma ação de <b>Investigate</b>. Se eles tiverem sucesso em pelo menos um teste, descarte essa <b>Curse</b>.</p>"
+    },
+    {
+      "title": "Evento 6",
+      "description": "<p>Não consegue deixar de sentir que está sendo vigiado. Uma sensação de formigamento desconfortável. Ela pode te ver, onde quer que você esteja... Isso é uma maldição. Se a <b>Bell Witch</b> fosse colocada em um <b>Coffin</b> (com ou sem um <b>Iron Nail</b>), em vez disso, ela é colocada em um espaço adjacente a você. O Ritual <b>Bell Made of Iron</b> pode não ser completado enquanto essa <b>Curse</b> estiver em um Vagrant. Para descartar essa <b>Curse</b>, descarte um <b>Salt</b>.</p>"
+    },
+    {
+      "title": "Evento 7",
+      "description": "<p>Há uma prateleira empoeirada com todos os tipos de coisas estranhas e podres nela. Mesmo que seja perturbador como parece, você pode encontrar algo útil. <b>Investigue</b>.<br><br><b>0:</b> Nada aqui! Bem, pelo menos nada que você possa ver sem sujar as mãos. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span> no tabuleiro do trem.<br><br><b>1+:</b> Você poderia passar o dia todo olhando essas coisas. Potes de olhos, ervas secas, caudas de todos os tipos de criaturas... Melhor ser rápido. <b>Rummage</b> 3. Mantenha todas as <b>Curse</b>s retiradas dessa maneira, e então mantenha 1 Token de <b>Rummage</b> (como de costume). Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span>.</p>"
+    },
+    {
+      "title": "Evento 8",
+      "description": "<p>Todos vocês ouvem uma voz, mas ninguém parece estar falando. É suave e tranquilizante. Não mentiria para você... Não mesmo. “Eu guardei todos os tipos de guloseimas deliciosas. Por que você não pega um? Isso é tudo. Pegue um...” Todos os <b>Vagrants</b> devem imediatamente <b>Rummage</b> 2. Se um <b>Vagrant</b> tirar duas <b>Curse</b>s, mantenha uma e coloque a outra de volta antes que outro Vagrant procure. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>8</span> na trilha de <b>Round</b>.</p>"
+    },
+    {
+      "title": "Evento 9",
+      "description": "<p>Se todos os Vagrants estiverem no mesmo vagão, resolva este evento:<br><br>Você conhece aquela velha história, a criada da velha vilã dos contos de fadas que gosta de demorar antes de revelar seu grande esquema? Alguns ossos começam a chiar quando você os ouve ao seu redor. Runas brilhando em verde e branco surgem das tábuas do assoalho. Isso não é bom. “Como são gentis de se reunirem aqui, para que eu possa ter uma boa olhada em todos vocês...” Todos os Vagrants sofrem uma <b>Wound</b>. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>9</span>.<br><br>Se os Vagrants estiverem em vagões diferentes, resolva este evento:<br><br>O chão entre seus pés começa a torcer e se dobrar, em uma forma que lembra runas. O cheiro de fumaça aumenta... E na próxima coisa que você percebe, você não está mais acostumado a isso. Todos os Vagrants se movem 6 em direção à <b>Bell Witch</b>, e acabam adjacentes a ela se possível. Se algum Vagrant se moveu menos de 6, eles perdem 3 <b>Humanity</b>. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>9</span>.</p>"
+    },
+    {
+      "title": "Evento 0",
+      "description": "<p>A <b>Bell Witch</b> começa a rir, mas não é isso que você ouve saindo da boca dela. Um som de sino, a loucura de cem sinos soando todos de uma vez... colidindo e ressoando, repetidamente... Você pode sentir no seu peito. Quando ela para de falar, os sinos ficam quietos como se o som no trem fosse cortado ao meio com uma faca. “Você poderia ter me escutado. Você poderia ter seguido minhas direções. Mas em vez disso, você vai queimar. Você vai sangrar. Sua pele vai apodrecer e sua alma vai manchar as paredes, e você vai ficar aqui para sempre. Ele vai te ter para sempre.” Estranhamente o suficiente, parece que ela está pedindo para você não salvá-la. Você completa aqueles rituais, afinal, como se ela quisesse ou não? Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span>.</p>"
+    }
+  ]
+}

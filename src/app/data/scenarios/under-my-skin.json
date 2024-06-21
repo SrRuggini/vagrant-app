@@ -1,0 +1,55 @@
+{
+  "key": 2,
+  "title": "Under My Skin",
+  "storyName": "Mr. Welcoming Hand",
+  "storyDescription": "Não parece que alguém conseguiu dormir na noite anterior, embora você não possa culpá-los. Não é fácil em um vagão nas melhores circunstâncias, e depois de afastar aqueles rostos sem vida... Provavelmente é melhor não pensar muito nisso. Não adianta se apegar ao inexplicável quando você ainda está tentando descobrir como sair dessa locomotiva. Saltar fora está fora de questão. Não há como saber onde você vai acabar. Não, o único caminho é seguir em frente... e descobrir quem está tocando aquele violino chique lá na frente. Você não encontra nenhum amigo nos carros do próximo trem. Apenas um monte de teias de aranha e caixas vazias. <br/><br/> Até que vocês avistam uma figura curvada em um vagão à frente, balançando e se mexendo como se tivesse dificuldade para se manter em pé. Na luz do luar que se aproxima, a forma toma forma. Uma luva branca se aperta em torno de uma faca de esfolar. Ele estende seu braço, fino como uma jaqueta de couro, e sorri um sorriso oco, desdentado.",
+  "haintImg": "haint-the-flayed-man.jpg",
+  "specialRules": "<ul><li>Se todos os Vagrants estiverem Enveloped, leia o Evento 9.</li><li>Vagrants que estão Enveloped são considerados adjacentes ao Flayed Man, mas não podem ser alvo.</li></ul>",
+  "terrainEffects": "",
+  "haintEffects": "<p><b>Enveloped (⬤):</b> Quando você ganha <b>Enveloped</b>, remova seu(s) Vagrant(s) do tabuleiro do trem (você ainda está em jogo). No começo do seu turno, perca 2 Humanity. Você só pode realizar a ação de Rummage e/ou usar Iron Nails enquanto estiver <b>Enveloped</b>. Após você ou outro Vagrant usar Iron Nails no Flayed Man, remova <b>Enveloped</b>. Quando <b>Enveloped</b> é removido, coloque seu Vagrant em um espaço aberto adjacente ao Flayed Man.<br /><b>Bleeding (⚇):</b> Quando você coloca uma Coin em Move, perca 1 Humanity (perdendo 1 Humanity para cada Coin). No final do seu turno, se você realizar com sucesso Patch Up, remova <b>Bleeding</b>.</p>",
+  "breaks": "<p>Quando o Flayed Man sofre um Break, Cycle the Bindle (e resolva seu Cycle Effect), e então mude seu Mood.</p>",
+  "Seanse": "<p>Este efeito está ativo enquanto você tiver uma carta de Séance: o Flayed Man ganha 1 Humanity extra se Iron Nails forem usados nele. Descarte a carta de Séance quando o marcador de Break alcançar 1.</p>",
+  "victory": "<p>Salve o Flayed Man.<br /><b>Lembre-se:</b> Se um Vagrant perder toda a sua Humanity e todas as suas Skills estiverem Wounded (e todo o seu Junk estiver Broken), ele se torna Westbound. Se todos os Vagrants estiverem Westbound, leia o <b>Momento 13</b>.</p>",
+  "events": [
+      {
+          "title": "Evento 1",
+          "description": "<p>Há algo escuro e sujo encostado no canto do vagão do trem. <b>Investigue.</b><br/><br/><b>0:</b> Você chuta a panela de ferro fundido no chão. Centopeias e baratas rastejam debaixo dela. Apesar dos insetos, seu estômago começa a roncar, desejando que você tivesse uma grande fogueira para cozinhar algo. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>1</span>. Você faz o seu melhor para esquecer o que encontrou.<br/><br/><b>1+:</b> Você encontra uma frigideira de ferro. Apesar da sujeira, você não pode deixar de pensar que pode ser útil. Mantenha o Token de Evento. Trate este Token de Evento como um Token de Rummage em todos os aspectos. Este Token de Evento pode ser usado quando adjacente ao Flayed Man. Quando este Token de Evento for usado, o Flayed Man ganha 4 Humanidade.</p>"
+      },
+      {
+          "title": "Evento 2",
+          "description": "<p>Há uma velha mochila coberta de poeira. <b>Investigue.</b><br/><br/><b>0:</b> Uma lâmina enferrujada corta a ponta do seu dedo. O corte é mais profundo do que parece. Ganhe <b>Bleeding (⚇)</b>. Em seguida, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span>.<br/><br/><b>1+:</b> Você encontra uma caixinha de música. Parece que ainda funciona. Quem sabe se ela tem uma boa melodia. Mantenha o Token de Evento. Trate este Token de Evento como um Token de Rummage em todos os aspectos. Quando este Token de Evento for usado, todos os Vagrants podem se Mover 2 imediatamente.</p>"
+      },
+      {
+          "title": "Evento 3",
+          "description": "<p>Um monte de pano amontoado. É difícil dizer sem olhar mais de perto. <b>Investigue.</b><br/><br/><b>0:</b> O pano parece familiar de alguma forma, mas por alguma razão, você não consegue se forçar a tocá-lo. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> no tabuleiro do trem.<br/><br/><b>1:</b> Sua mente viaja para o momento em que você subiu no trem. Aquela mão de boas-vindas. A Luva Branca. A pele solta. É quando você sente o aperto de mão familiar novamente, e você recua ao toque. Arrepios correm pelo seu braço. A mão acena para você, convidando-o de volta com um gesto do dedo indicador. Perca 2 Humanidade. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> no tabuleiro do trem.<br/><br/><b>2+:</b> Seria impossível esquecer aquela mão que te deu as boas-vindas a bordo. Aquela Luva Branca. Parecia apertar um saco de papel amassado cheio de carne seca. Você a alcança no chão e dá um firme aperto de mão, esperando mostrar quem manda. Ganhe 1 Humanidade e complete o Ritual: A Hearty Handshake. Em seguida, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span>.</p>"
+      },
+      {
+          "title": "Evento 4",
+          "description": "<p>Seu corpo começa a ondular e tremer como uma bandeira na tempestade. Sua pele estica e encolhe, sua boca sorri e geme... Enquanto ele treme, o chapéu desgastado em sua cabeça cai ao lado dele, e dobras de pele e cabelo caem com ele. Adicione o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> a qualquer espaço aberto adjacente ao Flayed Man (ou o mais próximo possível do Flayed Man se não houver espaços disponíveis).</p>"
+      },
+      {
+          "title": "Evento 5",
+          "description": "<p>Você não consegue parar de olhar para aquele chapéu. <b>Investigue.</b><br/><br/><b>0:</b> Não. É melhor deixar aquele chapéu exatamente onde está. Não há razão para tocar naquela coisa. O que você estava pensando? Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Você pega o chapéu. É tão nojento quanto você imaginava que seria. E então, por algum motivo, você decide colocá-lo. Encontre a Carta de Junk #22. Adicione-a ao seu Slot de Junk ou aos Pertences se seu Slot de Junk estiver cheio. Em seguida, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> e complete o Ritual: Finders Keepers.</p>"
+      },
+      {
+          "title": "Evento 6",
+          "description": "<p>Você encontra um punhado de dentes. Você não pode deixar de olhar para a boca vazia do Flayed Man. Mantenha o Token de Evento. Trate este Token de Evento como um Token de Rummage em todos os aspectos. Você pode usar este Token de Evento após realizar uma Skill. Quando este Token de Evento for usado, você pode rerrolar qualquer número de Bones da sua Skill, mas deve manter a nova rolagem. <b>Lembre-se:</b> Após um Token de Evento ser usado, ele é descartado.</p>"
+      },
+      {
+          "title": "Evento 7",
+          "description": "<p>A princípio, você não consegue entender o que tirou daquela bolsa. Então, você sente a pequena bolha vermelha pulsar e se contorcer. O Flayed Man se vira; você está segurando um dos pulmões dele ainda respirando. Se você estiver <b>Enveloped (⬤)</b> ao retirar este Evento, remova <b>Enveloped (⬤)</b>. Mantenha o Token de Evento. Trate este Token de Evento como um Token de Rummage em todos os aspectos. Um Vagrant com este Token de Evento tem Prioridade de Alvo Especial (pg. 19). Quando esse Vagrant estiver Ferido ou <b>Enveloped (⬤)</b>, descarte o Token de Evento (ele não volta ao Bindle). Se o Token de Evento foi descartado devido a estar <b>Enveloped (⬤)</b>, o Flayed Man ganha 3 Humanidade.</p>"
+      },
+      {
+          "title": "Evento 8",
+          "description": "<p>Eugh, que nojo. Bandagens enrugadas, cobertas de sangue velho. Mantenha o Token de Evento. Trate este Token de Evento como um Token de Rummage em todos os aspectos. Você pode usar este Token de Evento para perder 1 Humanidade e fazer outro Vagrant ganhar 3 Humanidade. <b>Lembre-se:</b> Após um Token de Evento ser usado, ele é descartado.</p>"
+      },
+      {
+          "title": "Evento 9",
+          "description": "<p>A pele do Flayed Man incha, esticando-o até o limite. Sua boca treme, soltando um Blurghgl antes de liberar tudo. Todos os Vagrants <b>Enveloped (⬤)</b> perdem <b>Enveloped (⬤)</b> (e colocam seus Vagrants em um espaço aberto adjacente ao Flayed Man), então esses Vagrants rolam um dado de Bone cada. Cada Vagrant Move-se para longe do Flayed Man um número de espaços igual ao número rolado, depois perde essa quantidade de Humanidade.</p>"
+      },
+      {
+          "title": "Evento 0",
+          "description": "<p>Ele solta uma exalação balançando e se contorcendo, imitando o melhor que pode um baiacu. Quando o ar enche seus pulmões novamente, ele incha como um baiacu que apertou o botão de pânico. Seus pulmões... pensando bem, não está muito claro se ele tem algum... Durante esta rodada, o Flayed Man não se Move em Ações que têm um valor de Movimento, e aumenta em 1 a Humanidade perdida em suas Ações. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> na Trilha de Rodadas.</p>"
+      }
+  ]
+}

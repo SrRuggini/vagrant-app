@@ -5,7 +5,7 @@ import styles from '/src/app/styles/vagrants.module.css';
 import { importJsonByName } from '/src/app/utils/importJson';
 
 export default async function Home() {
-    const data = await importJsonByName('vagrants');
+    const data = await importJsonByName('vagrants', '');
 
     return (
         <>
