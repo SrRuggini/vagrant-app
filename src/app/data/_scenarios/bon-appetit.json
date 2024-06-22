@@ -3,7 +3,11 @@
   "title": "Bon Appétit",
   "storyName": "Eat to Live, Don’t Live to Eat",
   "storyDescription": "<p>Rompendo o silêncio à frente, um som de mastigação, como dentes em um bife de t-bone. Isso só faz você ficar com fome.</p><p>Amontoado sobre um monte de neve está uma massa de pelos e ossos, mastigando o que quer que tenha sobrado lá.</p><p>E quando ele se levanta, sua pele derrete dos ombros. A besta - e não há nome mais adequado do que esse - tem um olhar torturado. Ele não está mais feliz de estar aqui do que você.</p><p>Há arrependimento naqueles olhos vazios.</p><p>E fome.</p><p>De repente, ele está olhando para você como se você estivesse sendo servido com um prato de purê de batatas e uma lata de feijão.</p><p>Vamos garantir que não acabemos como parte de um buffet.</p>",
+  "specialRules": "<p><b>Blood Pools:</b> When a Vagrant suffers a Wound, place a Blood Pool in an open space adjacent to that Vagrant. If there are no open adjacent spaces available, choose the closest open space as possible.<br>Vagrants that end their turn adjacent to a non-Wendigo Haint lose 3 Humanity.</p>",
+  "terrainEffects": "<p>Vagrants may Move onto Blood Pools.<br>During their turn, Vagrants may use an Iron Nail, a Candle, or Salt to remove 1 adjacent Snow instead of their default effects.</p>",
+  "haintEffects": "<p><b>Bleeding (⬤):</b> When you place a Coin on Move, lose 1 Humanity (losing 1 Humanity for each Coin). At the end of your turn, if you successfully performed Patch Up, remove Bleeding.</p><p><b>Bloodstarved (O):</b> These Haint Effect Tokens are used to track an effect for the Wendigo, not Vagrants. (These Tokens can be placed in Train Car C, as it is not used during this Scenario).</p>",
   "Seance": "<p>You may discard the Séance card to place a Blood Pool in any open space in the same train car as the Wendigo.</p>",
+  "victory": "<p>Save the Wendigo.</p>",
   "events": [
     {
       "title": "Evento 1",
@@ -40,20 +44,6 @@
     {
       "title": "Evento 0",
       "description": "<p>De repente, há um sentido avassalador de tristeza passando pelo trem, como uma consciência cheia de dor e sofrimento, e decisões extremas se tornaram mais evidentes. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> na trilha de <b>Round</b>. Se você tiver o <b>By the Sun Mile Post</b>, adicione os <b>Frozen Faces Haint</b> a qualquer espaço aberto. Se o <b>Wendigo</b> mover para o mesmo espaço dos <b>Frozen Faces</b>, o <b>Wendigo</b> ganha 7 <b>Humanity</b>. Em seguida, remova os <b>Frozen Faces</b> do trem. Caso contrário, o <b>Wendigo</b> ganha 3 <b>Bloodstarved (O)</b>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p><b>Blood Pools:</b> When a Vagrant suffers a Wound, place a Blood Pool in an open space adjacent to that Vagrant. If there are no open adjacent spaces available, choose the closest open space as possible.<br>Vagrants that end their turn adjacent to a non-Wendigo Haint lose 3 Humanity.</p>"
-    },
-    {
-      "terrainEffects": "<p>Vagrants may Move onto Blood Pools.<br>During their turn, Vagrants may use an Iron Nail, a Candle, or Salt to remove 1 adjacent Snow instead of their default effects.</p>"
-    },
-    {
-      "haintEffects": "<p><b>Bleeding (⬤):</b> When you place a Coin on Move, lose 1 Humanity (losing 1 Humanity for each Coin). At the end of your turn, if you successfully performed Patch Up, remove Bleeding.</p><p><b>Bloodstarved (O):</b> These Haint Effect Tokens are used to track an effect for the Wendigo, not Vagrants. (These Tokens can be placed in Train Car C, as it is not used during this Scenario).</p>"
-    },
-    {
-      "victory": "<p>Save the Wendigo.</p>"
     }
   ]
 }

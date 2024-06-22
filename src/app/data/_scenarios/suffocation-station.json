@@ -1,0 +1,56 @@
+{
+  "key": 67,
+  "title": "Suffocation Station",
+  "storyName": "The Walls are Closing in",
+  "storyDescription": "<p>Não demora muito depois de você entrar no vagão do trem para ser atingido no rosto pelo cheiro dos mortos. É de deixar tonto, sufocante... <br><br> Com certeza há muitos caixões aqui. Esses vagões funerários estão a caminho de um cemitério? ...Ou caixões roubados de um? <br><br> Está ficando realmente difícil respirar... e mais difícil de pensar. Tonto, sufocante... os pensamentos começam a se misturar... <br><br> As paredes começam a se fechar. Cada respiração fica um pouco mais difícil de aguentar. <br><br> Um som suave o tira disso - um tilintar vindo de um dos caixões. E então dos outros. Esses sinos tilintando não soam como música. Soam mais como gritos de socorro. <br><br> Você já ouviu falar de pessoas sendo enterradas vivas antes, mas isso...? <br><br> Há pessoas presas nesses caixões? <br><br> Há apenas uma maneira de descobrir. Hora de se mover. Rápido.</p>",
+  "haintImg": "haint-deadringers.jpg",
+  "specialRules": "<ul><li>Em vez dos Vagrants terem Humanidade individualmente, sua Humanidade é compartilhada e representada na Trilha de Humanidade. Quando o Token de Humanidade atinge 0, redefina-o para o Limite de Humanidade e diminua o valor de Break em 1. Os jogadores então escolhem 1 Vagrant para ser removido do jogo. Vagrants removidos do jogo não descartam uma Skill. Quaisquer Rummage Tokens que o Vagrant tinha são retornados ao Bindle.</li><li>No início do Cenário, para cada Bell que foi encontrado no Cenário anterior, ganhe 1 Iron Nail (ele pode ser dado a qualquer Vagrant) e role 1 Bone. Você pode ler (mas não resolver) o texto inteiro do número do Evento para ter uma visão do que há dentro. Para rolagens repetidas, role novamente.</li><li>Os Vagrants podem usar uma Apple para remover uma Blood Pool adjacente do tabuleiro do trem ou ganhar 3 de Humanity.</li></ul>",
+  "terrainEffects": "<p><b>Coffins:</b> Vagrants adjacentes a um Coffin (Nota: não Boxes!) devem descartar um Iron Nail para Investigar um Event Token naquele espaço. Os Vagrants ainda precisam colocar Coins na sua Ação de Investigação para poder Investigar.</p><p>Blood Pools são tratadas como Terreno normal.</p>",
+  "haintEffects": "<p><b>Bleeding:</b> Quando você coloca uma Coin em Move, perde 1 de Humanity (perdendo 1 de Humanity para cada Coin). No final do seu turno, se você realizar com sucesso o Patch Up, remova o Bleeding.</p>",
+  "breaks": "",
+  "seance": "<p>Descarte a carta de Séance a qualquer momento para ganhar 3 de Humanity.</p>",
+  "victory": "<p>Complete todos os Rituals ou investigue com sucesso todos os Event Tokens, o que ocorrer primeiro.</p>",
+  "defeat": "<p>Se o valor de Break atingir 0, todos os Vagrants são removidos do jogo e são derrotados.</p>",
+  "events": [
+      {
+          "title": "Evento 1",
+          "description": "<p>Este aqui parece bastante robusto. Será que você tem força para levantar a tampa? Investigue.<br/><br/><b>0:</b> Não se mexe. Provavelmente é melhor assim. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>1</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Você consegue abrir um pouco. Dentro há um terno bem feito, rasgado e esfarrapado, segurando um monte de ossos. O crânio se vira para você e solta um suspiro. '…Você a encontrou? Antes… ele nos mantém…' Você libertou um dos Amantes. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>1</span>. Se você libertar os dois, complete o Ritual: Together Forever.</p>"
+      },
+      {
+          "title": "Evento 2",
+          "description": "<p>O caixão é pequeno, e há um nome gravado nele. Clementine. Antes de alcançar a tampa, você ouve… é um choro? Investigue.<br/><br/><b>0:</b> Às vezes é fácil esquecer onde você está. Vamos deixar esse em paz. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Há uma criança, com cabelo brilhando em azul, chorando em suas mãos. 'Ele disse que ninguém nos esqueceria aqui.' A voz parecia vir de todos os lados. 'É tão solitário. Eu quero meu Teddy.' Se um Vagrant tiver o Teddy Bear e estiver adjacente a este Evento, ele pode descartá-lo para completar o Ritual: A Friend for Eternity. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> no tabuleiro do trem até que o Ritual seja completado.</p>"
+      },
+      {
+          "title": "Evento 3",
+          "description": "<p>Quando você tenta alcançá-lo, o caixão começa a tremer. Investigue.<br/><br/><b>0:</b> Não, não vou tocar nisso. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Quando você força a tampa a abrir, todo o vagão do trem balança para frente e para trás. Cada Vagrant nos Vagões A e B perde 2 de Humanidade. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span>.</p>"
+      },
+      {
+          "title": "Evento 4",
+          "description": "<p>Um monte de pregos está martelado neste aqui. Parece um trabalho apressado. Investigue.<br/><br/><b>0:</b> Quem fez isso, realmente não queria que ninguém o abrisse. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Antes de você retirar um único prego, um espírito explode através da tampa. Ele se ergue sobre você… raiva cintilando em seus olhos. Talvez seja hora de repensar procurar em um monte de caixões em um trem fantasma. Coloque uma Lost Soul em um espaço aberto adjacente ao Caixão. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span>.</p>"
+      },
+      {
+          "title": "Evento 5",
+          "description": "<p>Parece mais chique que os outros. Ornado. Há algo sobre este caixão que lhe dá arrepios. Investigue.<br/><br/><b>0:</b> Esses arrepios são suficientes para impedir que você force mais. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Dentro, você vê restos esqueléticos sob um vestido preto. Uma voz suave chama. 'Por favor, não devemos ficar…' Você libertou um dos Amantes. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span>. Se você libertar ambos, complete o Ritual: Together Forever.</p>"
+      },
+      {
+          "title": "Evento 6",
+          "description": "<p>Este caixão parece um pouco simples demais para algo em que você enterraria alguém. Investigue.<br/><br/><b>0:</b> O que quer que esteja aqui provavelmente não quer ser perturbado. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Há algo errado com este aqui. Você pode sentir assim que coloca as mãos nele. Parece o tamborilar de mil dedos. Todos os outros caixões começam a tremer, gemer… e uma risada baixa e cruel preenche o ar. Isso é provavelmente ruim. Pegue 3 Rummage Tokens. Para cada sucesso depois do primeiro durante esta Investigação, descarte uma das Rummage Tokens e resolva imediatamente uma Haint Action baseada nas Rummage Tokens que não foram descartadas. Após as Haint Actions serem resolvidas, mantenha as Rummage Tokens usadas para elas ou dê qualquer número delas para outros Vagrants. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span>.</p>"
+      },
+      {
+          "title": "Evento 7",
+          "description": "<p>Os vapores… de onde estão vindo, bem, não é difícil de adivinhar… Sonhando com ar fresco. De agora até o final do Cenário, se você ganharia Humanidade de qualquer Ação ou efeito, reduza essa quantidade em um. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span> na Trilha de Rodadas. Cada vez que este Evento for resolvido, reduza a quantidade total de Humanidade que poderia ser obtida em 1 mais do que o efeito anterior (até 0). O Cycle Effect ignora este Evento (os Vagrants ainda podem ganhar Humanidade rolando um 5 ou 6 durante o Cycle Effect ou descartando a carta de Séance).</p>"
+      },
+      {
+          "title": "Evento 8",
+          "description": "<p>Há um monte de pedaços de caixa quebrados… parece que estava cheio de feno. Precisa fuçar nele. Investigue.<br/><br/><b>0:</b> Não consigo parar de pensar em procurar uma agulha no palheiro. Não vale a pena. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>8</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Huh, estranho… um livro velho, coberto de sujeira. Tinha que vir de outro lugar. Escrito nele há um monte de nomes e números - fotos e tudo em uma grade. Localizações de túmulos. Algo sobre isso parece muito familiar. Estas páginas podem ajudar em uma emergência. Mantenha o Event Token. Trate-o como uma Rummage Token em todos os sentidos. Você pode descartar o Event Token para remover Bleeding de todos os Vagrants no Alcance 2.</p>"
+      },
+      {
+          "title": "Evento 9",
+          "description": "<p>Este já parece um pouco aberto. Não deve ser difícil ver o que está dentro. Investigue.<br/><br/><b>0:</b> Ou talvez seja um truque. Vamos deixar esse em paz. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>9</span> no tabuleiro do trem.<br/><br/><b>1+:</b> A tampa desliza facilmente. Parece vazio. Espere, não… há um Teddy Bear rasgado no canto. Enchimento rasgado… um botão como olho pendurado por um fio… Bem, isso é estranho, mas o que não é aqui. Você pega o Teddy Bear. Talvez você possa encontrar o dono. Mantenha o Event Token. Trate-o como uma Rummage Token em todos os sentidos.</p>"
+      },
+      {
+          "title": "Evento 0",
+          "description": "<p>Leia o Momento 20. Apenas o Vagrant que foi removido do jogo pode ler este Momento. Não leia o texto em voz alta nem revele nada sobre este Momento para os outros jogadores.</p>"
+      }
+  ]
+}

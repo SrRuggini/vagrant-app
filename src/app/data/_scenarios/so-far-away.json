@@ -3,7 +3,11 @@
   "title": "So Far Away",
   "storyName": "Frozen Without an Answer",
   "storyDescription": "<p>Como uma centena de pequenas adagas, o frio atinge seu rosto assim que você entra. Deveria ter trazido outro casaco. Ou algo para colocar fogo.</p> <p>Além da nuvem de fumaça que é sua respiração, uma forma tão fluida e vaporosa toma forma. Ela está olhando longamente pela janela, chorando até secar as lágrimas enquanto canta uma canção quebrada e triste.</p> <p>Mas quando ela percebe sua chegada, tudo, exceto a temperatura, muda. Ela passa de aliviada - como se tivesse sido salva de um longo haunt - para realmente furiosa, como se sua presença tivesse provocado algo profundo e inescapável. Você já causou melhores primeiras impressões antes.</p> <p>Flutuando no ar, enrolada em uma bola, colocando a culpa em você pelo trem parar, pela neve chegar... será um milagre convencê-la de que você não teve nenhuma participação nisso, quanto mais provar a ela que o trem está se movendo perfeitamente.</p> <p>Sim, está tudo bem. Certo.</p>",
+  "specialRules": "<p>After a Vagrant performs a <b>Possessed</b> Action, the Lady in White still takes her turn, as normal.</p>",
+  "terrainEffects": "<p><b>Snow:</b> If Snow is added to the train board but there is no more Snow Terrain, use the white <b>Haint Effect</b> Tokens instead. If you cannot, then Snow Terrain is not placed. <br>During their turn, Vagrants may use an Iron Nail, a Candle, or Salt to remove 1 adjacent Snow instead of their default effects.</p>",
+  "haintEffects": "<p><b>Possessed (⬤):</b> At the end of your turn, perform a <b>Possessed</b> Action. To remove <b>Possessed</b>, suffer a Wound or discard Salt.</p><p><b>Snow Piles:</b> These <b>Haint Effect</b> Tokens are instead used as Snow Terrain. Add these to the train board if no other Snow Terrain is available.</p>",
   "seance": "<p>When you use the <b>Séance</b> card, each Vagrant may either gain 3 Humanity or remove <b>Possessed</b> (⬤).</p>",
+  "victory": "<p>Save the Lady in White. During the Camp Phase (before reading the <b>In-Between</b> card), if you have both <b>To Be Free</b> and <b>Float On</b> Mile Posts, read <b>Moment 80</b>.</p>",
   "events": [
     {
       "title": "Evento 1",
@@ -44,20 +48,6 @@
     {
       "title": "Evento 0",
       "description": "<p>Você encontra um trenó, desencaixado pelo caos ao redor. Há algo pacífico sobre ele. Adicione 1 <b>Snow Terrain</b> a um espaço adjacente a qualquer <b>Vagrant</b> não <b>Possessed</b> (⬤). <b>Vagrants</b> adjacentes ao <b>Snow Terrain</b> perdem 2 <b>Humanity</b>. Coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> de volta no <b>Bindle</b>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p>After a Vagrant performs a <b>Possessed</b> Action, the Lady in White still takes her turn, as normal.</p>"
-    },
-    {
-      "terrainEffects": "<p><b>Snow:</b> If Snow is added to the train board but there is no more Snow Terrain, use the white <b>Haint Effect</b> Tokens instead. If you cannot, then Snow Terrain is not placed. <br>During their turn, Vagrants may use an Iron Nail, a Candle, or Salt to remove 1 adjacent Snow instead of their default effects.</p>"
-    },
-    {
-      "haintEffects": "<p><b>Possessed (⬤):</b> At the end of your turn, perform a <b>Possessed</b> Action. To remove <b>Possessed</b>, suffer a Wound or discard Salt.</p><p><b>Snow Piles:</b> These <b>Haint Effect</b> Tokens are instead used as Snow Terrain. Add these to the train board if no other Snow Terrain is available.</p>"
-    },
-    {
-      "victory": "<p>Save the Lady in White. During the Camp Phase (before reading the <b>In-Between</b> card), if you have both <b>To Be Free</b> and <b>Float On</b> Mile Posts, read <b>Moment 80</b>.</p>"
     }
   ]
 }

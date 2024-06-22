@@ -4,53 +4,63 @@
   "storyName": "... To the Pit",
   "storyDescription": "<p>É difícil lembrar quando você adormeceu ou como acabou no vagão do meio. Ainda há algumas penas espalhadas. É o mesmo vagão? <br><br> Há um grande buraco onde a gaiola costumava estar. Algo está lá embaixo... você pode ouvir. Além disso, todo o seu Junk parece quebrado. Como você dormiu durante isso? <br><br> Não demora muito para o buraco começar a borbulhar como uma panela. <br><br> O que quer que esteja lá embaixo começa a ondular em um ritmo - não, um batimento cardíaco, e a cada pequeno pulso, você não consegue evitar sentir-se atraído por isso. Isso não pode ser bom. <br><br> Por outro lado, talvez não seja tão ruim. Pode ser quente. Sim, como um bom banho quente. Há algo reconfortante nisso... algo convidativo... <br><br> Não. O quê? Resista a isso. Esse chamado. Esse truque barato. Esse feitiço de sono. Esse convite... <br><br> Há algo lá embaixo. <br><br> Há algo lá embaixo. <br><br> Há algo...</p>",
   "haintImg": "haint-bloody-pit.jpg",
-  "specialRules": "<ul><li>Haint Humanity e Breaks não são rastreados durante este Cenário.</li><li>Quando um Vagrant se move para um espaço com um Blood Pool, leia o Pit Event.</li></ul>",
-  "terrainEffects": "<p><b>Blood Pools:</b> Vagrants podem se mover para Blood Pools (mas devem evitar fazer isso a todo custo!).</p><p>Se Terreno for adicionado ao trem, use Boxes, Coffins ou Debris. Se o Terreno se mover para um Blood Pool, remova o Terreno (mas não o Blood Pool).</p>",
-  "haintEffects": "<p><b>Nervous Knees:</b> Diminua o valor do seu Move em 1. Para remover Nervous Knees, descarte uma Candle.</p><p><b>Bleeding:</b> Quando você coloca uma Coin em Move, perde 1 Humanity (perdendo 1 Humanity para cada Coin). No final do seu turno, se você realizar com sucesso Patch Up, remova Bleeding.</p>",
   "breaks": "",
-  "Seanse": "<p>A qualquer momento, Vagrants podem descartar a carta de Séance para aumentar o valor de Move de todos os Vagrants em 1 por uma rodada.</p>",
-  "victory": "<p>Complete todos os Rituals.</p>",
+  "seance": "<p>A qualquer momento, Vagrants podem descartar a carta de Séance para aumentar o valor de Move de todos os Vagrants em 1 por uma rodada.</p>",
   "defeat": "",
   "events": [
-      {
-          "title": "Evento 1 (A Primeira Vez)",
-          "description": "<p>Vocês todos ouvem o arrastar de pés pequenos vindo de cima, e então duas batidas firmes se seguem. Não muito depois, dois pequenos pedaços de papel caem no chão. Role 1 Bone. Se o resultado for par, coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> em qualquer espaço na borda do lado Round. Se o resultado for ímpar, coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> em qualquer espaço aberto na borda do lado Break. Então, coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span> na borda oposta. Em seguida, coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>1</span> na Rodada 1.</p>"
-      },
-      {
-          "title": "Evento 1 (A Segunda Vez)",
-          "description": "<p>O buraco no vagão central começa a borbulhar. A cada gorgolejo, arroto e estouro, o buraco se alarga. A madeira começa a erodir mais devagar que uma tarde de domingo, mas isso não impede vocês de saírem correndo de lá. Todos os Vagrants no Vagão B movem até 4 em direção ao lado Break ou ao lado Round (o que estiver mais próximo). Remova as Blood Pools do Vagão B. De agora até o final do Cenário, todo espaço no Vagão B é considerado uma Blood Pool.</p>"
-      },
-      {
-          "title": "Evento 2",
-          "description": "<p>Você percebe algo pequeno embrulhado em pergaminho, limpo e arrumado. Até tem um laço. Claro que tem. Investigue.<br/><br/><b>0:</b> Há algo em abrir presentes embrulhados neste lugar que faz você questionar o que diabos está fazendo. Ganhe Nervous Knees. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Por alguma razão, você decide abrir. Por que não? Dentro há o que parece uma Candle preta, e o pergaminho é uma Nota com as palavras: ESPERE. Mantenha o Event Token. Trate-o como um Rummage Token de todas as formas. Se você tiver o Event Token e não se tornar Westbound até o final do Cenário, ganhe uma Candle durante a Camp Phase.</p>"
-      },
-      {
-          "title": "Evento 3",
-          "description": "<p>No canto, atrás de alguns sapatos velhos, você encontra rabiscos arranhados na parede. Investigue.<br/><br/><b>0:</b> A linguagem parece muito antiga. Não há como você conseguir ler isso. Ganhe Nervous Knees. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Depois de olhar para isso por mais tempo do que gostaria de admitir, você finalmente consegue distinguir o que parece um desenho rudimentar de uma chama e algumas palavras: “Cuidado com o que vem... tudo está escuro... ilumine o caminho...” O Vagrant que realizou a ação anterior perde 5 de Humanidade. Você ou outro Vagrant no mesmo vagão podem remover um Haint Effect. Se um Vagrant escolher fazer isso, perde 2 de Humanidade. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span>.</p>"
-      },
-      {
-          "title": "Evento 4",
-          "description": "<p>Há uma pequena bolsa de couro. Porta-moedas, talvez. Provavelmente algo completamente normal lá dentro. Nada para se preocupar. Investigue.<br/><br/><b>0:</b> Talvez esta seja a hora de aprender a não abrir coisas que não pertencem a você. Ganhe Nervous Knees. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span> no tabuleiro do trem.<br/><br/><b>1+:</b> A curiosidade é uma coisa louca. Dentro, você encontra alguns Iron Nails. Devem ser úteis. Mas quando você os toca, as sombras na parede tremem, rindo. Todo Vagrant no mesmo vagão que você pode ganhar um Iron Nail. Qualquer Vagrant que não possa (devido a já ter a quantidade máxima de Rummage Tokens) ganha Bleeding. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span>.</p>"
-      },
-      {
-          "title": "Eventos 5 e 6",
-          "description": "<p>Através do chão, uma mão azul nebulosa se estende. Eles estão pedindo ajuda? Sucesso automático nesta Ação de Investigar. Em vez de Investigar, faça uma escolha para Ignorar a mão ou Agarrá-la (faça a escolha antes de continuar a leitura). Após a escolha ser feita, as Moedas usadas em Investigar para este Evento podem ser usadas para Mover.<br/><br/><b>Ignorar:</b> Você sente que está tentando te puxar para baixo. Então você começa a ver outras mãos por toda parte. Você está imaginando isso? Ganhe Nervous Knees. Coloque o Event Token um espaço em direção aos Blood Pools no Vagão B.<br/><br/><b>Agarrar:</b> A mão se torna névoa, e uma figura emerge do poço. Coloque 1 Lost Soul em qualquer espaço adjacente. Remova o Event Token. Pelo resto do Cenário, se um Vagrant estiver adjacente a uma Lost Soul, ele pode perder 2 de Humanidade para ignorar a próxima Ação de Haint. Se um Vagrant perder Humanidade dessa forma, ele pode Mover a Lost Soul 2 espaços. Lost Souls podem Mover-se sobre (e através de) Terreno. Se uma Lost Soul terminar um Movimento adjacente ao lado Break ou Round, remova a Lost Soul e ganhe o Safe at Last Mile Post.</p>"
-      },
-      {
-          "title": "Evento 7",
-          "description": "<p>Um envelope velho e amassado. O selo não está quebrado. Investigue.<br/><br/><b>0:</b> É uma carta, mas não é escrita para você. E quando você tenta abrir o envelope, ele faz questão de te lembrar. Malditos cortes de papel. Ganhe Bleeding. Mantenha o Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span> no tabuleiro do trem. Nada mais acontece.<br/><br/><b>1+:</b> Quem quer que fosse já deve ter ido embora há muito tempo. Você quebra o selo. Dentro há um Pergaminho com palavras dolorosamente familiares. Ganhe 3 de Humanidade. Remova o Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span>.</p>"
-      },
-      {
-          "title": "Evento 8",
-          "description": "<p>Você consegue pegar alguns pregos antigos sem se cortar. Por qualquer motivo, eles te fazem pensar em chuteiras de beisebol, e isso te dá uma ideia... Mantenha o Event Token. Trate-o como um Rummage Token em todos os aspectos. Você pode usar o Event Token para aumentar seu valor de Movimento em 1 para sua vez.</p>"
-      },
-      {
-          "title": "Eventos 9 e 0",
-          "description": "<p>Você estende a mão, mas algo mais estende de volta, cortando sua mão. O corte é profundo. Ganhe Bleeding. Adicione um Blood Pool adjacente a outro Blood Pool (mais próximo do lado Break ou Round). Se todos os Blood Pools estiverem no tabuleiro do trem, sofra uma Ferida em vez de colocar um Blood Pool. Em seguida, coloque o Event Token de volta no Bindle.</p>"
-      },
-      {
-          "title": "Pit Event",
-          "description": "<p><b>Se o Vagrant não estiver Westbound:</b> Algo se estende... algo escuro e gotejante e... e antes que você perceba, você está sendo puxado para baixo. Esse Vagrant se torna Westbound. Coloque o Vagrant Westbound em qualquer espaço aberto que esteja a 3 espaços de um Blood Pool.<br/><br/><b>Se o Vagrant estiver Westbound:</b> A atração... é como se lembrasse, e quer mais. Já não foi o suficiente? Remova o Vagrant Westbound do jogo pelo resto do Cenário.</p>"
-      }
+    {
+      "title": "Evento 1 (A Primeira Vez)",
+      "description": "<p>Vocês todos ouvem o arrastar de pés pequenos vindo de cima, e então duas batidas firmes se seguem. Não muito depois, dois pequenos pedaços de papel caem no chão. Role 1 Bone. Se o resultado for par, coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> em qualquer espaço na borda do lado Round. Se o resultado for ímpar, coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> em qualquer espaço aberto na borda do lado Break. Então, coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span> na borda oposta. Em seguida, coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>1</span> na Rodada 1.</p>"
+    },
+    {
+      "title": "Evento 1 (A Segunda Vez)",
+      "description": "<p>O buraco no vagão central começa a borbulhar. A cada gorgolejo, arroto e estouro, o buraco se alarga. A madeira começa a erodir mais devagar que uma tarde de domingo, mas isso não impede vocês de saírem correndo de lá. Todos os Vagrants no Vagão B movem até 4 em direção ao lado Break ou ao lado Round (o que estiver mais próximo). Remova as Blood Pools do Vagão B. De agora até o final do Cenário, todo espaço no Vagão B é considerado uma Blood Pool.</p>"
+    },
+    {
+      "title": "Evento 2",
+      "description": "<p>Você percebe algo pequeno embrulhado em pergaminho, limpo e arrumado. Até tem um laço. Claro que tem. Investigue.<br/><br/><b>0:</b> Há algo em abrir presentes embrulhados neste lugar que faz você questionar o que diabos está fazendo. Ganhe Nervous Knees. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Por alguma razão, você decide abrir. Por que não? Dentro há o que parece uma Candle preta, e o pergaminho é uma Nota com as palavras: ESPERE. Mantenha o Event Token. Trate-o como um Rummage Token de todas as formas. Se você tiver o Event Token e não se tornar Westbound até o final do Cenário, ganhe uma Candle durante a Camp Phase.</p>"
+    },
+    {
+      "title": "Evento 3",
+      "description": "<p>No canto, atrás de alguns sapatos velhos, você encontra rabiscos arranhados na parede. Investigue.<br/><br/><b>0:</b> A linguagem parece muito antiga. Não há como você conseguir ler isso. Ganhe Nervous Knees. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Depois de olhar para isso por mais tempo do que gostaria de admitir, você finalmente consegue distinguir o que parece um desenho rudimentar de uma chama e algumas palavras: “Cuidado com o que vem... tudo está escuro... ilumine o caminho...” O Vagrant que realizou a ação anterior perde 5 de Humanidade. Você ou outro Vagrant no mesmo vagão podem remover um Haint Effect. Se um Vagrant escolher fazer isso, perde 2 de Humanidade. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span>.</p>"
+    },
+    {
+      "title": "Evento 4",
+      "description": "<p>Há uma pequena bolsa de couro. Porta-moedas, talvez. Provavelmente algo completamente normal lá dentro. Nada para se preocupar. Investigue.<br/><br/><b>0:</b> Talvez esta seja a hora de aprender a não abrir coisas que não pertencem a você. Ganhe Nervous Knees. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span> no tabuleiro do trem.<br/><br/><b>1+:</b> A curiosidade é uma coisa louca. Dentro, você encontra alguns Iron Nails. Devem ser úteis. Mas quando você os toca, as sombras na parede tremem, rindo. Todo Vagrant no mesmo vagão que você pode ganhar um Iron Nail. Qualquer Vagrant que não possa (devido a já ter a quantidade máxima de Rummage Tokens) ganha Bleeding. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span>.</p>"
+    },
+    {
+      "title": "Eventos 5 e 6",
+      "description": "<p>Através do chão, uma mão azul nebulosa se estende. Eles estão pedindo ajuda? Sucesso automático nesta Ação de Investigar. Em vez de Investigar, faça uma escolha para Ignorar a mão ou Agarrá-la (faça a escolha antes de continuar a leitura). Após a escolha ser feita, as Moedas usadas em Investigar para este Evento podem ser usadas para Mover.<br/><br/><b>Ignorar:</b> Você sente que está tentando te puxar para baixo. Então você começa a ver outras mãos por toda parte. Você está imaginando isso? Ganhe Nervous Knees. Coloque o Event Token um espaço em direção aos Blood Pools no Vagão B.<br/><br/><b>Agarrar:</b> A mão se torna névoa, e uma figura emerge do poço. Coloque 1 Lost Soul em qualquer espaço adjacente. Remova o Event Token. Pelo resto do Cenário, se um Vagrant estiver adjacente a uma Lost Soul, ele pode perder 2 de Humanidade para ignorar a próxima Ação de Haint. Se um Vagrant perder Humanidade dessa forma, ele pode Mover a Lost Soul 2 espaços. Lost Souls podem Mover-se sobre (e através de) Terreno. Se uma Lost Soul terminar um Movimento adjacente ao lado Break ou Round, remova a Lost Soul e ganhe o Safe at Last Mile Post.</p>"
+    },
+    {
+      "title": "Evento 7",
+      "description": "<p>Um envelope velho e amassado. O selo não está quebrado. Investigue.<br/><br/><b>0:</b> É uma carta, mas não é escrita para você. E quando você tenta abrir o envelope, ele faz questão de te lembrar. Malditos cortes de papel. Ganhe Bleeding. Mantenha o Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span> no tabuleiro do trem. Nada mais acontece.<br/><br/><b>1+:</b> Quem quer que fosse já deve ter ido embora há muito tempo. Você quebra o selo. Dentro há um Pergaminho com palavras dolorosamente familiares. Ganhe 3 de Humanidade. Remova o Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span>.</p>"
+    },
+    {
+      "title": "Evento 8",
+      "description": "<p>Você consegue pegar alguns pregos antigos sem se cortar. Por qualquer motivo, eles te fazem pensar em chuteiras de beisebol, e isso te dá uma ideia... Mantenha o Event Token. Trate-o como um Rummage Token em todos os aspectos. Você pode usar o Event Token para aumentar seu valor de Movimento em 1 para sua vez.</p>"
+    },
+    {
+      "title": "Eventos 9 e 0",
+      "description": "<p>Você estende a mão, mas algo mais estende de volta, cortando sua mão. O corte é profundo. Ganhe Bleeding. Adicione um Blood Pool adjacente a outro Blood Pool (mais próximo do lado Break ou Round). Se todos os Blood Pools estiverem no tabuleiro do trem, sofra uma Ferida em vez de colocar um Blood Pool. Em seguida, coloque o Event Token de volta no Bindle.</p>"
+    },
+    {
+      "title": "Pit Event",
+      "description": "<p><b>Se o Vagrant não estiver Westbound:</b> Algo se estende... algo escuro e gotejante e... e antes que você perceba, você está sendo puxado para baixo. Esse Vagrant se torna Westbound. Coloque o Vagrant Westbound em qualquer espaço aberto que esteja a 3 espaços de um Blood Pool.<br/><br/><b>Se o Vagrant estiver Westbound:</b> A atração... é como se lembrasse, e quer mais. Já não foi o suficiente? Remova o Vagrant Westbound do jogo pelo resto do Cenário.</p>"
+    }
+  ],
+  "rules": [
+    {
+      "specialRules": "<ul><li>Haint Humanity e Breaks não são rastreados durante este Cenário.</li><li>Quando um Vagrant se move para um espaço com um Blood Pool, leia o Pit Event.</li></ul>"
+    },
+    {
+      "terrainEffects": "<p><b>Blood Pools:</b> Vagrants podem se mover para Blood Pools (mas devem evitar fazer isso a todo custo!).</p><p>Se Terreno for adicionado ao trem, use Boxes, Coffins ou Debris. Se o Terreno se mover para um Blood Pool, remova o Terreno (mas não o Blood Pool).</p>"
+    },
+    {
+      "haintEffects": "<p><b>Nervous Knees:</b> Diminua o valor do seu Move em 1. Para remover Nervous Knees, descarte uma Candle.</p><p><b>Bleeding:</b> Quando você coloca uma Coin em Move, perde 1 Humanity (perdendo 1 Humanity para cada Coin). No final do seu turno, se você realizar com sucesso Patch Up, remova Bleeding.</p>"
+    },
+    {
+      "victory": "<p>Complete todos os Rituals.</p>"
+    }
   ]
 }

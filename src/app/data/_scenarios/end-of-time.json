@@ -3,8 +3,11 @@
   "title": "End of Time",
   "storyName": "Burnin’ the Midnight Oil",
   "storyDescription": "<p>Você se encontra no vagão do meio, mas não se preocupe em se perguntar como chegou lá. Está muito ocupado olhando para o oceano...</p><p>O oceano... Você olha para isso? As paredes desapareceram. No lugar delas está o mar infinito, brilhando como joias na luz da lua nublada. O céu noturno encontra ondas baixas e rolantes... vasto e infinito. Continua indo para sempre.</p><p>E à distância, um farol. Erguendo-se orgulhosamente acima de um litoral rochoso... Pulsando um feixe de luz em espiral, pesado e lento o suficiente para sentir no seu coração. Mais devagar...</p><p>Começa a chover. Fresca e refrescante... Se você fechar os olhos por um momento, pode parecer que finalmente está livre. Livre deste trem para lugar nenhum...</p><p>Em lugar nenhum...</p><p>Em lugar nenhum...</p><p>Em lugar nenhum.</p>",
+  "specialRules": "<p>Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> é resolvido após a conclusão daquela rodada.</p><p>No início de cada turno de Haint, ao invés de sacar para a ação de Haint normalmente, coloque um dos 5 Tokens de Rummage previamente removidos abaixo do Cycle Track e realize a ação associada ao Haint. Após esses 5 Tokens de Rummage estarem no Cycle Track, realize o Efeito de Cycle, e reserve esses 5 Tokens de Rummage para serem usados novamente. Esses Tokens não são colocados no Cycle Track e não são adicionados de volta ao Bindle quando Cycling.</p>",
+  "haintEffects": "<p><b>Dark (⬤):</b> Esses Tokens são movidos via vários efeitos no Cenário e não são obtidos pelos Vagrants.</p><p><b>Light (O):</b> Esses Tokens são movidos via vários efeitos no Cenário e não são obtidos pelos Vagrants.</p>",
   "Terrain Effects": "<p>Os Tokens de Efeito de Haint não podem se mover para o Terrain (ou sobre outros Tokens de Efeito de Haint).</p>",
   "seance": "<p>No início do Cenário, descarte a carta de Séance para que todos os Vagrants se coloquem em qualquer espaço aberto no Train Car B.</p>",
+  "victory": "<p>Salve o Lightkeeper.</p>",
   "haintImg": "lightkeeper.jpg",
   "events": [
     {
@@ -46,17 +49,6 @@
     {
       "title": "Evento 0",
       "description": "<p>Lembre-se: Este Evento é resolvido após o round terminar.<br><br>A chuva... começa a fluir para cima... para trás... E logo, você, e todos os outros também. Recuando involuntariamente, repensando pensamentos que você acabou de ter... A única coisa que permanece imóvel e constante é o <b>Lightkeeper</b>. Seus olhos azul-fantasma começam a queimar. Todos os <b>Vagrants</b> e os Tokens de efeito <b>Haint</b> são colocados de volta nos espaços onde o <b>Scenario</b> começou. Se um <b>Vagrant</b> não puder fazer a ação, o <b>Lightkeeper</b> permanece naquele espaço e o <b>Vagrant</b> é assombrado. Então remova todos os Tokens de <b>Rummage</b> na trilha de ciclo, mantendo os mesmos 5 do início do <b>Scenario</b> e colocando o restante de volta no <b>Bindle</b>. Por fim, coloque o marcador de rodadas de volta no Round 1. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> na trilha de <b>Round</b>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p>Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> é resolvido após a conclusão daquela rodada.</p><p>No início de cada turno de Haint, ao invés de sacar para a ação de Haint normalmente, coloque um dos 5 Tokens de Rummage previamente removidos abaixo do Cycle Track e realize a ação associada ao Haint. Após esses 5 Tokens de Rummage estarem no Cycle Track, realize o Efeito de Cycle, e reserve esses 5 Tokens de Rummage para serem usados novamente. Esses Tokens não são colocados no Cycle Track e não são adicionados de volta ao Bindle quando Cycling.</p>"
-    },
-    {
-      "haintEffects": "<p><b>Dark (⬤):</b> Esses Tokens são movidos via vários efeitos no Cenário e não são obtidos pelos Vagrants.</p><p><b>Light (O):</b> Esses Tokens são movidos via vários efeitos no Cenário e não são obtidos pelos Vagrants.</p>"
-    },
-    {
-      "victory": "<p>Salve o Lightkeeper.</p>"
     }
   ]
 }

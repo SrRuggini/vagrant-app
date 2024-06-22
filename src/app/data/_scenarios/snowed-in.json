@@ -3,7 +3,11 @@
   "title": "Snowed In",
   "storyName": "Comfortably Cold",
   "storyDescription": "<p>Have you ever felt such a freezin’ cold like this before? Ain’t nothin’ quite like it. Makes your bones feel brittle.</p> <p>No time to think more on it, though. As your eyes focus on your breath, somethin’ smacks into the side of the train, crashin’ down. Another storm… great. Clumps of snow start pilin’ in from holes in the ceiling.</p> <p>And then the quiet hits. Can’t even hear the train’ movin’ along the tracks no more. Any momentum you felt ‘neath your feet’s long gone now.</p> <p>After your ears stop ringin’... you hear the sounds of shovelin’, shoutin’, and singin’ from up ahead: “Ho, oh! More coal! More fire! Oh, ho!” But the voices are so distant that it’s easy to think your mind’s playin’ tricks on you again.</p> <p>More crashes… more snow… and the cold is makin’ you feel like glass. Storm’s gonna make its way in soon. Gonna either freeze to death or crumble if you don’t get outta here fast.</p>",
+  "specialRules": "<p>Break and Humanity tracks are not used for this Scenario.</p> <p>At the start of each round (after resolving any Events), add 2 Snow in open spaces anywhere between the Vagrant closest to Break side and Break side. Then move each Lost Soul 2 spaces, Haunting as many Vagrants as possible. Lost Souls cannot end their Move in the same space.</p>",
+  "terrainEffects": "<p><b>Snow:</b> If Snow is added to the train board but there is no more Snow Terrain, use the white Haint Effect Tokens instead. If further Snow would be added but cannot be (due to all of the Snow being on the train board), then remove Snow closest to Round side and use that instead.</p> <p>During their turn, Vagrants may use an Iron Nail, a Candle, or Salt to remove 1 adjacent Snow instead of their default effects.</p>",
+  "haintEffects": "<p><b>Frostbitten (⬤):</b> Reduce the number of Coins you can use per turn by 1. To remove Frostbitten, end your turn adjacent to a Candle. Frostbitten is also removed after suffering a Wound.</p> <p><b>Snow Piles (O):</b> These Haint Effect Tokens are instead used as Snow Terrain. Add these to the train board if no other Snow Terrain is available.</p>",
   "Seance": "<p>When you use the Séance card, all Vagrants gain 1 Move for the round.</p>",
+  "victory": "<p>Reach the Break side edge. When a Vagrant reaches the Break side edge, remove them from the train board. Keep playing until all Vagrants have reached the edge or have become Westbound.</p>",
   "events": [
     {
       "title": "Evento 1",
@@ -44,20 +48,6 @@
     {
       "title": "Evento 0",
       "description": "<p>A tempestade aumenta, caindo pelas aberturas no teto e pelas janelas quebradas. Lado positivo? Esses buracos são preenchidos. Mas algo te diz que as coisas vão ficar muito ruins, muito rápido. Remova os buracos do tabuleiro do trem. Todos os <b>Vagrants</b> aumentam seu valor de movimento em 1 para esta rodada. Para o resto do <b>Scenario</b>, no início de cada turno de um <b>Vagrant</b>, eles sofrem uma <b>Wound</b>. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p>Break and Humanity tracks are not used for this Scenario.</p> <p>At the start of each round (after resolving any Events), add 2 Snow in open spaces anywhere between the Vagrant closest to Break side and Break side. Then move each Lost Soul 2 spaces, Haunting as many Vagrants as possible. Lost Souls cannot end their Move in the same space.</p>"
-    },
-    {
-      "terrainEffects": "<p><b>Snow:</b> If Snow is added to the train board but there is no more Snow Terrain, use the white Haint Effect Tokens instead. If further Snow would be added but cannot be (due to all of the Snow being on the train board), then remove Snow closest to Round side and use that instead.</p> <p>During their turn, Vagrants may use an Iron Nail, a Candle, or Salt to remove 1 adjacent Snow instead of their default effects.</p>"
-    },
-    {
-      "haintEffects": "<p><b>Frostbitten (⬤):</b> Reduce the number of Coins you can use per turn by 1. To remove Frostbitten, end your turn adjacent to a Candle. Frostbitten is also removed after suffering a Wound.</p> <p><b>Snow Piles (O):</b> These Haint Effect Tokens are instead used as Snow Terrain. Add these to the train board if no other Snow Terrain is available.</p>"
-    },
-    {
-      "victory": "<p>Reach the Break side edge. When a Vagrant reaches the Break side edge, remove them from the train board. Keep playing until all Vagrants have reached the edge or have become Westbound.</p>"
     }
   ]
 }

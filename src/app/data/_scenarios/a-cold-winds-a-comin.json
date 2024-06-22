@@ -3,7 +3,11 @@
   "title": "A cold Wind's a Comin'",
   "storyName": "But the Sun Ain’t Far Behind",
   "storyDescription": "<p>Você conhece aquele velho ditado sobre estar fora da frigideira e dentro da panela? Seria bom, não é?</p><p>Parece que não há como escapar desse frio. A tempestade pode ter morrido, mas o vento com certeza aumentou, e é isso que realmente corta fundo.</p><p>Mas à frente, parece que há outros três viajantes tentando lutar contra o frio assim como você. Todos amontoados ao redor de uma vela e... uma máquina de vendas (7)? Me pergunto se todas essas engenhocas mecânicas lá dentro mantêm a coisa aquecida.</p><p>Você começa a notar o calor escapando de sua pele exposta como a névoa saindo da superfície de um lago. Talvez você possa se juntar àquela máquina com eles.</p><p>Não demora muito para que aqueles três rostos cansados se virem para você. Do jeito que eles se torcem e viram, você lembra exatamente onde está novamente. Suas mandíbulas se afundam, e cada um deles começa a gemer terrivelmente.</p><p>Mova-se.</p><p>Mantenha essas pernas de congelar.</p>",
+  "specialRules": "<p>There are no Special Rules for this Scenario.</p>",
+  "terrainEffects": "<p><b>Snow:</b> During their turn, Vagrants may use an Iron Nail, a Candle, or Salt to remove 1 adjacent Snow instead of their default effects.</p>",
+  "haintEffects": "<p><b>Frostbitten (⬤):</b> Reduce the number of Coins you can use per turn by 1. To remove Frostbitten, end your turn adjacent to a Candle. Frostbitten is also removed after suffering a Wound.</p> <p><b>Nervous Knees (O):</b> Lower your Move value by 1. To remove Nervous Knees, discard a Candle.</p>",
   "Seance": "<p>Discard the Séance card to remove Frostbitten (⬤) from all Vagrants, and Move all Haints 2 away from each Vagrant.</p>",
+  "victory": "<p>Save the Frozen Faces.</p>",
   "events": [
     {
       "title": "Evento 1",
@@ -44,20 +48,6 @@
     {
       "title": "Evento 0",
       "description": "<p>É impossível entender o que estão dizendo, apenas um monte de rosnados e gemidos, mas está claro que esses <b>Frozen Faces</b> estão discutindo uns com os outros sobre algo. Pelos gestos das mãos, parece que todos estão falando sobre a melhor forma de se manter aquecido. Um deles parece um pouco mais alto que o resto. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> no <b>Round Track</b>. Role 1 <b>Bone</b> e resolva o efeito com base no valor rolado:<br><br><b>1-2:</b> Um parece querer dançar. Mova os <b>Frozen Faces</b> 3, e qualquer <b>Lost Souls</b> 2, assombrando quantos <b>Vagrants</b> for possível.<br><br><b>3-4:</b> Outro começa a escovar freneticamente os pingentes de gelo de suas roupas. Os <b>Frozen Faces</b> ganham 2 <b>Humanity</b>.<br><br><b>5-6:</b> O último parece estar com fome. Talvez. <b>Vagrants</b> adjacentes a qualquer <b>Haint</b> perdem 2 <b>Humanity</b>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p>There are no Special Rules for this Scenario.</p>"
-    },
-    {
-      "terrainEffects": "<p><b>Snow:</b> During their turn, Vagrants may use an Iron Nail, a Candle, or Salt to remove 1 adjacent Snow instead of their default effects.</p>"
-    },
-    {
-      "haintEffects": "<p><b>Frostbitten (⬤):</b> Reduce the number of Coins you can use per turn by 1. To remove Frostbitten, end your turn adjacent to a Candle. Frostbitten is also removed after suffering a Wound.</p> <p><b>Nervous Knees (O):</b> Lower your Move value by 1. To remove Nervous Knees, discard a Candle.</p>"
-    },
-    {
-      "victory": "<p>Save the Frozen Faces.</p>"
     }
   ]
 }

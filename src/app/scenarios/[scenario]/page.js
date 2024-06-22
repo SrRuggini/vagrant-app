@@ -16,6 +16,12 @@ export default function Scenarios({ params }) {
         setScenarioData(data);
     };
 
+    const adjustTitle = (input) => {
+        let result = input.replace(/([A-Z])/g, ' $1').trim();
+        result = result.charAt(0).toUpperCase() + result.slice(1);
+        return result;
+    };
+
     useEffect(() => {
         if (params.scenario) {
             fetchScenarioData(params.scenario);
@@ -57,83 +63,18 @@ export default function Scenarios({ params }) {
                                 />
                             )}
 
-                            {scenarioData?.specialRules && (
-                                <>
-                                    <br />
-                                    <h4>Regras Especiais</h4>
-                                    <div
-                                        dangerouslySetInnerHTML={{
-                                            __html: scenarioData.specialRules,
-                                        }}
-                                    />
-                                    <br />
-                                </>
-                            )}
-
-                            {scenarioData?.terrainEffects && (
-                                <>
-                                    <br />
-                                    <h4>Efeitos de Terrenos</h4>
-                                    <div
-                                        dangerouslySetInnerHTML={{
-                                            __html: scenarioData.terrainEffects,
-                                        }}
-                                    />
-                                    <br />
-                                </>
-                            )}
-
-                            {scenarioData?.haintEffects && (
-                                <>
-                                    <br />
-                                    <h4>Efeitos dos Haints</h4>
-                                    <div
-                                        dangerouslySetInnerHTML={{
-                                            __html: scenarioData.haintEffects,
-                                        }}
-                                    />
-                                    <br />
-                                </>
-                            )}
-
-                            {scenarioData?.breaks && (
-                                <>
-                                    <br />
-                                    <h4>Breaks</h4>
-                                    <div
-                                        dangerouslySetInnerHTML={{
-                                            __html: scenarioData.breaks,
-                                        }}
-                                    />
-                                    <br />
-                                </>
-                            )}
-
-                            {scenarioData?.seanse && (
-                                <>
-                                    <br />
-                                    <h4>Seanse</h4>
-                                    <div
-                                        dangerouslySetInnerHTML={{
-                                            __html: scenarioData.seanse,
-                                        }}
-                                    />
-                                    <br />
-                                </>
-                            )}
-
-                            {scenarioData?.victory && (
-                                <>
-                                    <br />
-                                    <h4>Vitória</h4>
-                                    <div
-                                        dangerouslySetInnerHTML={{
-                                            __html: scenarioData.victory,
-                                        }}
-                                    />
-                                    <br />
-                                </>
-                            )}
+                            {scenarioData?.rules && scenarioData?.rules?.map((rule, index) => (
+                                <div key={index}>
+                                    <br/>
+                                    {Object.keys(rule).map((key) => (
+                                        <>
+                                            <h4>{adjustTitle(key)}</h4>
+                                            <div key={key} dangerouslySetInnerHTML={{ __html: rule[key] }} />
+                                        </>
+                                    ))}
+                                    <br/>
+                                </div> 
+                            ))}
 
                             <br />
                             <br />

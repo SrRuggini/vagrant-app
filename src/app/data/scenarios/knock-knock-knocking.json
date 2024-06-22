@@ -4,49 +4,61 @@
   "storyName": "On Death's Door",
   "storyDescription": "Outra noite agitada, e outro conjunto de vagões escuros te espera. Só que, em vez de um homem sem cabeça esperando para reivindicar o seu, você é saudado por um som. Um eco. Sem ritmo e sem razão.<br/><br/> Tocando como pontas de dedos contra vidraças... Arranhando como ratos cavando... Batendo como algum intruso superconfiante... <br/><br/> Aquela batida, batida, batida de todos os lados lentamente se transforma em um boom, boom, boom. As paredes tremem. O pó cai. E então para. Assim mesmo. <br/><br/> Uma vela de pouca luz acende sobre um caixão fechado e brilha tão forte e azul quanto a velha lanterna de Joe. Sob a cera derretida estão duas enormes orelhas e olhos fixos presos em um crânio. <br/><br/> Quando seus olhos se encontram, o teto acima começa a tremer e sacudir. Difícil dizer se aquele puxão na sua mochila é de destroços caindo ou mãos puxando... <br/><br/> Mas isso é menos importante do que sair deste trem. Hora de se mover.",
   "haintImg": "haint-tommyknocker.jpg",
-  "specialRules": "<ul><li>Ambos os Moods estão em efeito desde o início do cenário. No início de cada turno de Haint, compre 2 Rummage Tokens em vez de 1. Resolva um para o Tommyknocker e o outro para Cave-In, nessa ordem. O Cycle Effect pode ser resolvido antes da ação de Cave-In.</li><li>Vagrants podem usar um Iron Nail para ganhar 1 Humanity em vez do efeito padrão.</li><li>Se o Terreno fosse colocado em um Evento, coloque esse Evento no espaço aberto mais próximo disponível.</li><li>Recomendamos armazenar Stolen Possessions (0-7) e Luck (27-30) na trilha de Humanity.</li></ul>",
-  "terrainEffects": "<p><b>Holes:</b> Vagrants podem entrar em espaços contendo Hole Terrain. Se fizerem isso, role um número de Bones igual ao valor de Move. Se algum dos resultados for 5+, nada acontece. Caso contrário, esse Vagrant se Move para um espaço aberto adjacente e perde 3 Humanity.</p>",
-  "haintEffects": "<p><b>Heebie Jeebies (⬤):</b> Durante o seu turno, você deve colocar 2 Coins na ação de Rummage. No final do seu turno, remova Heebie Jeebies.<br /><b>Luck (⚇):</b> Esses Tokens são usados para contar o valor de Luck de um efeito especial. Esse efeito acumula (até 4).</p>",
   "breaks": "",
-  "Seanse": "<p>A qualquer momento, os Vagrants podem descartar a carta de Séance para remover qualquer 1 Debris Terrain.</p>",
-  "victory": "<p>Complete todos os Rituals.</p>",
-  "defeat": "<p>Se o Terreno fosse adicionado ao trem, mas não pudesse ser (devido à falta de Terreno), todos os Vagrants se tornam Westbound e o cenário é perdido.</p>",
+  "seance": "<p>A qualquer momento, os Vagrants podem descartar a carta de Séance para remover qualquer 1 Debris Terrain.</p>",
   "events": [
-      {
-          "title": "Evento 1",
-          "description": "<p>A chama azul ardente pendurada acima do Tommyknocker desaparece como poeira assentada, depois reaparece rapidamente nas proximidades. Ele se virou, e é difícil dizer o que suas mãos estão fazendo. Não dá para deixar de se perguntar se ele é o causador desse caos ou está tentando fugir dele. Remova o Tommyknocker do tabuleiro do trem, depois coloque o Tommyknocker no Terreno mais distante no mesmo vagão. Em seguida, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>1</span>.</p>"
-      },
-      {
-          "title": "Evento 2",
-          "description": "<p>Algo está acontecendo no vagão de onde você veio. Mas não é o mesmo que da última vez. O teto parece um pouco mais próximo... As orelhas do Tommyknocker se levantam e seus olhos se arregalam. Ele sabe. Mova o Tommyknocker para o Terreno mais próximo dele (se ele estiver atualmente em um Terreno, ele não permanece nesse espaço). Em seguida, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span>.</p>"
-      },
-      {
-          "title": "Evento 3",
-          "description": "<p>Não importa quantas vezes você possa ter sido avisado. Não há nada que pudesse tê-lo preparado para um desmoronamento. A fumaça sufocante e os destroços caindo de cima tornam impossível ver. Esperançosamente ninguém foi pego na explosão. Coloque os 2 Caixões do Vagão de Trem A nos espaços de conexão entre os Vagões A e B. Todos os Vagrants no Vagão A sofrem um Ferimento, depois remova-os temporariamente do jogo e coloque-os nos espaços abertos mais próximos no Vagão B. Se o Tommyknocker estava no Vagão A, coloque-o em qualquer Terreno nos Vagões B ou C. Tanto os Vagrants quanto o Tommyknocker não podem entrar no Vagão A pelo resto do Cenário. Em seguida, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span>.</p>"
-      },
-      {
-          "title": "Evento 4",
-          "description": "<p>Parece uma velha tipóia para um braço quebrado. De todas as coisas que você viu, de alguma forma essa faz mais sentido. <b>Investigue.</b><br/><br/><b>0:</b> Você decide não pegá-la. Talvez alguém que precise mais dela venha procurar. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span> no tabuleiro do trem. Nada acontece.<br/><br/><b>1+:</b> Pode encontrar uma utilidade para isso, ossos quebrados ou não. Mantenha este Token de Evento. Trate-o como um Token de Rummage de todas as maneiras. Enquanto você tiver este Token de Evento, poderá segurar 2 Tokens de Rummage a mais do que seu máximo atual.</p>"
-      },
-      {
-          "title": "Evento 5",
-          "description": "<p>Normalmente, encontrar uma corda emaranhada não é nada para se escrever, mas há algo estranho sobre esta. <b>Investigue.</b><br/><br/><b>0:</b> Não importa quanto tempo você olhe para ela, a corda não faz sentido. Não há razão para segurá-la. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> no tabuleiro do trem. Nada acontece.<br/><br/><b>1+:</b> Está brilhando dourado e preso a um pino de madeira. Isso vem de um violino quebrado? Mantenha o Token de Evento. Ele é tratado como um Token de Rummage de todas as maneiras. Se for descartado, é tratado como uma Possessão Roubada.</p>"
-      },
-      {
-          "title": "Evento 6",
-          "description": "<p>Aquela parede não parece tão certa. Talvez se você desse uma olhada melhor... <b>Investigue.</b><br/><br/><b>0:</b> Você fecha os olhos e tenta esquecer o que acabou de ver, mas não funciona. Vai demorar muito mais para esquecer o sangue escorrendo entre a madeira. Ótimo. Ganhe os <b>Heebie Jeebies (⬤)</b>. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span>.<br/><br/><b>1+:</b> Vai precisar de muito mais do que algum lodo lento se movendo para te assustar neste ponto. Você já está insensível a ver coisas estranhas por aqui. Nada acontece. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span>.</p>"
-      },
-      {
-          "title": "Evento 7",
-          "description": "<p>Você não encontra muita coisa, mas o deslizamento de rochas que se aproxima ajuda a estimular algumas ideias criativas. Cada Vagrant adjacente ao Terreno pode fazer Rummage no final deste turno. Em seguida, descarte o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span>.</p>"
-      },
-      {
-          "title": "Evento 8 & 9",
-          "description": "<p>Você encontra algo extra brilhante no chão. Uma moeda dourada. Os olhos do Tommyknocker se fixam nela. Deve ser dele. Role 1 Bone. Resolva o efeito com base no valor rolado. Aumente o valor rolado em 1 para cada <b>Luck (⚇)</b>.<br/><br/><b>1-6:</b> Antes de você conseguir colocar no seu bolso, o Tommyknocker corre em sua direção e arranca da sua mão. Mova o Tommyknocker para um espaço adjacente. Perca 1 Humanity. Aumente a <b>Luck (⚇)</b> em 1 (use os Tokens de Efeito Haint para rastrear esse valor). Coloque o Token de Evento de volta no Bindle.<br/><br/><b>7+:</b> Você finalmente consegue guardar antes que o Tommyknocker chegue batendo. Tem o rosto dele gravado, entalhado no metal. Ganhe a Moeda do Tommyknocker e complete o Ritual: Ooo, Shiny. Em seguida, descarte este Token e o outro no Bindle.</p>"
-      },
-      {
-          "title": "Evento 0",
-          "description": "<p>Antes que você possa agarrar o que quer que estivesse alcançando, algo cai ao seu lado. Adicione Terreno a qualquer espaço aberto adjacente. Coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> de volta no Bindle.<br/><br/>Mas um brilho de ouro chama sua atenção. Deve ter caído de cima. Resolva o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>9</span> (se o Ritual ainda não tiver sido completado).</p>"
-      }
+    {
+      "title": "Evento 1",
+      "description": "<p>A chama azul ardente pendurada acima do Tommyknocker desaparece como poeira assentada, depois reaparece rapidamente nas proximidades. Ele se virou, e é difícil dizer o que suas mãos estão fazendo. Não dá para deixar de se perguntar se ele é o causador desse caos ou está tentando fugir dele. Remova o Tommyknocker do tabuleiro do trem, depois coloque o Tommyknocker no Terreno mais distante no mesmo vagão. Em seguida, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>1</span>.</p>"
+    },
+    {
+      "title": "Evento 2",
+      "description": "<p>Algo está acontecendo no vagão de onde você veio. Mas não é o mesmo que da última vez. O teto parece um pouco mais próximo... As orelhas do Tommyknocker se levantam e seus olhos se arregalam. Ele sabe. Mova o Tommyknocker para o Terreno mais próximo dele (se ele estiver atualmente em um Terreno, ele não permanece nesse espaço). Em seguida, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span>.</p>"
+    },
+    {
+      "title": "Evento 3",
+      "description": "<p>Não importa quantas vezes você possa ter sido avisado. Não há nada que pudesse tê-lo preparado para um desmoronamento. A fumaça sufocante e os destroços caindo de cima tornam impossível ver. Esperançosamente ninguém foi pego na explosão. Coloque os 2 Caixões do Vagão de Trem A nos espaços de conexão entre os Vagões A e B. Todos os Vagrants no Vagão A sofrem um Ferimento, depois remova-os temporariamente do jogo e coloque-os nos espaços abertos mais próximos no Vagão B. Se o Tommyknocker estava no Vagão A, coloque-o em qualquer Terreno nos Vagões B ou C. Tanto os Vagrants quanto o Tommyknocker não podem entrar no Vagão A pelo resto do Cenário. Em seguida, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span>.</p>"
+    },
+    {
+      "title": "Evento 4",
+      "description": "<p>Parece uma velha tipóia para um braço quebrado. De todas as coisas que você viu, de alguma forma essa faz mais sentido. <b>Investigue.</b><br/><br/><b>0:</b> Você decide não pegá-la. Talvez alguém que precise mais dela venha procurar. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span> no tabuleiro do trem. Nada acontece.<br/><br/><b>1+:</b> Pode encontrar uma utilidade para isso, ossos quebrados ou não. Mantenha este Token de Evento. Trate-o como um Token de Rummage de todas as maneiras. Enquanto você tiver este Token de Evento, poderá segurar 2 Tokens de Rummage a mais do que seu máximo atual.</p>"
+    },
+    {
+      "title": "Evento 5",
+      "description": "<p>Normalmente, encontrar uma corda emaranhada não é nada para se escrever, mas há algo estranho sobre esta. <b>Investigue.</b><br/><br/><b>0:</b> Não importa quanto tempo você olhe para ela, a corda não faz sentido. Não há razão para segurá-la. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> no tabuleiro do trem. Nada acontece.<br/><br/><b>1+:</b> Está brilhando dourado e preso a um pino de madeira. Isso vem de um violino quebrado? Mantenha o Token de Evento. Ele é tratado como um Token de Rummage de todas as maneiras. Se for descartado, é tratado como uma Possessão Roubada.</p>"
+    },
+    {
+      "title": "Evento 6",
+      "description": "<p>Aquela parede não parece tão certa. Talvez se você desse uma olhada melhor... <b>Investigue.</b><br/><br/><b>0:</b> Você fecha os olhos e tenta esquecer o que acabou de ver, mas não funciona. Vai demorar muito mais para esquecer o sangue escorrendo entre a madeira. Ótimo. Ganhe os <b>Heebie Jeebies (⬤)</b>. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span>.<br/><br/><b>1+:</b> Vai precisar de muito mais do que algum lodo lento se movendo para te assustar neste ponto. Você já está insensível a ver coisas estranhas por aqui. Nada acontece. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span>.</p>"
+    },
+    {
+      "title": "Evento 7",
+      "description": "<p>Você não encontra muita coisa, mas o deslizamento de rochas que se aproxima ajuda a estimular algumas ideias criativas. Cada Vagrant adjacente ao Terreno pode fazer Rummage no final deste turno. Em seguida, descarte o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span>.</p>"
+    },
+    {
+      "title": "Evento 8 & 9",
+      "description": "<p>Você encontra algo extra brilhante no chão. Uma moeda dourada. Os olhos do Tommyknocker se fixam nela. Deve ser dele. Role 1 Bone. Resolva o efeito com base no valor rolado. Aumente o valor rolado em 1 para cada <b>Luck (⚇)</b>.<br/><br/><b>1-6:</b> Antes de você conseguir colocar no seu bolso, o Tommyknocker corre em sua direção e arranca da sua mão. Mova o Tommyknocker para um espaço adjacente. Perca 1 Humanity. Aumente a <b>Luck (⚇)</b> em 1 (use os Tokens de Efeito Haint para rastrear esse valor). Coloque o Token de Evento de volta no Bindle.<br/><br/><b>7+:</b> Você finalmente consegue guardar antes que o Tommyknocker chegue batendo. Tem o rosto dele gravado, entalhado no metal. Ganhe a Moeda do Tommyknocker e complete o Ritual: Ooo, Shiny. Em seguida, descarte este Token e o outro no Bindle.</p>"
+    },
+    {
+      "title": "Evento 0",
+      "description": "<p>Antes que você possa agarrar o que quer que estivesse alcançando, algo cai ao seu lado. Adicione Terreno a qualquer espaço aberto adjacente. Coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> de volta no Bindle.<br/><br/>Mas um brilho de ouro chama sua atenção. Deve ter caído de cima. Resolva o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>9</span> (se o Ritual ainda não tiver sido completado).</p>"
+    }
+  ],
+  "rules": [
+    {
+      "specialRules": "<ul><li>Ambos os Moods estão em efeito desde o início do cenário. No início de cada turno de Haint, compre 2 Rummage Tokens em vez de 1. Resolva um para o Tommyknocker e o outro para Cave-In, nessa ordem. O Cycle Effect pode ser resolvido antes da ação de Cave-In.</li><li>Vagrants podem usar um Iron Nail para ganhar 1 Humanity em vez do efeito padrão.</li><li>Se o Terreno fosse colocado em um Evento, coloque esse Evento no espaço aberto mais próximo disponível.</li><li>Recomendamos armazenar Stolen Possessions (0-7) e Luck (27-30) na trilha de Humanity.</li></ul>"
+    },
+    {
+      "terrainEffects": "<p><b>Holes:</b> Vagrants podem entrar em espaços contendo Hole Terrain. Se fizerem isso, role um número de Bones igual ao valor de Move. Se algum dos resultados for 5+, nada acontece. Caso contrário, esse Vagrant se Move para um espaço aberto adjacente e perde 3 Humanity.</p>"
+    },
+    {
+      "haintEffects": "<p><b>Heebie Jeebies (⬤):</b> Durante o seu turno, você deve colocar 2 Coins na ação de Rummage. No final do seu turno, remova Heebie Jeebies.<br /><b>Luck (⚇):</b> Esses Tokens são usados para contar o valor de Luck de um efeito especial. Esse efeito acumula (até 4).</p>"
+    },
+    {
+      "victory": "<p>Complete todos os Rituals.</p>"
+    },
+    {
+      "defeat": "<p>Se o Terreno fosse adicionado ao trem, mas não pudesse ser (devido à falta de Terreno), todos os Vagrants se tornam Westbound e o cenário é perdido.</p>"
+    }
   ]
 }
