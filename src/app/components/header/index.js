@@ -44,8 +44,8 @@ const Header = (props) => {
                 <Link href={'/'}>
                     <Image
                         src="/logotipo.png"
-                        width={265}
-                        height={45}
+                        width={180}
+                        height={30}
                         alt="Vagrantsong"
                     />
                 </Link>

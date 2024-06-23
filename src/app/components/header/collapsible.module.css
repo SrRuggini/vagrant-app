@@ -11,10 +11,11 @@
 
 .Header__Container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
   max-width: 560px;
   width: 100%;
-  margin: auto;
-  justify-content: space-between;
   transition: all .3s ease;
   padding: 16px;
 }
