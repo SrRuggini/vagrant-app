@@ -1,10 +1,28 @@
 {
   "key": 75,
   "title": "For Whom the Bell Tolls",
-  "storyName": "Vanished in the Night",
-  "storyDescription": "<p>Ring, ring. Ring, ring.</p> <p>Você é recebido pelo som de um sino solitário. Mas você não consegue ver nada - o lugar é tão escuro quanto uma caverna à meia-noite. E do meio dessa escuridão, uma risada baixa e seca.</p> <p>Ring, ring. Ring, ring.</p> <p>“Oh, vocês doces criaturas, venham aqui me ajudar com meus pobres rituais?” A voz soa tanto como a de uma velha quanto como o farfalhar de folhas secas. De alguma forma, ajudá-la soa como uma péssima ideia. Talvez devêssemos apenas nos concentrar em salvá-la...</p> <p>Mas um de vocês pareceu ouvir seu pedido. Você pode sentir a corrida de passos passando por você, levados para lugar nenhum, engolidos pela noite.</p> <p>Ring, ring. Ring, ring.</p> <p>“Oh, querido. Que amável da sua parte.”</p>",
-  "haintImg": "haint-the-bell-witch.jpg",
-  "Seance": "<p>Discard the Séance card at any time to remove a Curse from any Vagrant.</p>",
+  "story": {
+    "title": "Vanished in the Night",
+    "description": "<p>Ring, ring. Ring, ring.</p> <p>Você é recebido pelo som de um sino solitário. Mas você não consegue ver nada - o lugar é tão escuro quanto uma caverna à meia-noite. E do meio dessa escuridão, uma risada baixa e seca.</p> <p>Ring, ring. Ring, ring.</p> <p>“Oh, vocês doces criaturas, venham aqui me ajudar com meus pobres rituais?” A voz soa tanto como a de uma velha quanto como o farfalhar de folhas secas. De alguma forma, ajudá-la soa como uma péssima ideia. Talvez devêssemos apenas nos concentrar em salvá-la...</p> <p>Mas um de vocês pareceu ouvir seu pedido. Você pode sentir a corrida de passos passando por você, levados para lugar nenhum, engolidos pela noite.</p> <p>Ring, ring. Ring, ring.</p> <p>“Oh, querido. Que amável da sua parte.”</p>",
+    "image": "the-bell-witch.jpg"
+  },
+  "rules": [
+    {
+      "specialRules": "<p>When the Bell Witch rolls a Bone during an Action or at the end of her turn from any effect, any Vagrant may discard a Rabbit's Foot to reroll the Bone.</p> <p><b>Curses:</b> Some Event Tokens are called Curses and have to be removed in specific ways. We recommend a pen and paper to jot down the effects of Curses as you come across them. Unlike other Event Tokens that are treated as Rummage Tokens, Curses are unique; they do not take up a Rummage slot and do not get discarded if an effect makes a Vagrant discard a Rummage Token. When they are discarded, keep them close by - they may return!</p>"
+    },
+    {
+      "terrainEffects": "<p><b>Coffins:</b> Vagrants adjacent to a Coffin may place an Iron Nail on that Coffin to nail it shut.</p> <p>Some of the Bell Witch’s Actions state to place the Bell Witch on a Coffin. To do so, roll 1 Bone and place the Bell Witch on the corresponding Coffin (1 being closest to Round side, 2 being the next closest, and so on until 6, which is closest to Break side). If the Coffin has been nailed shut, then the Bell Witch does not get placed on that Coffin.</p>"
+    },
+    {
+      "haintEffects": "<p><b>Withering (⬤):</b> This is a Curse and Haint Effect. At the end of your turn, lose 1 Humanity for each of your Curses. To remove Withering, discard an Apple.</p>"
+    },
+    {
+      "seance": "<p>Discard the Séance card at any time to remove a Curse from any Vagrant.</p>"
+    },
+    {
+      "victory": "<p>Complete all Rituals or save the Bell Witch, whichever comes first.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1",
@@ -45,20 +63,6 @@
     {
       "title": "Evento 0",
       "description": "<p>A <b>Bell Witch</b> começa a rir, mas não é isso que você ouve saindo da boca dela. Um som de sino, a loucura de cem sinos soando todos de uma vez... colidindo e ressoando, repetidamente... Você pode sentir no seu peito. Quando ela para de falar, os sinos ficam quietos como se o som no trem fosse cortado ao meio com uma faca. “Você poderia ter me escutado. Você poderia ter seguido minhas direções. Mas em vez disso, você vai queimar. Você vai sangrar. Sua pele vai apodrecer e sua alma vai manchar as paredes, e você vai ficar aqui para sempre. Ele vai te ter para sempre.” Estranhamente o suficiente, parece que ela está pedindo para você não salvá-la. Você completa aqueles rituais, afinal, como se ela quisesse ou não? Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p>When the Bell Witch rolls a Bone during an Action or at the end of her turn from any effect, any Vagrant may discard a Rabbit's Foot to reroll the Bone.</p> <p><b>Curses:</b> Some Event Tokens are called Curses and have to be removed in specific ways. We recommend a pen and paper to jot down the effects of Curses as you come across them. Unlike other Event Tokens that are treated as Rummage Tokens, Curses are unique; they do not take up a Rummage slot and do not get discarded if an effect makes a Vagrant discard a Rummage Token. When they are discarded, keep them close by - they may return!</p>"
-    },
-    {
-      "terrainEffects": "<p><b>Coffins:</b> Vagrants adjacent to a Coffin may place an Iron Nail on that Coffin to nail it shut.</p> <p>Some of the Bell Witch’s Actions state to place the Bell Witch on a Coffin. To do so, roll 1 Bone and place the Bell Witch on the corresponding Coffin (1 being closest to Round side, 2 being the next closest, and so on until 6, which is closest to Break side). If the Coffin has been nailed shut, then the Bell Witch does not get placed on that Coffin.</p>"
-    },
-    {
-      "haintEffects": "<p><b>Withering (⬤):</b> This is a Curse and Haint Effect. At the end of your turn, lose 1 Humanity for each of your Curses. To remove Withering, discard an Apple.</p>"
-    },
-    {
-      "victory": "<p>Complete all Rituals or save the Bell Witch, whichever comes first.</p>"
     }
   ]
 }

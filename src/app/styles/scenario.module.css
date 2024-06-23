@@ -5,6 +5,10 @@
   font-family: "Alfa Slab One", serif;
 }
 
+.Scenario__SubTitle {
+  color: #df651f;
+}
+
 .Scenario__Title {
   color: #67e1da;
   font-size: 32px;

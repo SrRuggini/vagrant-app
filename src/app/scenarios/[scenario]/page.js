@@ -1,12 +1,13 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import styles from '/src/app/styles/scenario.module.css';
 import { importJsonByName } from '/src/app/utils/importJson';
 import Collapsible from '/src/app/components/collapsible';
-import Link from 'next/link';
+import Header from '/src/app/components/header';
 import Image from 'next/image';
+
 import PropTypes from 'prop-types';
+import styles from '/src/app/styles/scenario.module.css';
 
 export default function Scenarios({ params }) {
     const [scenarioData, setScenarioData] = useState(null);
@@ -29,68 +30,68 @@ export default function Scenarios({ params }) {
     }, [params.scenario]);
 
     return (
-        <main className={styles.main}>
-            <div className="container">
-                <div className="Logo">
-                    <Link href={'/scenarios'}>
-                        <Image
-                            src="/logotipo.png"
-                            width={265}
-                            height={45}
-                            alt="Vagrantsong"
-                        />
-                    </Link>
-                </div>
-                {scenarioData && (
-                    <>
-                        <h1 className={styles.Scenario__Title}>{scenarioData?.title}</h1>
+        <>
+            <Header inner={true} backTo={'/scenarios'} />
+            <main className={styles.main}>
+                <div className="container">
+                    {scenarioData && (
+                        <>
+                            <h4 className={styles.Scenario__SubTitle}>pag. {scenarioData.key}</h4>
+                            <h1 className={styles.Scenario__Title}>{scenarioData.title}</h1>
 
-                        <div className={styles.Scenario__Card}>
-                            <h2>{scenarioData?.storyName}</h2>
-                            <div
-                                dangerouslySetInnerHTML={{
-                                    __html: scenarioData?.storyDescription,
-                                }}
-                            />
+                            <div className={styles.Scenario__Card}>
+                                {scenarioData?.story && (
+                                    <>
+                                        <h2>{scenarioData.story.title}</h2>
+                                        <div
+                                            dangerouslySetInnerHTML={{
+                                                __html: scenarioData.story.description,
+                                            }}
+                                        />
+                                        {scenarioData.story?.image && (
+                                            <Image
+                                                className={styles.Scenario__Haint}
+                                                src={`/haints/${scenarioData.story.image}`}
+                                                width={450}
+                                                height={645}
+                                                alt="Vagrantsong"
+                                            />
+                                        )}
+                                    </>
+                                )}                             
 
-                            {scenarioData.haintImg && (
-                                <Image
-                                    className={styles.Scenario__Haint}
-                                    src={`/${scenarioData.haintImg}`}
-                                    width={370}
-                                    height={530}
-                                    alt="Vagrantsong"
-                                />
-                            )}
-
-                            {scenarioData?.rules && scenarioData?.rules?.map((rule, index) => (
-                                <div key={index}>
-                                    <br/>
-                                    {Object.keys(rule).map((key) => (
-                                        <>
-                                            <h4>{adjustTitle(key)}</h4>
-                                            <div key={key} dangerouslySetInnerHTML={{ __html: rule[key] }} />
-                                        </>
+                                {scenarioData?.rules &&
+                                    scenarioData?.rules?.map((rule, index) => (
+                                        <div key={index}>
+                                            <br />
+                                            {Object.keys(rule).map((key) => (
+                                                <>
+                                                    <h4>{adjustTitle(key)}</h4>
+                                                    <div
+                                                        key={key}
+                                                        dangerouslySetInnerHTML={{ __html: rule[key] }}
+                                                    />
+                                                </>
+                                            ))}
+                                            <br />
+                                        </div>
                                     ))}
-                                    <br/>
-                                </div> 
-                            ))}
+                                <br />
+                                <br />
 
-                            <br />
-                            <br />
-
-                            {scenarioData?.events?.map((event, index) => (
-                                <Collapsible
-                                    description={event?.description}
-                                    title={event?.title}
-                                    key={index}
-                                />
-                            ))}
-                        </div>
-                    </>
-                )}
-            </div>
-        </main>
+                                {scenarioData?.events?.map((event, index) => (
+                                    <Collapsible
+                                        description={event?.description}
+                                        title={event?.title}
+                                        key={index}
+                                    />
+                                ))}
+                            </div>
+                        </>
+                    )}
+                </div>
+            </main>
+        </>
     );
 }
 

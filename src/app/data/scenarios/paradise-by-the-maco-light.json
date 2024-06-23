@@ -1,12 +1,28 @@
 {
   "key": 2,
   "title": "Paradise by the Maco Light",
-  "storyName": "Problemas à Frente",
-  "storyDescription": "<p>Lá dentro está muito escuro. Relâmpagos silenciosos ziguezagueiam pelas tábuas e janelas. Você não lembra de uma tempestade se formando lá fora. Mas, a esta altura, alguns relâmpagos silenciosos surgindo do desconhecido não vão te assustar. Você já viu o suficiente para isso.<br/><br/>É quando aqueles flashes de luz começam a se formar na sua frente... Três orbes flutuantes, um branco, outro verde... vagalumes ou gás de pântano, talvez. O último explode em pulsos pretos e vermelhos. E uma bolsa, um saco - Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> - aparece aos seus pés, sentado em algo úmido e brilhante.<br/><br/>O trovão ruge, mas você nunca ouviu um trovão assim antes. De ambos os lados, o trem estala e condensa como uma sanfona. As três luzes se tornam uma, e os vagões se expandem novamente na luz crescente. E aquela bolsa deixa o seu lado.<br/><br/>Um homem sem cabeça segurando aquela luz, agora uma lanterna, cambaleia em sua direção, sem perceber que você existe.</p>",
-  "haintImg": "haint-maco-joe.jpg",
-  "specialRules": "",
-  "seance": "<p>A qualquer momento, os Vagrants podem descartar a carta de Séance para remover Blinded (⬤) ou Burning (⚇) de todos os Vagrants.</p>",
-  "defeat": "",
+  "story": {
+    "title": "Problemas à Frente",
+    "description": "<p>Lá dentro está muito escuro. Relâmpagos silenciosos ziguezagueiam pelas tábuas e janelas. Você não lembra de uma tempestade se formando lá fora. Mas, a esta altura, alguns relâmpagos silenciosos surgindo do desconhecido não vão te assustar. Você já viu o suficiente para isso.<br/><br/>É quando aqueles flashes de luz começam a se formar na sua frente... Três orbes flutuantes, um branco, outro verde... vagalumes ou gás de pântano, talvez. O último explode em pulsos pretos e vermelhos. E uma bolsa, um saco - Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> - aparece aos seus pés, sentado em algo úmido e brilhante.<br/><br/>O trovão ruge, mas você nunca ouviu um trovão assim antes. De ambos os lados, o trem estala e condensa como uma sanfona. As três luzes se tornam uma, e os vagões se expandem novamente na luz crescente. E aquela bolsa deixa o seu lado.<br/><br/>Um homem sem cabeça segurando aquela luz, agora uma lanterna, cambaleia em sua direção, sem perceber que você existe.</p>",
+    "image": "maco-joe.jpg"
+  },
+  "rules": [
+    {
+      "terrainEffects": "<p>Se um efeito indicar para colocar Terreno, use Boxes, Coffins ou Debris. Se um efeito indicar para colocar Terreno em 'qualquer espaço aberto', os jogadores podem escolher o espaço para colocar o Terreno, desde que seja colocado de uma forma que atenda a quaisquer outras regras escritas no efeito.</p>"
+    },
+    {
+      "haintEffects": "<p><b>Blinded (⬤):</b> Aumenta o valor de Sucesso (✓) de todas as suas Skills em 1. Para remover Blinded, comece ou termine seu turno adjacente a uma Candle.<br /><b>Burning (O):</b> No início do seu turno, perca 2 Humanity. Para remover Burning, descarte Salt.</p>"
+    },
+    {
+      "breaks": "<p>Quando Maco Joe sofre um Break, cada Vagrant pode escolher um: remover Burning (O), remover Blinded (⬤), ganhar 2 Humanity.</p>"
+    },
+    {
+      "seance": "<p>A qualquer momento, os Vagrants podem descartar a carta de Séance para remover Blinded (⬤) ou Burning (O) de todos os Vagrants.</p>"
+    },
+    {
+      "victory": "<p>Salve Maco Joe.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1",
@@ -30,7 +46,7 @@
     },
     {
       "title": "Evento 6",
-      "description": "<p>Se o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> não estiver mais em jogo:<br/><br/>O que é esse som? Não, isso não faz sentido. É o trem... voltando? Remova os 2 Terrain previamente adicionados entre os vagões. Cada Vagrant se move em direção ao Maco Joe. Se um Vagrant se mover em um espaço adjacente ao Terrain, remova o Terrain, então ganhe <b>Burning (⚇)</b>. Se Maco Joe estiver <b>Confuddled</b> e o evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> não estiver no tabuleiro, adicione-o ao espaço mostrado no Setup. Então remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span>.<br/><br/>Caso contrário:<br/><br/>Tudo cresce calmo e silencioso. A lanterna pisca. Em um flash azul, Joe se levanta diante de você, sua lanterna derramando luz. Maco Joe se move para o espaço mais próximo adjacente ao Vagrant mais próximo. Cicle o Bindle e resolva o Cycle Effect. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span> no Round Track.</p>"
+      "description": "<p>Se o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> não estiver mais em jogo:<br/><br/>O que é esse som? Não, isso não faz sentido. É o trem... voltando? Remova os 2 Terrain previamente adicionados entre os vagões. Cada Vagrant se move em direção ao Maco Joe. Se um Vagrant se mover em um espaço adjacente ao Terrain, remova o Terrain, então ganhe <b>Burning (O)</b>. Se Maco Joe estiver <b>Confuddled</b> e o evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> não estiver no tabuleiro, adicione-o ao espaço mostrado no Setup. Então remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span>.<br/><br/>Caso contrário:<br/><br/>Tudo cresce calmo e silencioso. A lanterna pisca. Em um flash azul, Joe se levanta diante de você, sua lanterna derramando luz. Maco Joe se move para o espaço mais próximo adjacente ao Vagrant mais próximo. Cicle o Bindle e resolva o Cycle Effect. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span> no Round Track.</p>"
     },
     {
       "title": "Evento 7",
@@ -47,20 +63,6 @@
     {
       "title": "Evento 0",
       "description": "<p>Você ouve aquele apito novamente... e tudo fica escuro. Resolva o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>1</span>. Depois, coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> de volta no Bindle.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "terrainEffects": "<p>Se um efeito indicar para colocar Terreno, use Boxes, Coffins ou Debris. Se um efeito indicar para colocar Terreno em 'qualquer espaço aberto', os jogadores podem escolher o espaço para colocar o Terreno, desde que seja colocado de uma forma que atenda a quaisquer outras regras escritas no efeito.</p>"
-    },
-    {
-      "haintEffects": "<p><b>Blinded (⬤):</b> Aumenta o valor de Sucesso (✓) de todas as suas Skills em 1. Para remover Blinded, comece ou termine seu turno adjacente a uma Candle.<br /><b>Burning (⚇):</b> No início do seu turno, perca 2 Humanity. Para remover Burning, descarte Salt.</p>"
-    },
-    {
-      "breaks": "<p>Quando Maco Joe sofre um Break, cada Vagrant pode escolher um: remover Burning (⚇), remover Blinded (⬤), ganhar 2 Humanity.</p>"
-    },
-    {
-      "victory": "<p>Salve Maco Joe.</p>"
     }
   ]
 }

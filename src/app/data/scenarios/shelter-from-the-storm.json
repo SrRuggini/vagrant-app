@@ -1,10 +1,28 @@
 {
   "key": 1,
   "title": "Shelter from the Storm",
-  "storyName": "Hurting' Since Hazlehurst",
-  "storyDescription": "<p>Você é apenas mais um de uma porção de viajantes clandestinos tentando encontrar abrigo da tempestade. Você não reconhece nenhum rosto familiar e, pensando bem, nem sequer lembra de ter visto eles embarcarem no trem com você. <br/><br/> Mas todos juram de pés juntos que acabaram de chegar aqui. E com base na sua própria experiência, você não pode deixar de acreditar neles. O estranho é que todos parecem ser de uma parte diferente da cidade - ou cidades - lugares que você nunca nem ouviu falar.<br/><br/> Depois de alguns apertos de mão e apresentações, todos tentam se acomodar o melhor que podem. Mas sem um monte de feno ou uma velha almofada chamando pelo seu nome, nem o trem nem a situação trazem muito conforto.<br/><br/> A única coisa que todos têm em comum, ao que parece, é a mão acolhedora que ajudou cada um a embarcar. Luva branca, pele frouxa... você não poderia esquecer se tentasse. Você não sabe dizer se é bom ou ruim que o Sr. Mão de Boas-Vindas pareça estar ausente.<br/><br/> De qualquer forma, espera-se que as coisas permaneçam calmas e pacíficas neste trecho da jornada. Mas aquela sensação de frio na barriga diz o contrário.</p>",
-  "haintImg": "haint-turned-faces.jpg",
-  "seance": "",
+  "story": {
+    "title": "Hurting' Since Hazlehurst",
+    "description": "<p>Você é apenas mais um de uma porção de viajantes clandestinos tentando encontrar abrigo da tempestade. Você não reconhece nenhum rosto familiar e, pensando bem, nem sequer lembra de ter visto eles embarcarem no trem com você. <br/><br/> Mas todos juram de pés juntos que acabaram de chegar aqui. E com base na sua própria experiência, você não pode deixar de acreditar neles. O estranho é que todos parecem ser de uma parte diferente da cidade - ou cidades - lugares que você nunca nem ouviu falar.<br/><br/> Depois de alguns apertos de mão e apresentações, todos tentam se acomodar o melhor que podem. Mas sem um monte de feno ou uma velha almofada chamando pelo seu nome, nem o trem nem a situação trazem muito conforto.<br/><br/> A única coisa que todos têm em comum, ao que parece, é a mão acolhedora que ajudou cada um a embarcar. Luva branca, pele frouxa... você não poderia esquecer se tentasse. Você não sabe dizer se é bom ou ruim que o Sr. Mão de Boas-Vindas pareça estar ausente.<br/><br/> De qualquer forma, espera-se que as coisas permaneçam calmas e pacíficas neste trecho da jornada. Mas aquela sensação de frio na barriga diz o contrário.</p>",
+    "image": "turned-faces.jpg"
+  },
+  "rules": [
+    {
+      "specialRules": "<p>Não há Regras Especiais para este cenário. <br><b>Lembre-se:</b> 'Losing Humanity' é diferente para Haints e Vagrants (pg. 12).</p>"
+    },
+    {
+      "terrainEffects": "<p>Não há Efeitos de Terreno especiais para este cenário. Lembre-se que Haints podem se mover pelo Terreno, mas Vagrants não podem (pg. 12).</p>"
+    },
+    {
+      "haintEffects": "<p><b>The Shakes (⬤):</b> Reduza seu valor de Move em 1. Para remover The Shakes, descarte um Iron Nail.<br /><b>Spooked (O):</b> Se você terminar seu turno em Range 2 dos Turned Faces, perca 2 Humanity. Para remover Spooked, descarte Salt.</p><br /><p><b>Lembre-se:</b> Efeitos de Haint são adicionados aos Vagrants periodicamente ao longo do cenário (pg. 22).</p>"
+    },
+    {
+      "breaks": "<p>Quando os Turned Faces sofrem um Break, cada Vagrant pode fazer um Rummage 1. <br> <b>Lembre-se:</b> Sempre que um Haint sofre um Break, a próxima vez que um Haint agiria é pulada e todos os Vagrants ganham 1 Humanity. O efeito acima é exclusivo dos Turned Faces.</p>"
+    },
+    {
+      "victory": "<p>Salve os Turned Faces. <br><b>Lembre-se:</b> Para salvar os Turned Faces, devolva a eles toda a Humanity perdida até que não tenham mais Breaks.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1",
@@ -32,7 +50,7 @@
     },
     {
       "title": "Evento 7",
-      "description": "<p>Todo o maldito trem começa a sacudir como um cachorro molhado. Isso não pode ser bom. Cada Vagrant rola 1 Bone e resolve um efeito com base no valor rolado. Depois remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span>. <br><br><b>1-2:</b> Ganhe <b>Spooked (⚇)</b>. <br><b>3-4:</b> Mova 3 em direção ao Round side. <br><b>5-6:</b> Mova 3 em direção ao Break side. <br><br>Se o movimento de um Vagrant terminar devido a uma Edge ou Terrain, esse Vagrant finaliza o movimento e perde 3 Humanity. <br><br><b>Lembre-se:</b> Quando um Haint Breaks, pule a próxima ação do Haint e todos os Vagrants ganham 1 Humanity. Os Turned Faces também têm o efeito quando Break que permite que os Vagrants realizem Rummage 1 se escolherem.</p>"
+      "description": "<p>Todo o maldito trem começa a sacudir como um cachorro molhado. Isso não pode ser bom. Cada Vagrant rola 1 Bone e resolve um efeito com base no valor rolado. Depois remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>7</span>. <br><br><b>1-2:</b> Ganhe <b>Spooked (O)</b>. <br><b>3-4:</b> Mova 3 em direção ao Round side. <br><b>5-6:</b> Mova 3 em direção ao Break side. <br><br>Se o movimento de um Vagrant terminar devido a uma Edge ou Terrain, esse Vagrant finaliza o movimento e perde 3 Humanity. <br><br><b>Lembre-se:</b> Quando um Haint Breaks, pule a próxima ação do Haint e todos os Vagrants ganham 1 Humanity. Os Turned Faces também têm o efeito quando Break que permite que os Vagrants realizem Rummage 1 se escolherem.</p>"
     },
     {
       "title": "Evento 8",
@@ -40,28 +58,11 @@
     },
     {
       "title": "Evento 9",
-      "description": "<p>As mãos dele te alcançam, dedos esticados se curvando em punhos cerrados. O metal do trem estica e boceja. Todos os Vagrants no mesmo vagão que os Turned Faces ganham <b>Spooked (⚇)</b>. Então adicione o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>9</span> de volta no Bindle.</p>"
+      "description": "<p>As mãos dele te alcançam, dedos esticados se curvando em punhos cerrados. O metal do trem estica e boceja. Todos os Vagrants no mesmo vagão que os Turned Faces ganham <b>Spooked (O)</b>. Então adicione o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>9</span> de volta no Bindle.</p>"
     },
     {
       "title": "Evento 0",
       "description": "<p>As vigas de madeira que formam as paredes do vagão começam a se mover e deslizar para fora, criando janelas improvisadas nas paredes. Mas em vez de ver a paisagem ou um pátio de trem do lado de fora, tudo o que você vê são rostos azuis brilhantes, sorrindo. A partir de agora até o final do cenário, o primeiro Vagrant a realizar uma ação de turno perde 4 Humanity. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p>Não há Regras Especiais para este cenário. <br><b>Lembre-se:</b> 'Losing Humanity' é diferente para Haints e Vagrants (pg. 12).</p>"
-    },
-    {
-      "terrainEffects": "<p>Não há Efeitos de Terreno especiais para este cenário. Lembre-se que Haints podem se mover pelo Terreno, mas Vagrants não podem (pg. 12).</p>"
-    },
-    {
-      "haintEffects": "<p><b>The Shakes (⬤):</b> Reduza seu valor de Move em 1. Para remover The Shakes, descarte um Iron Nail.<br /><b>Spooked (⚇):</b> Se você terminar seu turno em Range 2 dos Turned Faces, perca 2 Humanity. Para remover Spooked, descarte Salt.</p><br /><p><b>Lembre-se:</b> Efeitos de Haint são adicionados aos Vagrants periodicamente ao longo do cenário (pg. 22).</p>"
-    },
-    {
-      "breaks": "<p>Quando os Turned Faces sofrem um Break, cada Vagrant pode fazer um Rummage 1. <br> <b>Lembre-se:</b> Sempre que um Haint sofre um Break, a próxima vez que um Haint agiria é pulada e todos os Vagrants ganham 1 Humanity. O efeito acima é exclusivo dos Turned Faces.</p>"
-    },
-    {
-      "victory": "<p>Salve os Turned Faces. <br><b>Lembre-se:</b> Para salvar os Turned Faces, devolva a eles toda a Humanity perdida até que não tenham mais Breaks.</p>"
     }
   ]
 }

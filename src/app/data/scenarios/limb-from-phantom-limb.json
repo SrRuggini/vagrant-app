@@ -1,11 +1,31 @@
 {
   "key": 79,
   "title": "Limb from Phantom Limb",
-  "storyName": "And Not a Hand to Hold",
-  "storyDescription": "<p>Não demora muito para você perceber que algo está muito errado aqui. Os pelos da parte de trás do seu pescoço estão todos arrepiados... Formando um suor frio.</p> <p>Não seria a primeira vez que você se encontraria em um vagão escuro, acompanhado por algum fantasma errante. Esses Haints eram pessoas uma vez, pelo menos é isso que você tem dito a si mesmo, mas isso... isso é diferente. O que quer que esteja espreitando lá fora no além não deveria existir. E você não consegue explicar por que tem tanta certeza.</p> <p>Uma mão toca seu ombro... um amigo para acalmar seus nervos. É bom saber que você não está sozinho.</p> <p>Mas está fria. E a mão é pesada. Virar-se para seus companheiros não ajuda em nada. Cada um deles tem uma mão no ombro. E cada mão está presa a um braço de espaguete, levando a alguns vagões à frente.</p> <p>Dois olhos brilhantes sob uma longa capa esvoaçante. E sob isso...</p>",
-  "Breaks": "<p>Each time the Man of Many Limbs Breaks, place 2 Blood Pools in open spaces in Range 3 of the Man of Many Limbs.</p>",
-  "Seance": "<p>Discard the Séance card after the Man of Many Limbs draws a Rummage Token for an Action to ignore that Action’s effects.</p>",
-  "haintImg": "man-of-many-limbs.jpg",
+  "story": {
+    "title": "And Not a Hand to Hold",
+    "description": "<p>Não demora muito para você perceber que algo está muito errado aqui. Os pelos da parte de trás do seu pescoço estão todos arrepiados... Formando um suor frio.</p> <p>Não seria a primeira vez que você se encontraria em um vagão escuro, acompanhado por algum fantasma errante. Esses Haints eram pessoas uma vez, pelo menos é isso que você tem dito a si mesmo, mas isso... isso é diferente. O que quer que esteja espreitando lá fora no além não deveria existir. E você não consegue explicar por que tem tanta certeza.</p> <p>Uma mão toca seu ombro... um amigo para acalmar seus nervos. É bom saber que você não está sozinho.</p> <p>Mas está fria. E a mão é pesada. Virar-se para seus companheiros não ajuda em nada. Cada um deles tem uma mão no ombro. E cada mão está presa a um braço de espaguete, levando a alguns vagões à frente.</p> <p>Dois olhos brilhantes sob uma longa capa esvoaçante. E sob isso...</p>",
+    "image": "man-of-many-limbs.jpg"
+  },
+  "rules": [
+    {
+      "specialRules": "<p>Remember: if a Haint loses Humanity, their Humanity Token moves toward 0 and not toward their Humanity Threshold.</p>"
+    },
+    {
+      "terrainEffects": "<p><b>Blood Pools:</b> Characters may Move onto Blood Pools. If they do, they lose 1 Humanity.</p>"
+    },
+    {
+      "haintEffects": "<p><b>The Willies (⬤):</b> You cannot place more than 1 Coin on any Action or Skill. At the end of your turn, remove The Willies.</p> <p><b>Bleeding (O):</b> When you place a Coin on Move, lose 1 Humanity (losing 1 Humanity for each Coin). At the end of your turn, if you successfully performed Patch Up, remove Bleeding.</p>"
+    },
+    {
+      "seance": "<p>Discard the Séance card after the Man of Many Limbs draws a Rummage Token for an Action to ignore that Action’s effects.</p>"
+    },
+    {
+      "breaks": "<p>Each time the Man of Many Limbs Breaks, place 2 Blood Pools in open spaces in Range 3 of the Man of Many Limbs.</p>"
+    },
+    {
+      "victory": "<p>Save the Man of Many Limbs.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1",
@@ -42,20 +62,6 @@
     {
       "title": "Evento 0",
       "description": "<p>O <b>Man of Many Limbs</b> está começando a parecer muito mais com um peixe fora d'água. Ou como um cemitério inteiro de corpos que estão começando a acordar, e todos estão muito perto para conforto. Diminua o Limite de <b>Humanity</b> do <b>Man of Many Limbs</b> pela metade. Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p>Remember: if a Haint loses Humanity, their Humanity Token moves toward 0 and not toward their Humanity Threshold.</p>"
-    },
-    {
-      "terrainEffects": "<p><b>Blood Pools:</b> Characters may Move onto Blood Pools. If they do, they lose 1 Humanity.</p>"
-    },
-    {
-      "haintEffects": "<p><b>The Willies (⬤):</b> You cannot place more than 1 Coin on any Action or Skill. At the end of your turn, remove The Willies.</p> <p><b>Bleeding (O):</b> When you place a Coin on Move, lose 1 Humanity (losing 1 Humanity for each Coin). At the end of your turn, if you successfully performed Patch Up, remove Bleeding.</p>"
-    },
-    {
-      "victory": "<p>Save the Man of Many Limbs.</p>"
     }
   ]
 }

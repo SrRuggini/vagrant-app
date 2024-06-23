@@ -1,12 +1,25 @@
 {
   "key": 5,
   "title": "Black & Blue",
-  "storyName": "Frozen Without an Answer",
-  "storyDescription": "<p>Penas no chão e uma canção distante, uma melodia antiga de minerador, dão-lhe as boas-vindas. Não ecoa muito, e quanto mais você anda, mais ela se dissipa e mais triste ela fica. <br/><br/>Não há muito para ver, e a luz fraca não está ajudando. Algumas caixas bloqueiam seu caminho. Isso é o máximo que você pode ver. Mas há algo no chão difícil de descrever. Escuro e pegajoso... brilha como um lago... melaço derramado ou talvez xarope de milho.<br/>Antes mesmo de pensar em se ajoelhar para dar uma olhada, aquelas penas começam a se levantar, e aquele lago começa a subir com elas.<br/>Você sente o cheiro de carvão no ar. E fumaça. E ferro. Tanto ferro.<br/>Aquela antiga melodia de mineiro não soa muito como a que você lembra. Uma melodia mais apropriada para uma canção de amor, como aquela sobre perda, arrependimentos, e os 'você tinha razão' e os 'eu estava errado'. Aquela sobre desejar que as coisas tivessem terminado de forma diferente. E quanto mais ela se dissipa, mais triste ela fica.</p>",
-  "haintImg": "haint-black-bird.jpg",
-  "haintEffects": "",
-  "breaks": "",
-  "seance": "<p>A qualquer momento, os Vagrants podem descartar a carta de Séance para reduzir a <b>Flood Height</b> de qualquer um dos vagões em 2.</p>",
+  "story": {
+    "title": "Frozen Without an Answer",
+    "description": "<p>Penas no chão e uma canção distante, uma melodia antiga de minerador, dão-lhe as boas-vindas. Não ecoa muito, e quanto mais você anda, mais ela se dissipa e mais triste ela fica. <br/><br/>Não há muito para ver, e a luz fraca não está ajudando. Algumas caixas bloqueiam seu caminho. Isso é o máximo que você pode ver. Mas há algo no chão difícil de descrever. Escuro e pegajoso... brilha como um lago... melaço derramado ou talvez xarope de milho.<br/>Antes mesmo de pensar em se ajoelhar para dar uma olhada, aquelas penas começam a se levantar, e aquele lago começa a subir com elas.<br/>Você sente o cheiro de carvão no ar. E fumaça. E ferro. Tanto ferro.<br/>Aquela antiga melodia de mineiro não soa muito como a que você lembra. Uma melodia mais apropriada para uma canção de amor, como aquela sobre perda, arrependimentos, e os 'você tinha razão' e os 'eu estava errado'. Aquela sobre desejar que as coisas tivessem terminado de forma diferente. E quanto mais ela se dissipa, mais triste ela fica.</p>",
+    "image": "black-bird.jpg"
+  },
+  "rules": [
+    {
+      "specialRules": "<ul><li>Tokens de Efeito de Haint medem a <b>Flood Height</b> para cada vagão.</li><li>Flood Height: Os vagões A e C têm uma <b>Flood Height</b> que aumenta e diminui com vários efeitos durante o cenário. A <b>Flood Height</b> de um vagão é medido através das trilhas de Round e Break (Rounds para o vagão A e Breaks para o vagão C). Vagrants que começam seu turno nos vagões A ou C perdem Humanity igual à <b>Flood Height</b> daquele vagão.</li><li>Após um Vagrant sofrer um Wound, aumente a <b>Flood Height</b> do vagão em que ele está em 1.</li></ul>"
+    },
+    {
+      "terrainEffects": "<p><b>Blood Pools:</b> Vagrants podem se mover para o terreno de Blood Pool durante este cenário. <br>Quando um Vagrant realiza <b>Patch Up</b> (Ação básica de cura) enquanto está em um Blood Pool, ele pode reduzir o valor da Flood Height do seu vagão pelo número de sucessos que ele rolou (além de ganhar Humanity).</p>"
+    },
+    {
+      "seance": "<p>A qualquer momento, os Vagrants podem descartar a carta de Séance para reduzir a <b>Flood Height</b> de qualquer um dos vagões em 2.</p>"
+    },
+    {
+      "victory": "<p>Salve a Black Bird. Durante a Camp Phase (antes de ler o cartão In-Between), se você tiver ambos os Mile Posts <b>To Be Free</b> e <b>Float On</b>, leia o <b>Moment 80</b>.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1 & 2",
@@ -43,17 +56,6 @@
     {
       "title": "Evento 0",
       "description": "<p>Duas botas de borracha longas... Waders, realmente? Quem está pescando aqui embaixo? Mantenha o Token de Evento. Trate-o como um Token de Rummage para qualquer efeito. Enquanto você tiver os Waders, reduza a quantidade de Humanidade perdida pela <b>Flood Height</b> em 1. Se você estiver em ou adjacente a uma Poça de Sangue, você pode descartar o Token de Evento para reduzir a <b>Flood Height</b> daquele vagão do trem em 1.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<ul><li>Tokens de Efeito de Haint medem a <b>Flood Height</b> para cada vagão.</li><li>Flood Height: Os vagões A e C têm uma <b>Flood Height</b> que aumenta e diminui com vários efeitos durante o cenário. A <b>Flood Height</b> de um vagão é medido através das trilhas de Round e Break (Rounds para o vagão A e Breaks para o vagão C). Vagrants que começam seu turno nos vagões A ou C perdem Humanity igual à <b>Flood Height</b> daquele vagão.</li><li>Após um Vagrant sofrer um Wound, aumente a <b>Flood Height</b> do vagão em que ele está em 1.</li></ul>"
-    },
-    {
-      "terrainEffects": "<p><b>Blood Pools:</b> Vagrants podem se mover para o terreno de Blood Pool durante este cenário. <br>Quando um Vagrant realiza <b>Patch Up</b> (Ação básica de cura) enquanto está em um Blood Pool, ele pode reduzir o valor da Flood Height do seu vagão pelo número de sucessos que ele rolou (além de ganhar Humanity).</p>"
-    },
-    {
-      "victory": "<p>Salve a Black Bird. Durante a Camp Phase (antes de ler o cartão In-Between), se você tiver ambos os Mile Posts <b>To Be Free</b> e <b>Float On</b>, leia o <b>Moment 80</b>.</p>"
     }
   ]
 }

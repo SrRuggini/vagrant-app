@@ -1,0 +1,44 @@
+.Header {
+  margin: 0 -15px 16px;
+}
+
+.Header__Fixed {
+  animation: slideDown .3s ease-in-out;
+  background-color: #130e12;
+  position: sticky;
+  top: 0;
+}
+
+.Header__Container {
+  display: flex;
+  max-width: 560px;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  transition: all .3s ease;
+  padding: 16px;
+}
+
+.Header__MenuButton,
+.Header__BackButton {
+  border: solid 2px rgb(233 224 207 / 19%);
+  border-radius: 50%;
+  color: #e9e0cf;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

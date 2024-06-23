@@ -1,12 +1,28 @@
 {
   "key": 71,
   "title": "Set in Stone",
-  "storyName": "Monuments to the Witching Hour",
-  "storyDescription": "<p>Monumentos para a Hora da Bruxaria <br><br> A primeira coisa que chama sua atenção aqui são todas as estátuas desmoronando. Cada uma delas é da mesma coisa - uma mulher chorando, coberta por mantos de pedra. <br><br> Elas parecem ter sido retiradas de um cemitério, lápides para a mesma pessoa. Ou talvez um grupo de pessoas... não dá para evitar pensar que elas fizeram algo errado. Ou foram injustiçadas. <br><br> Difícil afastar essa sensação. <br><br> Assim que você dá outro passo, uma delas se ilumina como uma árvore de Natal. Olhos azuis brilhantes, flores, rachaduras e lágrimas... <br><br> Há algo - ou alguém - debaixo de toda aquela pedra. Como isso aconteceu não é importante agora. A questão é se elas querem ser libertadas. <br><br> Ou talvez estejam buscando vingança contra aqueles que fizeram isso. Pergunto-me se estariam dispostas a conversar sobre isso. Provavelmente não.</p>",
-  "breaks": "",
-  "seance": "<p>A qualquer momento durante o Cenário, Vagrants podem descartar a carta de Séance para remover todos os Buracos de um vagão do trem.</p>",
-  "defeat": "",
-  "haintImg": "haint-lady-in-limestone.jpg",
+  "story": {
+    "title": "Monuments to the Witching Hour",
+    "description": "<p>Monumentos para a Hora da Bruxaria <br><br> A primeira coisa que chama sua atenção aqui são todas as estátuas desmoronando. Cada uma delas é da mesma coisa - uma mulher chorando, coberta por mantos de pedra. <br><br> Elas parecem ter sido retiradas de um cemitério, lápides para a mesma pessoa. Ou talvez um grupo de pessoas... não dá para evitar pensar que elas fizeram algo errado. Ou foram injustiçadas. <br><br> Difícil afastar essa sensação. <br><br> Assim que você dá outro passo, uma delas se ilumina como uma árvore de Natal. Olhos azuis brilhantes, flores, rachaduras e lágrimas... <br><br> Há algo - ou alguém - debaixo de toda aquela pedra. Como isso aconteceu não é importante agora. A questão é se elas querem ser libertadas. <br><br> Ou talvez estejam buscando vingança contra aqueles que fizeram isso. Pergunto-me se estariam dispostas a conversar sobre isso. Provavelmente não.</p>",
+    "image": "lady-in-limestone.jpg"
+  },
+  "rules": [
+    {
+      "specialRules": "<ul><li>Quando você colocaria o 5º Token de <b>Cleansed</b>, leia o Evento 0 em vez disso.</li><li>Quando a Lady in Limestone seria colocada nos Debris, um Vagrant pode descartar uma Vela para, em vez disso, colocar a Lady in Limestone nos Debris mais próximos deles. Se o fizerem, a Lady in Limestone não pode ser colocada em um Escombro diferente pelo resto da rodada.</li></ul>"
+    },
+    {
+      "terrainEffects": "<p><b>Buracos:</b> Vagrants podem entrar em espaços contendo Terreno de Buraco. Se o fizerem, role um número de Ossos igual ao seu valor de Movimento. Se algum resultado for 5+, nada acontece. Caso contrário, aquele Movimento termina e eles perdem 2 de Humanidade.</p><p>Se um Buraco seria adicionado mas não pode ser (devido a todos os Buracos estarem no tabuleiro do trem), então remova um Buraco que esteja mais distante de todos os Vagrants e use esse em vez disso.</p><p>Buracos podem se mover para Terreno. Se terminarem um Movimento em Terreno, Vagrants não podem se mover para aquele espaço. Após a Ação ser resolvida, se um Buraco se mover para um espaço ocupado por outro Buraco, remova todos menos um desses Buracos do tabuleiro do trem.</p>"
+    },
+    {
+      "haintEffects": "<p><b><b>Cleansed</b>:</b> Esses Tokens são usados para medir um efeito para a Lady in Limestone, e são colocados nos Debris.</p><p><b>Luck o' the Lady:</b> Sempre que você rolar um 1 de qualquer Ação ou Skill, perca 2 de Humanidade. Você pode descartar uma Pata de Coelho para remover Luck o' the Lady.</p>"
+    },
+    {
+      "seance": "<p>A qualquer momento durante o Cenário, Vagrants podem descartar a carta de Séance para remover todos os Buracos de um vagão do trem.</p>"
+    },
+    {
+      "victory": "<p>Salve a Lady in Limestone.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1",
@@ -51,20 +67,6 @@
     {
       "title": "Shovel Event",
       "description": "<p>Algo parece errado com o que você está fazendo. Não parece muito com limpar - mais como destruir. A Lady in Limestone perde 2 Humanity (<b>Perceba:</b> não ganha!). Você perde 2 de Humanity. Você pode usar o Event Token mais de uma vez. Se o fizer, ganhe o Wrecking Ball Mile Post e descarte o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<ul><li>Quando você colocaria o 5º Token de <b>Cleansed</b>, leia o Evento 0 em vez disso.</li><li>Quando a Lady in Limestone seria colocada nos Debris, um Vagrant pode descartar uma Vela para, em vez disso, colocar a Lady in Limestone nos Debris mais próximos deles. Se o fizerem, a Lady in Limestone não pode ser colocada em um Escombro diferente pelo resto da rodada.</li></ul>"
-    },
-    {
-      "terrainEffects": "<p><b>Buracos:</b> Vagrants podem entrar em espaços contendo Terreno de Buraco. Se o fizerem, role um número de Ossos igual ao seu valor de Movimento. Se algum resultado for 5+, nada acontece. Caso contrário, aquele Movimento termina e eles perdem 2 de Humanidade.</p><p>Se um Buraco seria adicionado mas não pode ser (devido a todos os Buracos estarem no tabuleiro do trem), então remova um Buraco que esteja mais distante de todos os Vagrants e use esse em vez disso.</p><p>Buracos podem se mover para Terreno. Se terminarem um Movimento em Terreno, Vagrants não podem se mover para aquele espaço. Após a Ação ser resolvida, se um Buraco se mover para um espaço ocupado por outro Buraco, remova todos menos um desses Buracos do tabuleiro do trem.</p>"
-    },
-    {
-      "haintEffects": "<p><b><b>Cleansed</b>:</b> Esses Tokens são usados para medir um efeito para a Lady in Limestone, e são colocados nos Debris.</p><p><b>Luck o' the Lady:</b> Sempre que você rolar um 1 de qualquer Ação ou Skill, perca 2 de Humanidade. Você pode descartar uma Pata de Coelho para remover Luck o' the Lady.</p>"
-    },
-    {
-      "victory": "<p>Salve a Lady in Limestone.</p>"
     }
   ]
 }

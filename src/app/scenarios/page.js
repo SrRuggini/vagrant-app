@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import Header from '/src/app/components/header';
 import styles from '/src/app/styles/scenarios.module.css';
 import { importJsonByName } from '/src/app/utils/importJson';
 
@@ -9,18 +9,9 @@ export default async function Home() {
 
     return (
         <>
+            <Header inner={true} />
             <main className={styles.main}>
                 <div className="container">
-                    <div className="Logo">
-                        <Link href={'/'}>
-                            <Image
-                                src="/logotipo.png"
-                                width={265}
-                                height={45}
-                                alt="Vagrantsong"
-                            />
-                        </Link>
-                    </div>
                     <h1 className={styles.PageTitle}>Cenários</h1>
 
                     <div className="content-wrap">

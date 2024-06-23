@@ -1,10 +1,28 @@
 {
   "key": 53,
   "title": "Fire on the Mountain",
-  "storyName": "Fan the Flames",
-  "storyDescription": "<p>Assim que a porta explode, você é atingido no rosto com um manto de calor ardente.</p><p>Parece uma maldita sauna aqui dentro. Passe muito tempo e você pode suar cada gota de sangue que resta.</p><p>Assim que começa a ficar difícil de respirar, seu fôlego é levado pelo grito estridente de um apito. O vento que o acompanha é como uma brisa fresca em um dia quente de verão.</p><p>Há uma bagunça borbulhante de metal e lama não muito à frente, e ver aqueles rostos sorridentes dentro dela o tira de seu devaneio rapidamente.</p><p>“Oh!” um canta, tirando o chapéu. “Ho, oh!”</p><p>“Mais carvão!” diz o homem do meio no ritmo, sorrindo e batendo o pé. “Mais fogo! Mais carvão!”</p><p>O último não diz nada. Apenas continua olhando para o cronômetro com uma expressão preocupada no rosto.</p>",
-  "seance": "<p>Você pode descartar a carta <b>Séance</b> para mudar o <b>Mood</b> dos Boilermen (os <b>Vagrants</b> escolhem o <b>Mood</b>). Quando você descarta a carta <b>Séance</b>, todos os <b>Vagrants</b> ganham 3 de <b>Humanity</b>.</p>",
-  "Breaks": "<p>Cada vez que os Boilermen <b>Break</b>, leia o <b>Break Event</b>.</p>",
+  "story": {
+    "title": "Fan the Flames",
+    "description": "<p>Assim que a porta explode, você é atingido no rosto com um manto de calor ardente.</p><p>Parece uma maldita sauna aqui dentro. Passe muito tempo e você pode suar cada gota de sangue que resta.</p><p>Assim que começa a ficar difícil de respirar, seu fôlego é levado pelo grito estridente de um apito. O vento que o acompanha é como uma brisa fresca em um dia quente de verão.</p><p>Há uma bagunça borbulhante de metal e lama não muito à frente, e ver aqueles rostos sorridentes dentro dela o tira de seu devaneio rapidamente.</p><p>“Oh!” um canta, tirando o chapéu. “Ho, oh!”</p><p>“Mais carvão!” diz o homem do meio no ritmo, sorrindo e batendo o pé. “Mais fogo! Mais carvão!”</p><p>O último não diz nada. Apenas continua olhando para o cronômetro com uma expressão preocupada no rosto.</p>",
+    "image": "the-boilerman.jpg"
+  },
+  "rules": [
+    {
+      "specialRules": "<p>Os Boilermen têm 3 Moods, todos compartilhando Efeitos Especiais, <b>Cycle Effects</b>, <b>Haunted Effects</b> e Ações para o Pé de Coelho e Maçã.</p>"
+    },
+    {
+      "haintEffects": "<p><b>Burning (⬤):</b> No início do seu turno, perca 2 de <b>Humanity</b>. Para remover <b>Burning</b>, descarte <b>Salt</b>.</p><p><b>Second Skin (O):</b> Se você fosse ganhar <b>Burning</b>, mas tem <b>Second Skin</b>, ignore <b>Burning</b> e então remova <b>Second Skin</b>.</p><p><b>Nota:</b> Se um <b>Vagrant</b> tem <b>Burning</b> e então ganha <b>Second Skin</b>, ele ainda terá <b>Burning</b>.</p>"
+    },
+    {
+      "seance": "<p>Você pode descartar a carta <b>Séance</b> para mudar o <b>Mood</b> dos Boilermen (os <b>Vagrants</b> escolhem o <b>Mood</b>). Quando você descarta a carta <b>Séance</b>, todos os <b>Vagrants</b> ganham 3 de <b>Humanity</b>.</p>"
+    },
+    {
+      "breaks": "<p>Cada vez que os Boilermen <b>Break</b>, leia o <b>Break Event</b>.</p>"
+    },
+    {
+      "victory": "<p>Salve os Boilermen.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Break Event (The First Time)",
@@ -65,17 +83,6 @@
     {
       "title": "Evento 0",
       "description": "<p>Isso é estranho, mas provavelmente útil... talvez? Há alguns tubos de caldeira quebrados espalhados pelo chão. Mantenha o Token de Evento. Trate-o como um Token de <b>Rummage</b> em todos os aspectos. Quando você ganhar <b>Burning (⬤)</b>, você pode descartar o Token de Evento para ter um <b>Haint</b> adjacente ganhar 4 <b>Humanity</b>. A menos que você tenha <b>Second Skin (O)</b>, você ainda ganha <b>Burning (⬤)</b> de um efeito.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p>Os Boilermen têm 3 Moods, todos compartilhando Efeitos Especiais, <b>Cycle Effects</b>, <b>Haunted Effects</b> e Ações para o Pé de Coelho e Maçã.</p>"
-    },
-    {
-      "haintEffects": "<p><b>Burning (⬤):</b> No início do seu turno, perca 2 de <b>Humanity</b>. Para remover <b>Burning</b>, descarte <b>Salt</b>.</p><p><b>Second Skin (O):</b> Se você fosse ganhar <b>Burning</b>, mas tem <b>Second Skin</b>, ignore <b>Burning</b> e então remova <b>Second Skin</b>.</p><p><b>Nota:</b> Se um <b>Vagrant</b> tem <b>Burning</b> e então ganha <b>Second Skin</b>, ele ainda terá <b>Burning</b>.</p>"
-    },
-    {
-      "victory": "<p>Salve os Boilermen.</p>"
     }
   ]
 }

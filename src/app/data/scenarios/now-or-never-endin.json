@@ -1,12 +1,22 @@
 {
   "key": 97,
   "title": "Now or Never Endin'",
-  "storyName": "How's it Gonna End?",
-  "storyDescription": "<p>Como Isso Vai Acabar? <br><br> É isso. O confronto final. O último hurra. O canto do cisne e o epílogo... Neste ponto, o que mais resta a dizer? <br><br> Ele ainda não terminou com você. Há mais músicas para tocar. Histórias para contar. Almas para roubar... Quanto mais disso você pode aguentar antes que seu próprio espírito ceda e desista? <br><br> Você está morrendo de vontade de deixar este trem, voltar a uma vida normal e esquecer tudo o que viu aqui. Embora, tudo isso pareça outro sonho completamente diferente. De agora em diante, este lugar e essas pessoas... tudo isso agora faz parte de você, não importa o que está prestes a acontecer. <br><br> Falando nisso, aquele saco de ossos entra com uma canção de despedida, como se fosse um bis que ninguém pediu. A magia nessa música é forte o suficiente para puxar algumas daquelas almas remanescentes de volta para uma última dança. <br><br> Sabe, quando tudo estiver dito e feito, vai ser muito bom ter um pouco de paz e silêncio. Silêncio no rádio. Nada de mais violinos. Nada de mais músicas. Bem... pelo menos por um tempo. <br><br> É isso. Uma noite tranquila sob as estrelas, ao lado de uma fogueira quente, contando histórias de fantasmas com alguns amigos próximos... <br><br> Agora isso vale a pena lutar por.</p>",
-  "terrainEffects": "",
-  "breaks": "",
-  "seance": "",
-  "defeat": "",
+  "story": {
+    "title": "How's it Gonna End?",
+    "description": "<p>Como Isso Vai Acabar? <br><br> É isso. O confronto final. O último hurra. O canto do cisne e o epílogo... Neste ponto, o que mais resta a dizer? <br><br> Ele ainda não terminou com você. Há mais músicas para tocar. Histórias para contar. Almas para roubar... Quanto mais disso você pode aguentar antes que seu próprio espírito ceda e desista? <br><br> Você está morrendo de vontade de deixar este trem, voltar a uma vida normal e esquecer tudo o que viu aqui. Embora, tudo isso pareça outro sonho completamente diferente. De agora em diante, este lugar e essas pessoas... tudo isso agora faz parte de você, não importa o que está prestes a acontecer. <br><br> Falando nisso, aquele saco de ossos entra com uma canção de despedida, como se fosse um bis que ninguém pediu. A magia nessa música é forte o suficiente para puxar algumas daquelas almas remanescentes de volta para uma última dança. <br><br> Sabe, quando tudo estiver dito e feito, vai ser muito bom ter um pouco de paz e silêncio. Silêncio no rádio. Nada de mais violinos. Nada de mais músicas. Bem... pelo menos por um tempo. <br><br> É isso. Uma noite tranquila sob as estrelas, ao lado de uma fogueira quente, contando histórias de fantasmas com alguns amigos próximos... <br><br> Agora isso vale a pena lutar por.</p>",
+    "image": ""
+  },
+  "rules": [
+    {
+      "specialRules": "<ul><li>Além de seus efeitos normais, durante este Cenário, cada Rummage Token tem regras modificadas:</li><li><b>Prego:</b> Quando um Vagrant usa um Iron Nail, ele rola 1 Bone. Se o resultado for 5+, o Haint não ganha Humanity.</li><li><b>Vela:</b> Quando um Haint se move para uma Vela, eles realizam a ação da Vela de seu humor atual após a ação atual.</li><li><b>Sal:</b> Se o Sal for usado em uma ação que faz o Vagrant perder 4 ou mais Humanity, o Sal só impede a perda de 3 da Humanity.</li><li><b>Pé de Coelho:</b> Se um Pé de Coelho for usado enquanto adjacente a um Haint, o Haint perde 2 Humanity.</li><li><b>Maçã:</b> Quando uma Maçã é usada, aquele Vagrant ganha Prioridade de Alvo Especial para as próximas 3 ações do Haint.</li><li>Quando o Cycle Effect ocorre, remova apenas os Rummage Tokens do mesmo tipo que desencadearam o Cycle Effect. Por exemplo, se houver 4 Iron Nails e 3 Velas quando um quinto Iron Nail é colocado na Cycle Track (desencadeando o Cycle Effect), remova apenas esses Iron Nails da Cycle Track.</li><li>Lost Souls não podem ganhar Humanity. Em vez disso, se uma Lost Soul ganharia Humanity, Vagrants podem movê-la um número de espaços igual à Humanity que ela ganharia do efeito (na(s) direção(ões) escolhida(s) pelo jogador). Vagrants Haunted por Lost Souls perdem 1 Humanity.</li><li><b>Retornando do Westbound:</b> Se todos os Vagrants se tornarem Westbound, em vez de terminar o cenário e ler o Momento 13, os Vagrants devem marcar uma de suas caixas de Revive na página 41 do livro de regras (ignorando qualquer Momento que seria lido). Então, todos os Vagrants Westbound viram sua carta para o lado normal e curam todas as feridas e consertam todos os Junk quebrados. Se os Vagrants não puderem marcar uma caixa de Revive (porque todas as quatro já estão marcadas), o cenário termina e os jogadores leem o Momento 76.</li></ul>"
+    },
+    {
+      "haintEffects": "<p>Haint Effect e In-Between Tokens são tratados como Event Tokens para este cenário (Evento Branco, Evento Preto e Evento Cinza). Esses Tokens no tabuleiro do trem podem ser investigados.</p>"
+    },
+    {
+      "victory": "<p>Salve o Skelly Man. Quando ele recuperar toda a sua Humanity perdida, leia o Momento 85. Ao ser derrotado, leia o Momento 76.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1 (na Break Track)",
@@ -39,17 +49,6 @@
     {
       "title": "Evento 5 (na Break Track)",
       "description": "<p>A última alma errante desaparece, e com ela, qualquer luz persistente. Nesta escuridão, parece que tudo se foi para sempre. Parece que o trem sente o mesmo. Outro vagão se desfaz em pó. O Skelly Man cai de joelhos ossudos, murmurando uma batida quebrada só para segurar as lágrimas. Ele sabe o que vem a seguir, mas não está disposto a admitir. Você conhece aquela sensação de congelamento quando alguém está atrás de você? Você se trava. Algo está se aproximando. Você precisa decidir: salvar o Skelly Man sozinho ou deixar o passado dele alcançá-lo.<br/><br/>O vagão do trem que o Skelly Man não está ocupando atualmente não é mais considerado em jogo (personagens não podem mais se mover para aquele vagão). Vagrants naquele vagão são temporariamente removidos do jogo e são colocados em qualquer espaço aberto no último vagão disponível. Reduza o Limiar de Humanidade do Skelly Man para 5. Coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> na Round Track, duas rodadas à frente da rodada atual.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<ul><li>Além de seus efeitos normais, durante este Cenário, cada Rummage Token tem regras modificadas:</li><li><b>Prego:</b> Quando um Vagrant usa um Iron Nail, ele rola 1 Bone. Se o resultado for 5+, o Haint não ganha Humanity.</li><li><b>Vela:</b> Quando um Haint se move para uma Vela, eles realizam a ação da Vela de seu humor atual após a ação atual.</li><li><b>Sal:</b> Se o Sal for usado em uma ação que faz o Vagrant perder 4 ou mais Humanity, o Sal só impede a perda de 3 da Humanity.</li><li><b>Pé de Coelho:</b> Se um Pé de Coelho for usado enquanto adjacente a um Haint, o Haint perde 2 Humanity.</li><li><b>Maçã:</b> Quando uma Maçã é usada, aquele Vagrant ganha Prioridade de Alvo Especial para as próximas 3 ações do Haint.</li><li>Quando o Cycle Effect ocorre, remova apenas os Rummage Tokens do mesmo tipo que desencadearam o Cycle Effect. Por exemplo, se houver 4 Iron Nails e 3 Velas quando um quinto Iron Nail é colocado na Cycle Track (desencadeando o Cycle Effect), remova apenas esses Iron Nails da Cycle Track.</li><li>Lost Souls não podem ganhar Humanity. Em vez disso, se uma Lost Soul ganharia Humanity, Vagrants podem movê-la um número de espaços igual à Humanity que ela ganharia do efeito (na(s) direção(ões) escolhida(s) pelo jogador). Vagrants Haunted por Lost Souls perdem 1 Humanity.</li><li><b>Retornando do Westbound:</b> Se todos os Vagrants se tornarem Westbound, em vez de terminar o cenário e ler o Momento 13, os Vagrants devem marcar uma de suas caixas de Revive na página 41 do livro de regras (ignorando qualquer Momento que seria lido). Então, todos os Vagrants Westbound viram sua carta para o lado normal e curam todas as feridas e consertam todos os Junk quebrados. Se os Vagrants não puderem marcar uma caixa de Revive (porque todas as quatro já estão marcadas), o cenário termina e os jogadores leem o Momento 76.</li></ul>"
-    },
-    {
-      "haintEffects": "<p>Haint Effect e In-Between Tokens são tratados como Event Tokens para este cenário (Evento Branco, Evento Preto e Evento Cinza). Esses Tokens no tabuleiro do trem podem ser investigados.</p>"
-    },
-    {
-      "victory": "<p>Salve o Skelly Man. Quando ele recuperar toda a sua Humanity perdida, leia o Momento 85. Ao ser derrotado, leia o Momento 76.</p>"
     }
   ]
 }

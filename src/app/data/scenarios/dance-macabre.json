@@ -1,9 +1,25 @@
 {
   "key": 57,
   "title": "Dance Macabre",
-  "storyName": "In the Moonlight",
-  "storyDescription": "<p>Os pisos de madeira brilham como diamantes encerados, quase cegando você ao entrar. É quase uma pena que seus sapatos trouxeram a sujeira dos vagões antes.</p><p>Antes de se incomodar em se limpar, você é cercado pelo leve eco de aplausos ao seu redor. Parece que você é a estrela deste show.</p><p>Aquelas lâmpadas incandescentes brilhando acima de você começam a diminuir, e uma forma surge na escuridão.</p><p>Então aquele violino familiar começa a tocar, apenas o ritmo e a melodia lembram mais uma casa de ópera do que uma jamboree.</p><p>O desajustado com chifres em um smoking sorri algo largo e sinistro, depois faz uma reverência em sua direção, convidando-o a se juntar a ele.</p><p>Está bem, então. Vamos dançar.</p>",
-  "seance": "<p>Descarte a carta <b>Séance</b> no início de uma rodada para ignorar quaisquer efeitos de Movimento (não incluindo o Do-si-do Dip) durante essa rodada.</p>",
+  "story": {
+    "title": "In the Moonlight",
+    "description": "<p>Os pisos de madeira brilham como diamantes encerados, quase cegando você ao entrar. É quase uma pena que seus sapatos trouxeram a sujeira dos vagões antes.</p><p>Antes de se incomodar em se limpar, você é cercado pelo leve eco de aplausos ao seu redor. Parece que você é a estrela deste show.</p><p>Aquelas lâmpadas incandescentes brilhando acima de você começam a diminuir, e uma forma surge na escuridão.</p><p>Então aquele violino familiar começa a tocar, apenas o ritmo e a melodia lembram mais uma casa de ópera do que uma jamboree.</p><p>O desajustado com chifres em um smoking sorri algo largo e sinistro, depois faz uma reverência em sua direção, convidando-o a se juntar a ele.</p><p>Está bem, então. Vamos dançar.</p>",
+    "image": "the-13th-of-leeds.jpg"
+  },
+  "rules": [
+    {
+      "specialRules": "<p>Os efeitos de terreno são baseados em Momentos durante a primeira etapa da Configuração.</p>"
+    },
+    {
+      "haintEffects": "<p><b>Places (⬤):</b> Esses Tokens são usados apenas para um Ritual.</p><p><b>Dance Partner (O):</b> Torne-se a menor prioridade de alvo. Após você mover quando não é o seu turno, perca 1 de <b>Humanity</b>. Após o 13th of Leeds se mover, mova seu <b>Vagrant</b> para um espaço aberto adjacente ao 13th of Leeds. Quando o 13th of Leeds se mover para um espaço com uma <b>Candle</b>, remova <b>Dance Partner</b>.</p>"
+    },
+    {
+      "seance": "<p>Descarte a carta <b>Séance</b> no início de uma rodada para ignorar quaisquer efeitos de Movimento (não incluindo o Do-si-do Dip) durante essa rodada.</p>"
+    },
+    {
+      "victory": "<p>Salve o 13th of Leeds.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1",
@@ -48,17 +64,6 @@
     {
       "title": "Evento 0",
       "description": "<p>A música para, e um holofote brilha em você. Assim que todos olham em sua direção, o violino toca novamente, mas o holofote permanece. Todos os <b>Vagrants</b> com <b>Dance Partner (O)</b> perdem o efeito <b>Haint</b>. Você ganha 10 <b>Humanity</b> e prioridade de alvo especial até o final do seu próximo turno. Em seguida, descarte o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p>Os efeitos de terreno são baseados em Momentos durante a primeira etapa da Configuração.</p>"
-    },
-    {
-      "haintEffects": "<p><b>Places (⬤):</b> Esses Tokens são usados apenas para um Ritual.</p><p><b>Dance Partner (O):</b> Torne-se a menor prioridade de alvo. Após você mover quando não é o seu turno, perca 1 de <b>Humanity</b>. Após o 13th of Leeds se mover, mova seu <b>Vagrant</b> para um espaço aberto adjacente ao 13th of Leeds. Quando o 13th of Leeds se mover para um espaço com uma <b>Candle</b>, remova <b>Dance Partner</b>.</p>"
-    },
-    {
-      "victory": "<p>Salve o 13th of Leeds.</p>"
     }
   ]
 }

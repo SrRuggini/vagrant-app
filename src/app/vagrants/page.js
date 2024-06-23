@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import Header from '/src/app/components/header';
 import styles from '/src/app/styles/vagrants.module.css';
 import { importJsonByName } from '/src/app/utils/importJson';
 
@@ -9,18 +10,9 @@ export default async function Home() {
 
     return (
         <>
+            <Header inner={true} />
             <main className={styles.main}>
                 <div className="container">
-                    <div className="Logo">
-                        <Link href={'/'}>
-                            <Image
-                                src="/logotipo.png"
-                                width={265}
-                                height={45}
-                                alt="Vagrantsong"
-                            />
-                        </Link>
-                    </div>
                     <div className="content-wrap">
                         {data?.vagrants?.map((vagrant, index) => {
                             const { description, image, passive, passiveDescription, skills, playstyle } = vagrant;
@@ -30,7 +22,7 @@ export default async function Home() {
                                     key={`scenario-${index}`}
                                 >
                                     <Image className={styles.Vagrant__Image}
-                                        src={`/${image}`}
+                                        src={`/vagrants/${image}`}
                                         width={424}
                                         height={500}
                                         alt="Vagrantsong"

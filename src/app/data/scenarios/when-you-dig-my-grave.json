@@ -1,56 +1,60 @@
 {
   "key": 63,
   "title": "When You dig my Grave",
-  "storyName": "Make it Shallow",
-  "storyDescription": "<p>Uma brisa passa pelos vagões sacolejantes do trem e envia um arrepio pela sua espinha, como se alguém tivesse acabado de passar sobre seu túmulo. <br><br> Nada de incomum nisso - vagões de trem não são feitos para conforto... Mas não é a brisa que te deixa inquieto. <br><br> No vagão à frente... você vê a coisa mais estranha, uma árvore brotando diretamente do assoalho. Eles gemem e estalam enquanto o salgueiro sem folhas balança ao vento. Ramos pretos feios se desenrolam, agarrando, hipnotizantes... <br><br> As luzes piscam, deixando apenas você, a árvore e o vento na escuridão. E quando elas piscam de volta à vida, um velho cansado aparece bem no meio do vagão. A pá na qual ele está apoiado pode ser a maior que você já viu. <br><br> Se ele te notou, não deixou isso evidente. Apenas começou a cavar. <br><br> A brisa aumenta novamente, e uma nova voz a acompanha. Está trêmula, mas rítmica... <br><br> Oh, morte...</p>",
-  "haintImg": "haint-bookbinder.jpg",
-  "breaks": "",
-  "seance": "<p>Descarte a carta de Séance para que todos os Vagrants ignorem os efeitos de estar adjacente ao Whispering Willow<b></b> por uma rodada.</p>",
-  "victory": "",
-  "defeat": "",
-  "events": [
-    {
-      "title": "Event 1",
-      "description": "<p>The Bookbinder staggers back, shakin’ his head. His beard falls to the ground, and his skin looks like it’s about to follow. Somethin’ metal with a wooden handle falls from that long beard of his. There’s a forlorn look in his eye, starin’ up at that tree. And before he has the chance to reach you, the train jostles and jangles, and that axe slides into some dark corner. Outta sight. Place Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span> into the furthest corner of the train car that the Bookbinder is occupying. Then remove Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>1</span>.</p>"
-    },
-    {
-      "title": "Event 2",
-      "description": "<p>A thunderous crack rips through the floor of the train. That giant tree... it’s growin’. Those hanging branches lengthen and stretch down, and sickly, red leaves sprout and fall to the ground. The Whispering Willow<b></b> Moves 1 toward Round side edge. Until the end of the Scenario, at the end of each round, Vagrants in Range 2 of the Whispering Willow<b></b> lose 2 Humanity. This increased range effect replaces the previous Special Rule. Keep Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> on the Round Track. Increase the Range of this effect by 1 each time this Event is resolved.</p>"
-    },
-    {
-      "title": "Event 3",
-      "description": "<p>There’s somethin’ big in that grave. Hard to tell if it’s movin’. Investigate.<br/><br/><b>0:</b> Eh, it’s pretty deep. Hurts your back just thinkin’ about it. Keep Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> on the train board. Nothing happens.<br/><br/><b>1+:</b> Oh, a Body. Isn’t that nice. Looks a lot like the angry old man tryin’ to pulverize you with a shovel. Keep the Event Token. Treat it as a Rummage Token in every way. If you have the Body when you would Move (or be Moved by another effect), reduce the total number of spaces you would Move by 1 (for example: if you have a Move value of 3 and placed all 3 coins on your Move Action, only Move 8 instead of 9). The Body may be discarded if you are adjacent to the Coffin to complete the Ritual: Bury a Friend.</p>"
-    },
-    {
-      "title": "Event 4",
-      "description": "<p>Another burial site, dug deep. Somethin’ shinin’ down there. Investigate.<br/><br/><b>0:</b> Probably not a great idea to be steppin’ in someone else’s grave. Keep Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span> on the train board. Gain Shufflin’ Feet.<br/><br/><b>1+:</b> You find a strange bottle. Wasn’t the old man holdin’ this...? How’d it get down here? Remove Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span>. Gain Junk #27, placing your other Junk in the Belongings, if necessary. For the rest of this Scenario, if you are adjacent to the <b>Whispering Willow</b>, you may place 3 Coins on Junk #27 during your turn to Poison the Roots. If you do so, end the effect of Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> and remove that Event Token from the Round Track.</p>"
-    },
-    {
-      "title": "Event 5",
-      "description": "<p>Blackened roots start slitherin’ out from all those Holes, like blind snakes seekin’ food. The wood of the train rots at their reach, and yet it’s impossible to move, like those snakes have already struck. Those tiny anacondas start wrappin’, constrictin’, all ‘round your ankles... All Vagrants adjacent to Holes or the Whispering Willow<b></b> lose 2 Humanity. Vagrants who lose Humanity this way also reduce their Move value by 1 during their next turn. Keep Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> on the Humanity Track.</p>"
-    },
-    {
-      "title": "Event 6",
-      "description": "<p>Did you just kick something? Investigate.<br/><br/><b>0:</b> With all of these roots around here, probably not worth reachin’ around in the dark. Nothing happens. Keep Event <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span> on the train board.<br/><br/><b>1+:</b> Huh, it’s an Axe. Can’t help but remember the look that old man gave toward that tree. Now there’s an idea... Keep the Event Token. Treat it as a Rummage Token in every way. As long as you have the Axe, when taking the Bust Action, you may roll 1 additional Bone. If you are adjacent to the Whispering Willow<b></b> and you have already Poisoned the Roots, you may discard this Event Token to Chop it down and complete the Ritual: A Branch Too Far.</p>"
-    },
-    {
-      "title": "Events 7, 8, & 9",
-      "description": "<p>There’s gotta be somethin’ around here to give you the upper hand. The only thing you find is a Bell. It’s glowin’ a bit... Maybe you can find a use for it. On the Mile Post page (41), mark off that you have found a Bell (Bells do not count as Mile Posts). Keep the Event Token. Treat it as a Rummage Token in every way. During your turn, you may discard a Bell to have either the Bookbinder or the Whispering Willow<b></b> Move 1 away from you.</p>"
-    },
-    {
-      "title": "Event 0",
-      "description": "<p>The branches lurch forward and wrap around the Coffin, pickin’ it up like mother embraces a babe. And then the tree starts to squeeze the casket, and squeeze, and squeeze... Until the pinebox splinters, then shatters. Pages from an old book flutter like butterflies out of the wreck, and the Bookbinder falls to his knees, lettin’ out a hollow hauntin’ cry. “That was all she left me. Empty. It’s no use.” Not talkin’ to you. Gotta be. He... he took them all? And it don’t seem like he’s talkin’ to the tree. If not the Willow, then who... or what? Remove the Coffin from the train board. All Vagrants in the same train car as the Bookbinder lose 4 Humanity. Then the Bookbinder Moves 5 toward the Break side edge, Haunting Vagrants in the most immediate path.</p>"
-    }
-  ],
+  "story": {
+    "title": "Make it Shallow",
+    "description": "<p>Uma brisa passa pelos vagões sacolejantes do trem e envia um arrepio pela sua espinha, como se alguém tivesse acabado de passar sobre seu túmulo. <br><br> Nada de incomum nisso - vagões de trem não são feitos para conforto... Mas não é a brisa que te deixa inquieto. <br><br> No vagão à frente... você vê a coisa mais estranha, uma árvore brotando diretamente do assoalho. Eles gemem e estalam enquanto o salgueiro sem folhas balança ao vento. Ramos pretos feios se desenrolam, agarrando, hipnotizantes... <br><br> As luzes piscam, deixando apenas você, a árvore e o vento na escuridão. E quando elas piscam de volta à vida, um velho cansado aparece bem no meio do vagão. A pá na qual ele está apoiado pode ser a maior que você já viu. <br><br> Se ele te notou, não deixou isso evidente. Apenas começou a cavar. <br><br> A brisa aumenta novamente, e uma nova voz a acompanha. Está trêmula, mas rítmica... <br><br> Oh, morte...</p>",
+    "image": "bookbinder.jpg"
+  },
   "rules": [
     {
-      "specialRules": "<ul><li>No final de cada rodada, se um Vagrant estiver adjacente ao <b>Whispering Willow</b>, ele perde 2 de Humanity.</li><li>Se o Whispering Willow<b></b> se mover para um Terreno, remova esse Terreno. Se o Whispering Willow<b></b> se mover para ou através de um Vagrant (ou um Vagrant se mover através do <b>Whispering Willow</b>), esse Vagrant fica Haunted (usando o efeito Haunted de Whisperin’ Wind).</li><li>O Whispering Willow<b></b> não pode ganhar Humanity.</li></ul>"
+      "specialRules": "<ul><li>No final de cada rodada, se um Vagrant estiver adjacente ao <b>Whispering Willow</b>, ele perde 2 de Humanity.</li><li>Se o Whispering Willow<b></b> se mover para um Terreno, remova esse Terreno. Se o Whispering Willow<b></b> se mover para ou através de um Vagrant (ou um Vagrant se mover através do <b>Whispering Willow</b>), esse Vagrant fica Haunted (usando o efeito Haunted de Whisperin' Wind).</li><li>O Whispering Willow<b></b> não pode ganhar Humanity.</li></ul>"
     },
     {
       "terrainEffects": "<p>Se um efeito adicionaria Terreno, mas não há Terreno desse tipo disponível, ignore essa parte do efeito (e qualquer outra coisa relacionada a ele continua normalmente).</p><p><b>Holes:</b> Vagrants podem entrar em espaços contendo Terreno de Hole. Se o fizerem, role um número de Bones igual ao seu valor de Movimento. Se algum resultado for 5+, nada acontece. Caso contrário, esse Movimento termina e eles perdem 2 de Humanity.</p>"
     },
     {
-      "haintEffects": "<p><b>Shufflin' Feet:</b> No final do seu turno, mova 2 em direção ao <b>Whispering Willow</b>. Para remover <b>Shufflin' Feet</b>, descarte um Iron Nail.</p>"
+      "haintEffects": "<p><b>Shufflin' Feet (O)</b> No final do seu turno, mova 2 em direção ao <b>Whispering Willow</b>. Para remover <b>Shufflin' Feet</b>, descarte um Iron Nail.</p>"
+    },
+    {
+      "seance": "<p>Descarte a carta de Séance para que todos os Vagrants ignorem os efeitos de estar adjacente ao Whispering Willow<b></b> por uma rodada.</p>"
+    },
+    {
+      "victory": "Salve o Bookbinder"
+    }
+  ],
+  "events": [
+    {
+      "title": "Evento 1",
+      "description": "<p>O Bookbinder cambaleia para trás, balançando a cabeça. Sua barba cai no chão, e sua pele parece que vai seguir o mesmo caminho. Algo metálico com um cabo de madeira cai daquela longa barba. Há um olhar melancólico em seus olhos, olhando para aquela árvore. E antes que ele tenha a chance de alcançá-lo, o trem sacoleja e chacoalha, e aquele machado desliza para algum canto escuro. Fora de vista. Coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span> no canto mais distante do vagão que o Bookbinder está ocupando. Depois, remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>1</span>.</p>"
+    },
+    {
+      "title": "Evento 2",
+      "description": "<p>Um estrondo rasga o chão do trem. Aquela árvore gigante... está crescendo. Os galhos pendentes se alongam e se estendem, e folhas vermelhas doentias brotam e caem no chão. O Whispering Willow<b></b> Move-se 1 em direção à borda Round side. Até o final do Cenário, no final de cada rodada, os Vagrants a uma distância de Range 2 do Whispering Willow<b></b> perdem 2 de Humanity. Este efeito de alcance aumentado substitui a regra especial anterior. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> no Round Track. Aumente o alcance deste efeito em 1 cada vez que este Evento for resolvido.</p>"
+    },
+    {
+      "title": "Evento 3",
+      "description": "<p>Há algo grande naquela sepultura. Difícil dizer se está se movendo. Investigate.<br/><br/><b>0:</b> Eh, está bem fundo. Dói só de pensar em cavar. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>3</span> no tabuleiro do trem. Nada acontece.<br/><br/><b>1+:</b> Oh, um Corpo. Que agradável. Parece muito com o velho raivoso que está tentando pulverizar você com uma pá. Mantenha o Token do Evento. Trate-o como um Rummage Token em todos os aspectos. Se você tiver o Corpo quando for se mover (ou ser movido por outro efeito), reduza o número total de espaços que você se moveria em 1 (por exemplo: se você tiver um valor de Move de 3 e colocar todas as 3 coins na sua Ação de Move, mova-se apenas 2 em vez de 3). O Corpo pode ser descartado se você estiver adjacente ao Caixão para completar o Ritual: Enterrar um Amigo.</p>"
+    },
+    {
+      "title": "Evento 4",
+      "description": "<p>Outro local de sepultamento, cavado profundamente. Algo brilhando lá embaixo. Investigate.<br/><br/><b>0:</b> Provavelmente não é uma boa ideia pisar no túmulo de outra pessoa. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span> no tabuleiro do trem. Ganhe <b>Shufflin' Feet (O)</b>.<br/><br/><b>1+:</b> Você encontra uma garrafa estranha. O velho não estava segurando isso...? Como isso foi parar aqui? Remova o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>4</span>. Ganhe Junk #27, colocando seu outro Junk nos Pertences, se necessário. Pelo resto deste Cenário, se você estiver adjacente ao <b>Whispering Willow</b>, você pode colocar 3 Coins no Junk #27 durante seu turno para Envenenar as Raízes. Se fizer isso, encerre o efeito do Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>2</span> e remova aquele Token de Evento do Round Track.</p>"
+    },
+    {
+      "title": "Evento 5",
+      "description": "<p>Raízes enegrecidas começam a deslizar para fora de todos aqueles Buracos, como cobras cegas em busca de comida. A madeira do trem apodrece ao seu alcance, e ainda assim é impossível se mover, como se aquelas cobras já tivessem atacado. Aquas pequenas anacondas começam a se enrolar, se constrigir, em torno de seus tornozelos... Todos os Vagrants adjacentes aos Buracos ou ao Whispering Willow<b></b> perdem 2 de Humanity. Vagrants que perdem Humanity dessa maneira também reduzem seu valor de Move em 1 durante o próximo turno. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>5</span> no Humanity Track.</p>"
+    },
+    {
+      "title": "Evento 6",
+      "description": "<p>Você acabou de chutar algo? Investigate.<br/><br/><b>0:</b> Com todas essas raízes por aqui, provavelmente não vale a pena tatear no escuro. Nada acontece. Mantenha o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>6</span> no tabuleiro do trem.<br/><br/><b>1+:</b> Huh, é um Machado. Não posso deixar de lembrar o olhar que o velho deu para aquela árvore. Agora aí está uma ideia... Mantenha o Token do Evento. Trate-o como um Rummage Token em todos os aspectos. Enquanto você tiver o Machado, ao realizar a ação de Bust, você pode rolar 1 Bone adicional. Se você estiver adjacente ao Whispering Willow<b></b> e já tiver Envenenado as Raízes, você pode descartar esse Token de Evento para Derrubar a árvore e completar o Ritual: Um Galho Muito Distante.</p>"
+    },
+    {
+      "title": "Eventos 7, 8 e 9",
+      "description": "<p>Deve haver algo por aqui para lhe dar uma vantagem. A única coisa que você encontra é um Sino. Está brilhando um pouco... Talvez você possa encontrar um uso para ele. Na página do Marco da Milha (41), marque que você encontrou um Sino (Sinos não contam como Marcos da Milha). Mantenha o Token do Evento. Trate-o como um Rummage Token em todos os aspectos. Durante o seu turno, você pode descartar um Sino para que o Bookbinder ou o Whispering Willow<b></b> se movam 1 para longe de você.</p>"
+    },
+    {
+      "title": "Evento 0",
+      "description": "<p>Os galhos se lançam para frente e envolvem o Caixão, levantando-o como uma mãe abraça um bebê. E então a árvore começa a apertar o caixão, e apertar, e apertar... Até que a caixa de madeira estilhaça, depois se despedaça. Páginas de um velho livro voam como borboletas para fora dos destroços, e o Bookbinder cai de joelhos, soltando um grito oco e assombroso. “Isso era tudo que ela me deixou. Vazio. Não adianta.” Não está falando com você. Deve ser isso. Ele... ele pegou todos? E não parece que ele está falando com a árvore. Se não com o Willow, então com quem... ou com o quê? Remova o Caixão do tabuleiro do trem. Todos os Vagrants no mesmo vagão que o Bookbinder perdem 4 de Humanity. Depois, o Bookbinder Move-se 5 em direção à borda Break side, Assombrando os Vagrants no caminho mais imediato.</p>"
     }
   ]
 }

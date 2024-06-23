@@ -1,12 +1,28 @@
 {
   "key": 23,
   "title": "From the Peak...",
-  "storyName": "... To the Pit",
-  "storyDescription": "<p>É difícil lembrar quando você adormeceu ou como acabou no vagão do meio. Ainda há algumas penas espalhadas. É o mesmo vagão? <br><br> Há um grande buraco onde a gaiola costumava estar. Algo está lá embaixo... você pode ouvir. Além disso, todo o seu Junk parece quebrado. Como você dormiu durante isso? <br><br> Não demora muito para o buraco começar a borbulhar como uma panela. <br><br> O que quer que esteja lá embaixo começa a ondular em um ritmo - não, um batimento cardíaco, e a cada pequeno pulso, você não consegue evitar sentir-se atraído por isso. Isso não pode ser bom. <br><br> Por outro lado, talvez não seja tão ruim. Pode ser quente. Sim, como um bom banho quente. Há algo reconfortante nisso... algo convidativo... <br><br> Não. O quê? Resista a isso. Esse chamado. Esse truque barato. Esse feitiço de sono. Esse convite... <br><br> Há algo lá embaixo. <br><br> Há algo lá embaixo. <br><br> Há algo...</p>",
-  "haintImg": "haint-bloody-pit.jpg",
-  "breaks": "",
-  "seance": "<p>A qualquer momento, Vagrants podem descartar a carta de Séance para aumentar o valor de Move de todos os Vagrants em 1 por uma rodada.</p>",
-  "defeat": "",
+  "story": {
+    "title": "... To the Pit",
+    "description": "<p>É difícil lembrar quando você adormeceu ou como acabou no vagão do meio. Ainda há algumas penas espalhadas. É o mesmo vagão? <br><br> Há um grande buraco onde a gaiola costumava estar. Algo está lá embaixo... você pode ouvir. Além disso, todo o seu Junk parece quebrado. Como você dormiu durante isso? <br><br> Não demora muito para o buraco começar a borbulhar como uma panela. <br><br> O que quer que esteja lá embaixo começa a ondular em um ritmo - não, um batimento cardíaco, e a cada pequeno pulso, você não consegue evitar sentir-se atraído por isso. Isso não pode ser bom. <br><br> Por outro lado, talvez não seja tão ruim. Pode ser quente. Sim, como um bom banho quente. Há algo reconfortante nisso... algo convidativo... <br><br> Não. O quê? Resista a isso. Esse chamado. Esse truque barato. Esse feitiço de sono. Esse convite... <br><br> Há algo lá embaixo. <br><br> Há algo lá embaixo. <br><br> Há algo...</p>",
+    "image": "bloody-pit.jpg"
+  },
+  "rules": [
+    {
+      "specialRules": "<ul><li>Haint Humanity e Breaks não são rastreados durante este Cenário.</li><li>Quando um Vagrant se move para um espaço com um Blood Pool, leia o Pit Event.</li></ul>"
+    },
+    {
+      "terrainEffects": "<p><b>Blood Pools:</b> Vagrants podem se mover para Blood Pools (mas devem evitar fazer isso a todo custo!).</p><p>Se Terreno for adicionado ao trem, use Boxes, Coffins ou Debris. Se o Terreno se mover para um Blood Pool, remova o Terreno (mas não o Blood Pool).</p>"
+    },
+    {
+      "haintEffects": "<p><b>Nervous Knees:</b> Diminua o valor do seu Move em 1. Para remover Nervous Knees, descarte uma Candle.</p><p><b>Bleeding:</b> Quando você coloca uma Coin em Move, perde 1 Humanity (perdendo 1 Humanity para cada Coin). No final do seu turno, se você realizar com sucesso Patch Up, remova Bleeding.</p>"
+    },
+    {
+      "seance": "<p>A qualquer momento, Vagrants podem descartar a carta de Séance para aumentar o valor de Move de todos os Vagrants em 1 por uma rodada.</p>"
+    },
+    {
+      "victory": "<p>Complete todos os Rituals.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1 (A Primeira Vez)",
@@ -47,20 +63,6 @@
     {
       "title": "Pit Event",
       "description": "<p><b>Se o Vagrant não estiver Westbound:</b> Algo se estende... algo escuro e gotejante e... e antes que você perceba, você está sendo puxado para baixo. Esse Vagrant se torna Westbound. Coloque o Vagrant Westbound em qualquer espaço aberto que esteja a 3 espaços de um Blood Pool.<br/><br/><b>Se o Vagrant estiver Westbound:</b> A atração... é como se lembrasse, e quer mais. Já não foi o suficiente? Remova o Vagrant Westbound do jogo pelo resto do Cenário.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<ul><li>Haint Humanity e Breaks não são rastreados durante este Cenário.</li><li>Quando um Vagrant se move para um espaço com um Blood Pool, leia o Pit Event.</li></ul>"
-    },
-    {
-      "terrainEffects": "<p><b>Blood Pools:</b> Vagrants podem se mover para Blood Pools (mas devem evitar fazer isso a todo custo!).</p><p>Se Terreno for adicionado ao trem, use Boxes, Coffins ou Debris. Se o Terreno se mover para um Blood Pool, remova o Terreno (mas não o Blood Pool).</p>"
-    },
-    {
-      "haintEffects": "<p><b>Nervous Knees:</b> Diminua o valor do seu Move em 1. Para remover Nervous Knees, descarte uma Candle.</p><p><b>Bleeding:</b> Quando você coloca uma Coin em Move, perde 1 Humanity (perdendo 1 Humanity para cada Coin). No final do seu turno, se você realizar com sucesso Patch Up, remova Bleeding.</p>"
-    },
-    {
-      "victory": "<p>Complete todos os Rituals.</p>"
     }
   ]
 }

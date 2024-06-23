@@ -1,13 +1,25 @@
 {
   "key": 27,
   "title": "The Stillness & the Quiet",
-  "storyName": "This World is Not My Home",
-  "storyDescription": "<p> Você não pode ver os outros. Está completamente escuro. E congelando. <br><br> Em algum lugar na escuridão... respiração pesada e um click-click-clicking. Um chocalho. Dentes batendo. <br><br> Você não deveria ter vindo aqui. Hrrrrrrrrkh. Está cansado? <br><br> ...Escute. Todos ouviram isso, certo? <br><br> Hrrrrrrrrkh. Está escuro demais aqui embaixo. Cl-cl-click. <br><br> Foi você? Você ainda está aí? <br><br> Eles me colocaram aqui. Sozinho. Hrrrrrrrrkh. No escuro. Cl-click-click. <br><br> Mexa as mãos ou algo assim. Só me avise que você está aí. <br><br> Hrrrrrrrrkh. Eu não consigo... ouvir a música daqui de baixo. <br><br> Ok, acho que deveríamos dar meia-volta. <br><br> Me leve... lá para cima. Cl-cl-cl-click. Para cantar, para dormir. Para sentir a chuva. Hrrrrrrrrkh. <br><br> Onde está a porta? <br><br> Para beber... dos sonhos deles. Hrrrrrrrrkh. <br><br> Cl-click-click-click-click. Para dançar ao som do violino. <br><br> Hrrrrrrrrkh. Você sonha? <br><br> Cl-click-click-click. <br><br> Você sonha, não sonha!?</p>",
-  "haintImg": "haint-visitor.jpg",
-  "terrainEffects": "",
-  "breaks": "",
-  "seance": "<p>At any time, Vagrants may discard the Séance card for any 1 Vagrant to draw a Candle from the Bindle.</p>",
-  "defeat": "",
+  "story": {
+    "title": "This World is Not My Home",
+    "description": "<p> Você não pode ver os outros. Está completamente escuro. E congelando. <br><br> Em algum lugar na escuridão... respiração pesada e um click-click-clicking. Um chocalho. Dentes batendo. <br><br> Você não deveria ter vindo aqui. Hrrrrrrrrkh. Está cansado? <br><br> ...Escute. Todos ouviram isso, certo? <br><br> Hrrrrrrrrkh. Está escuro demais aqui embaixo. Cl-cl-click. <br><br> Foi você? Você ainda está aí? <br><br> Eles me colocaram aqui. Sozinho. Hrrrrrrrrkh. No escuro. Cl-click-click. <br><br> Mexa as mãos ou algo assim. Só me avise que você está aí. <br><br> Hrrrrrrrrkh. Eu não consigo... ouvir a música daqui de baixo. <br><br> Ok, acho que deveríamos dar meia-volta. <br><br> Me leve... lá para cima. Cl-cl-cl-click. Para cantar, para dormir. Para sentir a chuva. Hrrrrrrrrkh. <br><br> Onde está a porta? <br><br> Para beber... dos sonhos deles. Hrrrrrrrrkh. <br><br> Cl-click-click-click-click. Para dançar ao som do violino. <br><br> Hrrrrrrrrkh. Você sonha? <br><br> Cl-click-click-click. <br><br> Você sonha, não sonha!?</p>",
+    "image": "visitor.jpg"
+  },
+  "rules": [
+    {
+      "specialRules": "<ul><li>The first time a Candle is placed in each train car, read Evento 1.</li><li>Vagrants may not target characters unless the target is in Range 3 of a Candle.</li><li>Those Skills and Junk that are treated as Candles are also treated as Candles for effects in this Scenario.</li></ul>"
+    },
+    {
+      "haintEffects": "<p><b>Racing Heart:</b> At the start of your turn, roll 1 Bone. On a 4+, remove Racing Heart. Otherwise, the Visitor performs Wheezing Whispers, targeting you.</p><p><b>Paralyzed:</b> You cannot perform the Move Action. To remove Paralyzed, either be targeted by a Vagrant with a successful Action or an adjacent Vagrant may use a Coin during their turn.</p>"
+    },
+    {
+      "seance": "<p>At any time, Vagrants may discard the Séance card for any 1 Vagrant to draw a Candle from the Bindle.</p>"
+    },
+    {
+      "victory": "<p>Save the Visitor.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1",
@@ -48,17 +60,6 @@
     {
       "title": "Evento 0",
       "description": "<p>De todos os lados, saindo das paredes e do chão... murmúrios sussurrantes, vozes baixas e tons abafados... São reconfortantes. Reconfortantes o suficiente para acordar você. Se você tiver Paralyzed ou estiver a uma distância de 2 de um Vagrant com Paralyzed, remova Paralyzed. Coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; width: 23px; text-align: center;'>0</span> de volta no Bindle.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<ul><li>The first time a Candle is placed in each train car, read Event 1.</li><li>Vagrants may not target characters unless the target is in Range 3 of a Candle.</li><li>Those Skills and Junk that are treated as Candles are also treated as Candles for effects in this Scenario.</li></ul>"
-    },
-    {
-      "haintEffects": "<p><b>Racing Heart:</b> At the start of your turn, roll 1 Bone. On a 4+, remove Racing Heart. Otherwise, the Visitor performs Wheezing Whispers, targeting you.</p><p><b>Paralyzed:</b> You cannot perform the Move Action. To remove Paralyzed, either be targeted by a Vagrant with a successful Action or an adjacent Vagrant may use a Coin during their turn.</p>"
-    },
-    {
-      "victory": "<p>Save the Visitor.</p>"
     }
   ]
 }

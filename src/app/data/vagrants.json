@@ -1,7 +1,7 @@
 {
     "vagrants" : [
         {
-            "image": "vagrant-cursebearer.jpg",
+            "image": "cursebearer.jpg",
             "name": "The Cursebearer",
             "description": "<p>A Cursebearer está fugindo há muito tempo. Armada com sua astúcia e faca fiel, ela espera derrotar a criatura das trevas que a persegue... ela só precisa descobrir como.</p>",
             "passive": "Passive - Devil On Your Heels",
@@ -10,7 +10,7 @@
             "playstyle": "Uma Vagrant agressiva, focada em Haint, que está sempre em movimento"
         },
         {
-            "image": "vagrant-empress.jpg",
+            "image": "empress.jpg",
             "name": "The Empress of America",
             "description": "<p>Apesar de poucas pessoas reconhecê-la como a Empress of America, ela não parou de espalhar sua mensagem ou tentar reunir um exército. Se algum fantasma acha que pode detê-la, está redondamente enganado.</p>",
             "passive": "Passive - Boxcar Queen",
@@ -19,7 +19,7 @@
             "playstyle": "Uma líder nata e forte, que gosta de abraçar o imprevisível."
         },
         {
-            "image": "vagrant-songsmith.jpg",
+            "image": "songsmith.jpg",
             "name": "The Songsmith",
             "description": "<p>As luzes brilhantes da grande cidade puxam as cordas do Songsmith desde a infância. Ele sonha em se apresentar nesses grandes palcos, derramando a música em seu coração para todos ouvirem.</p>",
             "passive": "Passive - Upbeat Tempo",
@@ -28,7 +28,7 @@
             "playstyle": "Um generalista versátil que se aventura um pouco em tudo - à distância."
         },
         {
-            "image": "vagrant-revivalist.jpg",
+            "image": "revivalist.jpg",
             "name": "The Revivalist",
             "description": "<p>Depois de não conseguir trazer conforto aos enlutados ao tentar falar com os mortos, o Revivalist deixou sua cidade natal para vagar, esperando encontrar seu propósito.</p>",
             "passive": "Passive - Selfless",
@@ -37,7 +37,7 @@
             "playstyle": "Ele está sempre atento aos seus amigos e ao bem-estar deles."
         },
         {
-            "image": "vagrant-runaway.jpg",
+            "image": "runaway.jpg",
             "name": "The Runaway",
             "description": "<p>Acompanhada por seu leal cãozinho, a Runaway fugiu de casa em busca de uma nova aventura. Ela está ansiosa para ver o mundo, mas é definitivamente um pouco intimidador... ou seria, sem seu melhor amigo peludo!</p>",
             "passive": "Passive - Girl's Best Friend",
@@ -46,7 +46,7 @@
             "playstyle": "Com dois personagens para controlar, ela pode se espalhar e fazer muitas coisas em um turno."
         },
         {
-            "image": "vagrant-wayfarer.jpg",
+            "image": "wayfarer.jpg",
             "name": "The Wayfarer",
             "description": "<p>Histórias vêm e vão, assim como as pessoas. Para o Wayfarer, esta jornada é apenas mais uma história para contar. Que melhor maneira de tecer uma narrativa do que com novos amigos?</p>",
             "passive": "Passive - Thrifty",

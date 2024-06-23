@@ -1,10 +1,28 @@
 {
   "key": 87,
   "title": "Back Together Again",
-  "storyName": "Até a Morte",
-  "storyDescription": "<p>Esses vagões parecem familiares, mas todos misturados, como dois sonhos recorrentes acontecendo ao mesmo tempo. Está ao mesmo tempo congelante e fervendo, cegante e sem luz...</p> <p>Há uma música tênue, mas familiar, flutuando no ar... aquela melodia triste de minerador, só que dessa vez é seguida por outra. Outra voz, outra música. Duas melodias diferentes se sobrepondo, cada uma cantando a sua própria coisa, mas combinando na melodia.</p> <p>Será que vale a pena - Brilhante e iluminado<br> Precisamos do dinheiro - Vá sem mim<br> Não vai demorar - Sinto que será em breve<br> Está escurecendo aqui - Não desapareça</p> <p>Não posso deixar de pensar que eles nem se ouvem. Cantando apenas para encontrar o caminho de volta.</p> <p>As vigas estavam podres - Fui esquecido<br> Mas continuei trabalhando - Uma escuridão à espreita<br> Eu voltarei para você - E preciso que você também<br> Lembre-se na morte - Até o meu último suspiro</p> <p>Talvez haja algo que possamos fazer para que eles vejam de novo, para que se encontrem novamente, para estarmos juntos novamente...</p>",
-  "seance": "<p>Quando você usa a carta Séance, mova qualquer Snow até 3 espaços em qualquer direção.</p>",
-  "haintImg": "haint-blackbird-and-lady-in-white.jpg",
+  "story": {
+    "title": "Até a Morte",
+    "description": "<p>Esses vagões parecem familiares, mas todos misturados, como dois sonhos recorrentes acontecendo ao mesmo tempo. Está ao mesmo tempo congelante e fervendo, cegante e sem luz...</p> <p>Há uma música tênue, mas familiar, flutuando no ar... aquela melodia triste de minerador, só que dessa vez é seguida por outra. Outra voz, outra música. Duas melodias diferentes se sobrepondo, cada uma cantando a sua própria coisa, mas combinando na melodia.</p> <p>Será que vale a pena - Brilhante e iluminado<br> Precisamos do dinheiro - Vá sem mim<br> Não vai demorar - Sinto que será em breve<br> Está escurecendo aqui - Não desapareça</p> <p>Não posso deixar de pensar que eles nem se ouvem. Cantando apenas para encontrar o caminho de volta.</p> <p>As vigas estavam podres - Fui esquecido<br> Mas continuei trabalhando - Uma escuridão à espreita<br> Eu voltarei para você - E preciso que você também<br> Lembre-se na morte - Até o meu último suspiro</p> <p>Talvez haja algo que possamos fazer para que eles vejam de novo, para que se encontrem novamente, para estarmos juntos novamente...</p>",
+    "image": "blackbird-and-lady-in-white.jpg"
+  },
+  "rules": [
+    {
+      "specialRules": "<p>A Humanity e os Breaks dos Haints são rastreados separadamente usando os Haint Effect Tokens ⬤ e ⬤.</p><p>Ambos os Moods estão em efeito desde o início do cenário. No início de cada turno de Haint, retire 2 Rummage Tokens em vez de 1. Resolva um para a Lady in White e outro para o Blackbird, nessa ordem. O Cycle Effect pode ser resolvido antes da ação do Blackbird ser resolvida. Se um Haint tiver um Break, não retire um Rummage Token para eles nesse turno.</p>"
+    },
+    {
+      "terrainEffects": "<p>Snow: Os Vagrants podem se mover na neve. Fazer isso imediatamente termina qualquer movimento restante para seu turno. Então mova aquela neve um espaço mais um espaço por movimento restante deixado em um espaço aberto ou um espaço contendo uma Blood Pool ou Haint. Quando a neve é movida, qualquer Event Tokens sobre a neve são movidos com ela. Se a neve entrar no mesmo espaço que uma Blood Pool, ela derrete e ambos os terrenos são removidos do tabuleiro do trem.</p>"
+    },
+    {
+      "haintEffects": "<p><b>Blackbird Humanity (⬤):</b> Este token é usado para representar a Humanity e Breaks do Blackbird.</p><p><b>Lady in White Humanity (O):</b> Este token é usado para representar a Humanity e Breaks da Lady in White.</p>"
+    },
+    {
+      "seance": "<p>Quando você usa a carta Séance, mova qualquer Snow até 3 espaços em qualquer direção.</p>"
+    },
+    {
+      "victory": "<p>Salve tanto o Blackbird quanto a Lady in White.</p>"
+    }
+  ],
   "events": [
     {
       "title": "Evento 1",
@@ -45,20 +63,6 @@
     {
       "title": "Eventos 9 & 0",
       "description": "<p>Você ouve a voz sussurrante e fria da <b>Lady in White</b> no vento, chamando você para fazer seu trabalho. Não novamente. Puxe um Token de <b>Rummage</b> do <b>Bindle</b> (refazendo se um Token de Evento for puxado) e resolva sua ação para a <b>Lady in White</b>, movendo e puxando <b>Range</b> e <b>Target Priority</b> do seu Vagrant em vez da <b>Lady in White</b>. Você não pode ser o alvo dessa ação. Então coloque o Token de Evento de volta no <b>Bindle</b>.</p>"
-    }
-  ],
-  "rules": [
-    {
-      "specialRules": "<p>A Humanity e os Breaks dos Haints são rastreados separadamente usando os Haint Effect Tokens ⬤ e ⬤.</p><p>Ambos os Moods estão em efeito desde o início do cenário. No início de cada turno de Haint, retire 2 Rummage Tokens em vez de 1. Resolva um para a Lady in White e outro para o Blackbird, nessa ordem. O Cycle Effect pode ser resolvido antes da ação do Blackbird ser resolvida. Se um Haint tiver um Break, não retire um Rummage Token para eles nesse turno.</p>"
-    },
-    {
-      "terrainEffects": "<p>Snow: Os Vagrants podem se mover na neve. Fazer isso imediatamente termina qualquer movimento restante para seu turno. Então mova aquela neve um espaço mais um espaço por movimento restante deixado em um espaço aberto ou um espaço contendo uma Blood Pool ou Haint. Quando a neve é movida, qualquer Event Tokens sobre a neve são movidos com ela. Se a neve entrar no mesmo espaço que uma Blood Pool, ela derrete e ambos os terrenos são removidos do tabuleiro do trem.</p>"
-    },
-    {
-      "haintEffects": "<p><b>Blackbird Humanity (⬤):</b> Este token é usado para representar a Humanity e Breaks do Blackbird.</p><p><b>Lady in White Humanity (O):</b> Este token é usado para representar a Humanity e Breaks da Lady in White.</p>"
-    },
-    {
-      "victory": "<p>Salve tanto o Blackbird quanto a Lady in White.</p>"
     }
   ]
 }
