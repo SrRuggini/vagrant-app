@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import Header from '/src/app/components/header';
 import styles from '/src/app/styles/vagrants.module.css';
