@@ -1,7 +1,4 @@
 .InBetween__Item {
-  background: rgb(19 14 18 / 83%);
-  border-radius: 18px;
-  border: solid 2px rgb(255 255 255 / 26%);
   color: white;
   margin-bottom: 8px;
   margin-left: -16px;
@@ -9,8 +6,9 @@
 }
 
 .InBetween__Button {
-  background: none;
-  border: none;
+  background: rgb(19 14 18 / 83%);
+  border-radius: 18px;
+  border: solid 2px rgb(255 255 255 / 26%);
   color: white;
   font-family: "Alfa Slab One", serif;
   font-weight: 300;
@@ -21,6 +19,12 @@
   width: 100%;
   text-align: left;
   letter-spacing: 0.06rem;
+  transition: all .4s ease;
+}
+
+.InBetween__Button:hover {
+  border: 2px solid #67e1da;
+  background: #021227;
 }
 
 .InBetween__ButtonNumber {
@@ -126,7 +130,7 @@
   inset: 0;
   padding: 16px 16px 32px;
   position: absolute;
-  max-height: 93vh;
+  max-height: 90vh;
   opacity: 0;
   animation: slideUp .3s .2s cubic-bezier(0,0,0.2,1) forwards;
 }
