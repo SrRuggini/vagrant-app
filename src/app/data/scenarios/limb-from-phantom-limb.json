@@ -3,27 +3,27 @@
   "title": "Limb from Phantom Limb",
   "story": {
     "title": "And Not a Hand to Hold",
-    "description": "<p>Não demora muito para você perceber que algo está muito errado aqui. Os pelos da parte de trás do seu pescoço estão todos arrepiados... Formando um suor frio.</p> <p>Não seria a primeira vez que você se encontraria em um vagão escuro, acompanhado por algum fantasma errante. Esses Haints eram pessoas uma vez, pelo menos é isso que você tem dito a si mesmo, mas isso... isso é diferente. O que quer que esteja espreitando lá fora no além não deveria existir. E você não consegue explicar por que tem tanta certeza.</p> <p>Uma mão toca seu ombro... um amigo para acalmar seus nervos. É bom saber que você não está sozinho.</p> <p>Mas está fria. E a mão é pesada. Virar-se para seus companheiros não ajuda em nada. Cada um deles tem uma mão no ombro. E cada mão está presa a um braço de espaguete, levando a alguns vagões à frente.</p> <p>Dois olhos brilhantes sob uma longa capa esvoaçante. E sob isso...</p>",
+    "description": "<p>Não demora muito para você perceber que algo está muito errado aqui. Os pelos da parte de trás do seu pescoço estão todos arrepiados... Formando um suor frio.</p><br/> <p>Não seria a primeira vez que você se encontraria em um vagão escuro, acompanhado por algum fantasma errante. Esses Haints eram pessoas uma vez, pelo menos é isso que você tem dito a si mesmo, mas isso... isso é diferente. O que quer que esteja espreitando lá fora no além não deveria existir. E você não consegue explicar por que tem tanta certeza.</p><br/><p>Uma mão toca seu ombro... um amigo para acalmar seus nervos. É bom saber que você não está sozinho.</p> <p>Mas está fria. E a mão é pesada. Virar-se para seus companheiros não ajuda em nada. Cada um deles tem uma mão no ombro. E cada mão está presa a um braço de espaguete, levando a alguns vagões à frente.</p><br/><p>Dois olhos brilhantes sob uma longa capa esvoaçante. E sob isso...</p>",
     "image": "man-of-many-limbs.jpg"
   },
   "rules": [
     {
-      "specialRules": "<p>Remember: if a Haint loses Humanity, their Humanity Token moves toward 0 and not toward their Humanity Threshold.</p>"
+      "specialRules": "<p>Lembre-se: se um Haint perder Humanity, seu Token de Humanity se move em direção a 0 e não em direção ao seu Threshold de Humanity.</p>"
     },
     {
-      "terrainEffects": "<p><b>Blood Pools:</b> Characters may Move onto Blood Pools. If they do, they lose 1 Humanity.</p>"
+      "terrainEffects": "<p><b>Blood Pools:</b> Personagens podem se mover para Blood Pools. Se o fizerem, perdem 1 Humanity.</p>"
     },
     {
-      "haintEffects": "<p><b>The Willies (⬤):</b> You cannot place more than 1 Coin on any Action or Skill. At the end of your turn, remove The Willies.</p> <p><b>Bleeding (O):</b> When you place a Coin on Move, lose 1 Humanity (losing 1 Humanity for each Coin). At the end of your turn, if you successfully performed Patch Up, remove Bleeding.</p>"
+      "haintEffects": "<p><b>The Willies (⬤):</b> Você não pode colocar mais de 1 Coin em qualquer Ação ou Skill. No final do seu turno, remova The Willies.</p><p><b>Bleeding (O):</b> Quando você coloca uma Coin em Move, perde 1 Humanity (perdendo 1 Humanity para cada Coin). No final do seu turno, se você realizar Patch Up com sucesso, remova Bleeding.</p>"
     },
     {
-      "seance": "<p>Discard the Séance card after the Man of Many Limbs draws a Rummage Token for an Action to ignore that Action’s effects.</p>"
+      "seance": "<p>Descarte a carta Séance depois que o Man of Many Limbs sacar um Token de Rummage para uma Ação para ignorar os efeitos dessa Ação.</p>"
     },
     {
-      "breaks": "<p>Each time the Man of Many Limbs Breaks, place 2 Blood Pools in open spaces in Range 3 of the Man of Many Limbs.</p>"
+      "breaks": "<p>Cada vez que o Man of Many Limbs Break, coloque 2 Blood Pools em espaços abertos no Range 3 do Man of Many Limbs.</p>"
     },
     {
-      "victory": "<p>Save the Man of Many Limbs.</p>"
+      "victory": "<p>Salve o Man of Many Limbs.</p>"
     }
   ],
   "events": [

@@ -34,6 +34,8 @@
 
 .Scenario__Card ul li {
   margin-bottom: 8px;
+  font-size: 17px;
+  line-height: 23px;
 }
 
 .Scenario__ImageContainer {
