@@ -1,6 +1,6 @@
-'use client';
 
-import React, { useState, useEffect } from 'react';
+
+import React from 'react';
 import { importJsonByName } from '/src/app/utils/importJson';
 import Collapsible from '/src/app/components/collapsible';
 import Header from '/src/app/components/header';
@@ -9,25 +9,14 @@ import Image from 'next/image';
 import PropTypes from 'prop-types';
 import styles from '/src/app/styles/scenario.module.css';
 
-export default function Scenarios({ params }) {
-    const [scenarioData, setScenarioData] = useState(null);
-
-    const fetchScenarioData = async (name) => {
-        const data = await importJsonByName(name, 'scenarios');
-        setScenarioData(data);
-    };
+export default async function Scenario({ params }) {
+    const scenarioData = await importJsonByName(params.scenario, 'scenarios');
 
     const adjustTitle = (input) => {
         let result = input.replace(/([A-Z])/g, ' $1').trim();
         result = result.charAt(0).toUpperCase() + result.slice(1);
         return result;
     };
-
-    useEffect(() => {
-        if (params.scenario) {
-            fetchScenarioData(params.scenario);
-        }
-    }, [params.scenario]);
 
     return (
         <>
@@ -95,6 +84,6 @@ export default function Scenarios({ params }) {
     );
 }
 
-Scenarios.propTypes = {
+Scenario.propTypes = {
     params: PropTypes.object,
 };

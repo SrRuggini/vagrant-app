@@ -37,6 +37,11 @@ export default function Home() {
                                     <span className={styles.Section__Title}>Cenários</span>
                                 </Link>
                             </div>
+                            <div className={styles.Section__Item}>
+                                <Link href="/moments/">
+                                    <span className={styles.Section__Title}>Momentos</span>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>

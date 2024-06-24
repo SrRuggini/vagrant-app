@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styles from './collapsible.module.css';
 import { IoMdClose } from 'react-icons/io';
 
-const Collapsible = ({ description, title }) => {
+const Collapsible = ({ title, description }) => {
     const [modalOpen, setModalOpen] = useState();
 
     const toggleModalOpen = () => {
