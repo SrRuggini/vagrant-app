@@ -2,7 +2,363 @@
     "moments": [
         {
             "title": "Momento 1",
-            "text": "<p>Não haverá canções para cantar sobre o que você viu no escuro. Isso mudou você. Algo sobre estar naquela escuridão total fez parecer que toda a música do mundo havia desaparecido.<br><br><b>Escolha uma:</b><br><br><ul><li>Ter um pouco de esperança: Compre Skill Card #37.</li><li>Fazer algo a partir da escuridão: Compre Skill Card #38.</li></ul></p>"
+            "text": "<p>Não haverá canções para cantar sobre o que você viu no escuro. Isso mudou você. Algo sobre estar naquela escuridão total fez parecer que toda a música do mundo havia desaparecido.<br><br><b>Escolha uma</b><br><br><ul><li>Ter um pouco de esperança: Compre Skill Card #37.</li><li>Fazer algo a partir da escuridão: Compre Skill Card #38.</li></ul></p>"
+        },
+        {
+            "title": "Momento 2",
+            "text": "<p>Muitas almas torturadas lá embaixo. Isso faz seu coração doer. Hoje em dia, não é sempre assim. Doeria muito mais se não fosse por seu Cachorro para alegrar você.<br><br><b>Escolha uma</b><br><br><ul><li>Coçar atrás da orelha do seu Cachorro: Compre Skill Card #45.</li><li>Ensinar a ele a morder um pouco: Compre Skill Card #46.</li></ul></p>"
+        },
+        {
+            "title": "Momento 3",
+            "text": "<p>Como você deve liderar um exército quando não consegue nem encontrar o caminho no escuro? Como você deve fazer qualquer coisa quando não consegue se livrar da sensação do que está por vir?<br><br><b>Escolha uma</b><br><br><ul><li>Olhe ao redor e aprenda com aqueles que confiam em você: Compre Skill Card #53.</li><li>Talvez o fim não seja algo a temer: Compre Skill Card #54.</li></ul></p>"
+        },
+        {
+            "title": "Momento 4",
+            "text": "<p>Você cruzou montanhas e oceanos... Parece que não há como escapar da escuridão, não importa o quão longe você tenha ido.<br><br><b>Escolha uma</b><br><br><ul><li>Lembre-se de continuar correndo: Compre Skill Card #69.</li><li>Abrace a escuridão, mesmo que só um pouco: Compre Skill Card #70.</li></ul></p>"
+        },
+        {
+            "title": "Momento 5",
+            "text": "<p>Há tanto que você ainda não entende. Em um mundo tão escuro, pode ser difícil ver a luz.<br><br><b>Escolha uma</b><br><br><ul><li>Esperança. A esperança será a estrela em um céu negro: Compre Skill Card #61.</li><li>Foque no momento, no aqui e agora: Compre Skill Card #62.</li></ul></p>"
+        },
+        {
+            "title": "Momento 6",
+            "text": "<p>Bem, se algo, você com certeza tem algumas histórias para contar depois de tudo que encontrou aqui embaixo.<br><br><b>Escolha uma</b><br><br><ul><li>Anotar a história para outra ocasião: Compre Skill Card #77.</li><li>Talvez seja melhor guardar essa para si mesmo: Compre Skill Card #78.</li></ul></p>"
+        },
+        {
+            "title": "Momento 7",
+            "text": "<p>As sombras nas paredes escurecem um pouco mais. O que você fez? Qualquer 1 Vagrant se torna Westbound. Qualquer outro Vagrant ganha Skill #83. Ganhe o Signed & Sealed Mile Post. Todos os outros Vagrants ganham 2 de Humanity.</p>"
+        },
+        {
+            "title": "Momento 8",
+            "text": "<p>As músicas que vêm à mente não são as que você está acostumado a cantar. Elas são mais complexas do que uma canção de amor ou de união. O problema é... por onde começar?<br><br><b>Escolha uma</b><br><br><ul><li>Hora de começar a aprender como o resto dos instrumentos funciona: Compre Skill Card #39.</li><li>Hora de esticar um pouco as cordas vocais: Compre Skill Card #40.</li></ul></p>"
+        },
+        {
+            "title": "Momento 9",
+            "text": "<p>As medidas que alguns tomam para sobreviver... se algo, você percebe que ainda tem muito a aprender antes que tudo isso acabe.<br><br><b>Escolha uma</b><br><br><ul><li>Ensine um truque defensivo novo a um cachorro velho: Compre Skill Card #47.</li><li>Quando tudo mais falhar, solte o cachorro: Compre Skill Card #48.</li></ul></p>"
+        },
+        {
+            "title": "Momento 10",
+            "text": "<p>Apesar de escapar do frio, parece que você ainda conseguiu rastrear um pouco de neve atrás de você. Adicione 1 peça de Terreno de Neve em cada vagão do trem.<br><br>Se o 13th of Leeds se mover para a Neve, ele termina qualquer movimento restante. Em seguida, mova o 13th of Leeds 3 espaços em qualquer direção. Depois, remova a Neve.</p>"
+        },
+        {
+            "title": "Momento 11",
+            "text": "<p>Não importa o quanto você subiu daquele buraco; o sangue te seguiu pelo caminho. Adicione 1 peça de Terreno de Poça de Sangue em cada vagão do trem.<br><br>Se o 13th of Leeds se mover para uma Poça de Sangue, pule a próxima vez do 13th of Leeds. Depois, remova a Poça de Sangue.</p>"
+        },
+        {
+            "title": "Momento 12",
+            "text": "<p>Parece que toda aquela sujeira ao redor das sepulturas encontrou o caminho de volta. Adicione 1 peça de Terreno de Detritos em cada vagão do trem.<br><br>Se o 13th of Leeds se mover para Detritos, ele ganha 3 de Humanity. Depois, remova os Detritos.</p>"
+        },
+        {
+            "title": "Momento 13",
+            "text": "<p>A morte não é o fim. Ou, pelo menos, não precisa ser. O homem feito de escuridão e sombras está diante de você, sorrindo. Pelo menos você acha que ele está sorrindo. Assim que você desvia o olhar do rosto dele, esquece completamente como ele é. Mas, por mais que você tente, nunca vai esquecer o cheiro dele. Cinzas. Como um prédio ou floresta que foi incendiada... É sufocante, esmagador.<br><br>“Eu sei que você não quer estar aqui,” suas palavras deslizam como fumaça de cigarro, e tão venenosas quanto. “Francamente, nem eu. Mas, como você, não tenho muito a dizer sobre o assunto. Uma dívida antiga deve ser paga. E estou aqui para cobrar.”<br><br>Os olhos dele, ou onde os olhos deveriam estar, brilham em um azul flamejante. “Não se preocupe, não estou aqui por você, pelo menos ainda não. Estou aqui por ele. E aquele violino chique dele...” Ele se interrompe, fumegando.<br><br>“Por enquanto, você e eu estamos do mesmo lado dos trilhos. Então, vamos fazer um acordo. Você coça minhas costas, e eu coço as suas.”<br><br>Ele coloca tudo na mesa, mas nada faz sentido. Você só tem três chances antes de ter que enfrentar a música. O que quer que isso signifique...<br><br><b>FAZENDO UM ACORDO</b><br><br>Se todos os Vagrants em jogo se tornarem Westbound durante um Cenário, eles têm a oportunidade de retornar ao mundo dos vivos. Vá para a página do Mile Post na página 48 e marque a caixa superior de Revive, depois leia o Momento associado nesta página.<br><br>Se houver uma caixa para marcar, todos os Vagrants Westbound viram a carta de Vagrant para o lado normal, depois viram todas as Skills Feridas para curá-las.<br><br>Os Vagrants podem gastar suas Coins normalmente durante a Fase de Acampamento. Quaisquer Coins ganhos em Rituais são mantidos para a Fase de Acampamento.</p>"
+        },
+        {
+            "title": "Momento 13.a",
+            "text": "<p>“Acontece com os melhores de nós. Considere isso um deslize. Um ‘oopsie-daisy’,” ele diz através de palavras de fumaça ondulante. “Eu ofereceria isso de graça, mas você sabe como são as coisas hoje em dia.”<br><br>Você sabe? Pensando bem, que dia é hoje? Há quanto tempo você está nesta coisa?<br><br>“Este trem não vai te levar ainda, se essa é sua preocupação. Você ainda tem seu papel, assim como eu tenho o meu.”<br><br>Você não pode deixar de notar que as paredes do vagão do trem ficaram todas pretas, como carvão fresco.<br><br>Ele tira um pedaço de papel. É a única coisa neste lugar que não está - ou não foi - incendiada em algum momento. Parece um contrato simples.<br><br>“Vou precisar que todos vocês assinem. Formalidades. Rastreamento. Essas ressurreições não crescem em árvores. Os superiores...”<br><br>Você não pôde deixar de notar que ele apontou para baixo. “...eles gostam mais dessa piada.”<br><br>Se você ainda não o fez, vire todas as suas Skills Feridas para que sejam curadas, assim como suas cartas de Vagrant Westbound.<br><br>Se você ainda não tiver, ganhe o Signed & Sealed Mile Post.</p>"
+        },
+        {
+            "title": "Momento 13.b",
+            "text": "<p>Você ouve os passos familiares saindo de um canto escuro do vagão. Ele suspira, e o lugar se enche de uma névoa baixa e pesada.<br><br>“Não esperava ver você tão cedo.” Ele soa desapontado, como algum chefe grande te repreendendo antes do seu pagamento final.<br><br>“Vou te perguntar uma vez. Essas almas vazias que continuo reabastecendo... o que elas valem para você?”<br><br>O vento uiva. O trem fede a fumaça e grita em silêncio.<br><br>“Provavelmente é melhor você não responder.” Ele anda de um lado para o outro... “Olha, não vou te jogar aos lobos. Ainda não. Ainda tenho fé em você para entregar. E quando você o fizer, todas as suas preocupações, seus medos deste lugar, de onde você pode acabar se não encontrar uma saída... E rápido?” Ele gesticula com a mão e as cinzas caem no chão como de um charuto aceso. “Puf. Como um pesadelo ruim. Acabou.”<br><br>Você já se beliscou várias vezes. Este lugar não é um sonho.<br><br>Aquele violinista começa a tocar no momento errado. O homem fica parado, estremecendo com a melodia distante.<br><br>“Acho que posso poupar algo extra desta vez. Mas não desperdice agora, ouviu?” Ele soa... desesperado? “Muita coisa está em jogo, para nós dois.”<br><br>Se você ainda não o fez, vire todas as suas Skills Feridas para que sejam curadas, assim como suas cartas de Vagrant Westbound. Em seguida, compre a Skill Card #84.<br><br>Quando você a adquirir, coloque-a no (ou próximo ao) espaço “?” no tabuleiro do trem. Ela é tratada como uma carta de Séance, mas, em vez de descartá-la no final de um Cenário, ela é mantida durante toda a campanha até ser usada. Quando for usada, é permanentemente descartada e colocada de volta na caixa. Os jogadores podem usar esta carta além da carta principal de Séance durante o mesmo Cenário para acionar o efeito de Séance uma segunda vez.</p>"
+        },
+        {
+            "title": "Momento 13.c",
+            "text": "<p>Você abre os olhos e espera ver uma sala escura cheia de fumaça. Você antecipa uma palestra de alguma silhueta assustadora. Condenação e desgraça, fogo e enxofre.<br><br>Em vez disso, a luz do luar atravessa as tábuas de madeira que compõem as paredes do vagão do trem, e não há ninguém ali para balançar a cabeça em desapontamento. Não há ninguém ali.<br><br>Há uma mesa à sua frente, com um pedaço de papel dobrado de forma intricada em cima.<br><br>Você abre. Porque é claro que você abre.<br><br>As palavras estão queimadas no papel e mancham quando você passa o polegar sobre elas.<br><br>“Última chance. Aproveite a viagem.”<br><br>O violinista toca uma nota alta e fica ali. Interminável.<br><br>Se você ainda não o fez, vire todas as suas Skills Feridas para que sejam curadas, assim como suas cartas de Vagrant Westbound. Em seguida, compre a Skill Card #85.<br><br>Quando você a adquirir, coloque-a no (ou próximo ao) espaço “?” no tabuleiro do trem. Quando um Vagrant se tornaria Westbound, eles podem usar esta carta para, em vez disso, curar todas as suas Skills Feridas e consertar seu Junk Quebrado. Esse Vagrant também coloca seu Token de Humanity no seu máximo de Humanity. Quando usada, é permanentemente descartada e colocada de volta na caixa.</p>"
+        },
+        {
+            "title": "Momento 14",
+            "text": "<p>Você experimentou perda e dor suficientes nos últimos dias para durar a vida inteira. Mas com cada momento sombrio, há uma oportunidade de iluminar o lugar.<br><br><b>Escolha uma:</b><br><br><ul><li>Você pode começar certificando-se de que aqueles ao seu redor permaneçam seguros e sãos: Compre Skill Card #63.</li><li>Para olhar para o futuro, mantenha o controle do seu passado: Compre Skill Card #64.</li></ul></p>"
+        },
+        {
+            "title": "Momento 15",
+            "text": "<p>Parece que você não é o único neste trem tentando fugir ou mudar o passado. Não parece ter dado certo para essas pobres pessoas...<br><br><b>Escolha uma:</b><br><br><ul><li>Mas cicatrizes ensinam, e você tem muito a aprender com elas: Compre Skill Card #71.</li><li>Mas onde eles falharam, você superará: Compre Skill Card #72.</li></ul></p>"
+        },
+        {
+            "title": "Momento 16",
+            "text": "<p>Parece que todo mundo tem uma história para contar. Muitos podem sentir que estão no fim de suas histórias, mas é frequentemente apenas o começo.<br><br><b>Escolha uma:</b><br><br><ul><li>Mantenha essa história calorosa para uma noite fria: Compre Skill Card #79.</li><li>Quem não gosta de uma pequena fábula de reforma?: Compre Skill Card #80.</li></ul></p>"
+        },
+        {
+            "title": "Momento 17",
+            "text": "<p>Como caminhar no ar, aquele gato demônio travesso sai do preto infinito e sobre os restos do trem com a mesma calma que você esperaria. Seus olhos, tão penetrantemente azuis quanto você se lembra, iluminam os ossos do Skelly Man como pequenas tochas. Estranhamente, o Skelly Man não o reconhece, como se não percebesse que o gato com chifres está lá.<br><br>Ele se esfrega contra um fêmur, ignorando completamente o violinista ao qual está preso e em vez disso se dirige a todos vocês. “Sabe,” DC começa, “eu não tinha grandes esperanças quando vocês embarcaram, todos encharcados da cabeça aos pés, graças àquela tempestade. Muitos fizeram exatamente o mesmo, mas aqui ficaram, dançando como tolos no escuro.”<br><br>Ele para, senta-se e começa a lamber o topo da pata. “Mas eu vou ser condenado. Ahem, de novo.” DC pausa como um comediante diante de uma plateia morta. “Quem diria? Vocês realmente fizeram isso. Tinha uma aposta com o chefe. Acontece que ele estava certo. Como sempre... Felizmente, vocês me deram moedas suficientes para pagar aquela pequena aposta e sair deste trem, então acho que é uma vitória para ambos.”<br><br>DC começa a alongar as pernas da frente, fechando os olhos e livrando o lugar de qualquer luz, se apenas por um momento. “Bem, como vocês, acho que também estarei a caminho. Não sejam estranhos agora, ouviram?”<br><br>E com isso, o pequeno gato preto começou a se afastar, desaparecendo na noite como se sempre fizesse parte dela.<br><br>Agora continue lendo o Momento anterior (85 ou 86).</p>"
+        },
+        {
+            "title": "Momento 18",
+            "text": "<p>Você coloca o Mapa da Luz na laje de vidro, e o símbolo de uma âncora feita de luz brilha. <br/><br/><b>Ver imagem no manual</b><br/><br/>  Se os Light Tokens estiverem nas posições corretas (conforme mostrado acima) em qualquer ponto durante o Cenário, destrua o farol na caixa de vidro.</p>"
+        },
+        {
+            "title": "Momento 19",
+            "text": "<p>Você coloca o Mapa das Trevas na folha de metal preto, e um símbolo que parece os quatro cantos do mundo aparece em tinta profunda e escura. <br/><br/><b>Ver imagem no manual</b><br/><br/> Se os Dark Tokens estiverem nas posições corretas (conforme mostrado acima) em qualquer ponto durante o Cenário, destrua o farol na gaiola de metal.</p>"
+        },
+        {
+            "title": "Momento 20",
+            "text": "<p>Você acorda no escuro. Está ainda mais difícil de respirar do que antes... Bater e arranhar a madeira, gritar alto - não adianta. Escreva secretamente um Evento que ainda não foi Investigado com sucesso. Quando o Evento for Investigado com sucesso, coloque seu Vagrant adjacente a esse Caixão (ou Caixa), além de quaisquer outros efeitos do Evento. Você retornou dos mortos. Você pode falar novamente. O próximo Vagrant azarado não terá o mesmo destino.</p>"
+        },
+        {
+            "title": "Momento 21",
+            "text": "<p>Dizem que a força é encontrada no final de cada provação. Mas depois de ver o que alguns estão dispostos a fazer para manter os outros vivos, e ainda falhar... que lição isso ensina?<br><br><b>Escolha uma:</b><br><ul><li>Afaste esses pensamentos preocupantes e comece a ser aquele farol de luz: Compre Skill Card #55.</li><li>Eles deram tudo de si. Hora de fazer o mesmo e mais: Compre Skill Card #56.</li></ul></p>"
+        },
+        {
+            "title": "Momento 22",
+            "text": "<p>É difícil encontrar as palavras certas ou o ritmo certo. Nada parece certo, como se você tivesse perdido o compasso. Mas se você não vai cantar uma música sobre essas pobres almas, então quem vai?<br><br><b>Escolha uma:</b><br><ul><li>Há uma maneira de sair desse marasmo - vá com tudo, e vá alto: Compre Skill Card #41.</li><li>Se há uma vantagem nesse lugar, são as acústicas. Você pode se ouvir por milhas. Aproveite isso de alguma forma: Compre Skill Card #42.</li></ul></p>"
+        },
+        {
+            "title": "Momento 23",
+            "text": "<p>Embora você não conheça muitas pessoas que já partiram, você está bem familiarizado com a dor.<br><br><b>Escolha uma:</b><br><ul><li>Pelo menos você tem seu Pup com você, nos altos e baixos: Compre Skill Card #49.</li><li>Talvez seja hora de se distrair ensinando-lhe um truque: Compre Skill Card #50.</li></ul></p>"
+        },
+        {
+            "title": "Momento 24",
+            "text": "<p>Não há muito que poderia ter preparado você para tudo isso. A única maneira de passar por essa loucura é com determinação. Você ainda tem alguma para reunir?<br><br><b>Escolha uma:</b><br><ul><li>A única maneira de descobrir é levantar essa espada fiel e tentar: Compre Skill Card #57.</li><li>Talvez essas boas pessoas ao seu redor te deem uma mão: Compre Skill Card #58.</li></ul></p>"
+        },
+        {
+            "title": "Momento 25",
+            "text": "<p>Não há lugar nesta terra que seja considerado seguro do mal? Parece seguir você onde quer que vá.<br><br><b>Escolha uma:</b><br><ul><li>Só precisa lembrar que nada pode te tocar enquanto você mantiver distância: Compre Skill Card #73.</li><li>Talvez seja hora de enfrentar de frente: Compre Skill Card #74.</li></ul></p>"
+        },
+        {
+            "title": "Momento 26",
+            "text": "<p>Se ao menos você conhecesse suas histórias, seus passados. Talvez então você pudesse ajudá-los a seguir para o que o futuro traz.<br><br><b>Escolha uma:</b><br><ul><li>Talvez haja uma maneira de falar com eles afinal: Compre Skill Card #65.</li><li>Você poderia começar tentando limpar o lugar: Compre Skill Card #66.</li></ul></p>"
+        },
+        {
+            "title": "Momento 27",
+            "text": "<p>Ainda há muito a aprender e crescer em tempos de perda, mas em uma escala tão grande, é difícil encontrar esperança.<br><br><b>Escolha uma:</b><br><ul><li>Talvez tente através da melodia, como aquele seu amigo tocador de banjo: Compre Skill Card #81.</li><li>Mesmo que pareça que não importa agora, contar essas histórias ajudará outros a se curarem, começando por você: Compre Skill Card #82.</li></ul></p>"
+        },
+        {
+            "title": "Momento 28",
+            "text": "<p>Depois de um momento, em silêncio, cada um relaxa os ombros e solta um suspiro de alívio. Um por um, os Turned Faces começam a desaparecer lentamente de vista. Você pode sentir os fardos se levantando dos ombros deles, mas os seus estão apenas começando. Se todos os 3 Rituals foram completados e não houve Vagrants que se tornaram Westbound durante o Cenário, ganhe o Cold Shoulder Mile Post. Após a Fase de Acampamento, continue para o próximo Cenário na página 5 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 29",
+            "text": "<p>Cada um deles balança a cabeça em uníssono, sabendo das dificuldades que você enfrentará antes de poder escapar, assim como eles tentaram. As falhas deles os prenderam aqui, mas o fracasso não é o fim. Leia o Momento 13. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 5 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 30",
+            "text": "<p>Seus membros agitam-se violentamente, não querendo soltar. As chamas azuis saindo de seus olhos se extinguem, e ele desaparece de vista como um balão levado pelo vento. Por um breve mas bem-vindo momento, tudo está quieto. Se todos os 3 Rituals foram completados e não houve Vagrants que se tornaram Westbound durante o Cenário, ganhe o Fiddle Skin Mile Post. Continue com a Fase de Acampamento e o In-Between para descobrir para onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 31",
+            "text": "<p>Ele paira sobre você como uma nuvem de tempestade, pronto para engoli-lo inteiro. Uma porta à distância se abre na escuridão, e uma figura finamente vestida entra. Apenas a visão dessa sombra é suficiente para fazer o homem de pele correr como o vento. Leia o Momento 13. Você pode continuar com a Fase de Acampamento e o In-Between para descobrir para onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 32",
+            "text": "<p>O trem desacelera, mas nunca para. O homem sem cabeça brilha um azul fraco, e seu corpo se torna informe e transparente. Sua lanterna desaparece, e em seu lugar está sua cabeça cansada, antes perdida mas agora encontrada. Ele sorri e acena em aprovação, até desaparecer na noite. Se Maco Joe não estava no Mood Bitin’ Headache e não estava dentro do Range 3 do Evento 3 no final do Cenário, ganhe o Headstrong Mile Post. Após a Fase de Acampamento, continue para o próximo Cenário na página 15 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 33",
+            "text": "<p>No caos e no fogo, sua cabeça rola para o outro lado do vagão, batendo na parede. Seus olhos brilham e se arregalam, olhando para seu próprio corpo cambaleante, até que outra figura feita de sombra toma forma. Leia o Momento 13. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 15 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 34",
+            "text": "<p>Por um momento, o teto se recusa a desabar. Com os olhos cada vez mais arregalados, o Tommyknocker olha para você, depois inclina a cabeça em curiosidade. A chama azul da vela treme e cresce, e enquanto você a observa, ele e suas enormes orelhas começam a desaparecer. O fogo tremeluzente é o último a desaparecer, mas algo lhe diz que não será a última vez que iluminará seu caminho. Se houver menos Stolen Possessions do que o dobro do número de Vagrants no final do Cenário, ganhe o Candle in the Wind Mile Post. Após a Fase de Acampamento, continue para o próximo Cenário na página 19 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 35",
+            "text": "<p>O restante das pedras de cima caem no chão, deixando você cercado pela escuridão e poeira. Mas um homem finamente vestido, sua forma de alguma maneira mais negra que a noite, estende a mão para você desde a escuridão. Leia o Momento 13. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 19 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 36",
+            "text": "<p>Ela arranha a parede do vagão e a rasga como uma lata de sopa. Relutante em deixar ir, ela sobe para o céu escuro, desaparecendo no além. Não posso deixar de sentir que ela estava procurando por alguém. Se todos os 3 Rituals foram completados, ganhe o To Be Free Mile Post. Após a Fase de Acampamento, continue para o próximo Cenário na página 23 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 37",
+            "text": "<p>Suas asas se espalham amplamente, bloqueando qualquer luz restante. Das penas que se estendem de uma escuridão infinita, a forma de um homem finamente vestido toma forma e começa a caminhar em sua direção... com propósito. Leia o Momento 13. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 23 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 38",
+            "text": "<p>O sangue de baixo começa a drenar, mas a constante atração permanece. Seus pés cedem, e você cai no buraco, mas a sensação de sua própria mortalidade chegando ao fim nunca o domina. Em vez disso, você se sente preparado para o que está por vir. Ganhe o Going Down? Mile Post. Após a Fase de Acampamento, continue para o próximo Cenário na página 27 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 39",
+            "text": "<p>A poça de sangue de baixo começa a borbulhar e ferver. De suas profundezas emergem braços e dentes, puxando você para baixo. Você abre os olhos, antecipando seus momentos finais, mas é recebido pela silhueta de um homem de terno e gravata. Leia o Momento 13. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 27 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 40",
+            "text": "<p>Como rachaduras de raios atravessando janelas abertas, a luz atravessa a escuridão, guiando você. Assim que você consegue entender seus arredores, os sussurros borbulhantes do Visitante desaparecem. Você está de volta ao trem, e é difícil aceitar se isso é bom ou não. Se todos os 3 Rituals foram completados e não houve Vagrants que se tornaram Westbound durante o Cenário, ganhe o Dream On Mile Post. Continue com a Fase de Acampamento e o In-Between para descobrir para onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 41",
+            "text": "<p>Hrrrrrrrrrk. Você ouve? A música? Ela canta para mim. Cl-click-click-click. Venha, junte-se a mim na escuridão. Hrrrrrrrrrk. Cl-click-click-click. E nós dançaremos na chuva. Como sonhadores fazem. Outra voz, mais profunda e clara, intervém. “Posso interromper?” Leia o Momento 13. Você pode continuar com a Fase de Acampamento e o In-Between para descobrir para onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 42",
+            "text": "<p>A Dama de Branco corre para a janela mais próxima e solta um grito ensurdecedor alto o suficiente para ressuscitar os mortos. Depois de olhar ao redor e se certificar de que isso não aconteceu, você se vira para onde ela flutuava. Mas ela se foi. Algo lhe diz que ela não foi para sempre. Se os Vagrants tiverem tanto a Black Feather quanto o Silver Ring no final do Cenário, ganhe o Float On Mile Post. Após a Fase de Acampamento, continue para o próximo Cenário na página 41 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 43",
+            "text": "<p>O trem fica um pouco mais frio, um pouco mais escuro. Ela não encontrou quem ou o que estava procurando, e agora... nem você. Uma janela se abre, e como um lençol pendurado para secar em uma tempestade, ela desaparece. Um homem envolto em sombras toma seu lugar e se inclina para pegá-lo. Leia o Momento 13. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 41 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 44",
+            "text": "<p>Uma porta à frente aparece do nada e se abre imediatamente. Justo a tempo. O que quer que esteja além é melhor do que ser ultrapassado por esta tempestade gelada. Hora de sair daqui. Se não houve Vagrants que se tornaram Westbound durante o Cenário, ganhe o Stay Frosty Mile Post. Após a Fase de Acampamento, continue para o próximo Cenário na página 45 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 45",
+            "text": "<p>A cada passo, você se sente um pouco mais lento. A neve e o gelo se acumulam em seus ombros e roupas... seus pés ficam mais pesados... seus olhos começam a se fechar... e... e... Quando você abre os olhos novamente, você está em outro lugar. O frio desapareceu e foi substituído apenas por escuridão. Você ouve uma voz profunda no canto da sala, gentilmente pedindo para você não ter medo. Leia o Momento 13. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 45 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 46",
+            "text": "<p>Cristais de gelo caem de suas roupas e no chão. Suas expressões chocadas e congeladas parecem derreter em suspiros quentes de alívio. Cada um deles fecha os olhos, e em uma rajada de vento cheio de neve, eles desaparecem. Se os Frozen Faces e ambos os Lost Souls estiverem no mesmo vagão no final do Cenário, todos os 3 Rituals foram completados, e não houve Vagrants que se tornaram Westbound durante o Cenário, ganhe o By the Sun Mile Post. Após a Fase de Acampamento, continue para o próximo Cenário na página 49 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 47",
+            "text": "<p>Eles pairam sobre você, bocas abertas, gemendo e balbuciando algo incompreensível. Há algo em seus olhos, uma expressão de culpa, tristeza ou cansaço... como se estivessem olhando para você e se vendo, ou pelo menos, vendo o que se tornaram. Uma mão sombria se estende e toca um de seus ombros, e então uma toca o seu... Leia o Momento 13. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 49 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 48",
+            "text": "<p>A besta para, enojada com suas próprias ações. O olhar febril em seus olhos se transforma em arrependimento. Ele olha para suas mãos ensanguentadas, depois de volta para você. “O que eu me tornei?” ele murmura silenciosamente para si mesmo antes de cair de joelhos. A brutal aparência de pele e osso desmorona de sua forma ao chão, deixando um homem pequeno, desesperado, mas ultimamente agradecido em seu lugar. Logo, até ele se vai. Se todos os 3 Rituals foram completados e não houve Vagrants que se tornaram Westbound durante o Cenário, ganhe o Full but Empty Mile Post. Após a Fase de Acampamento, continue para o próximo Cenário na página 53 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 49",
+            "text": "<p>A besta paira sobre você, babando saliva e sangue. O vagão do trem escurece. A silhueta de um homem aparece atrás do Wendigo, encostado na parede. Ele segura um garfo e uma faca em uma mão, acenando com um guardanapo como uma bandeira branca na outra.<br/><br/> Leia o <b>Momento 13</b>. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 53 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 50",
+            "text": "<p>O fogo ardente em seu núcleo esfria. Sua pele pastosa e viscosa escorre para o chão como cera de vela derretida. Por um momento, seus olhos se arregalam em realização de onde - e quem - eles são, e eles olham para você como se você tivesse conseguido onde eles falharam. Logo, não resta nada deles além de lodo e aço.<br/><br/> Se todos os 3 Rituals foram completados e não houve Vagrants que se tornaram Westbound durante o Cenário, ganhe o Fireworks Mile Post. <br/><br/> Continue com a Fase de Acampamento e o In-Between para descobrir onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 51",
+            "text": "<p>As aberturas liberam jatos de fogo enquanto as paredes começam a derreter. Os Boilermen batem e cantam, sorrindo, dançando, até que tudo é engolido pelas chamas. Entre os dentes de fogo, uma silhueta de um homem em um terno bem ajustado caminha em sua direção, intocado e indiferente ao ambiente.<br/><br/> Leia o <b>Momento 13</b>. Você pode continuar com a Fase de Acampamento e o In-Between para descobrir onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 52",
+            "text": "<p>Assim que você deixa o Flayed Man para trás, é saudado pela silhueta de um homem segurando uma maleta. Ela treme violentamente, e dedos finos e delgados surgem de dentro dela, tentando desesperadamente escapar. “Obrigado por ajudá-lo a cumprir uma velha dívida. Agora para encontrar seu... amigo. O tocador de violino.”<br/><br/> Ganhe o Mr. Briefcase Mile Post. <br/><br/> Continue com a Fase de Acampamento e o In-Between para descobrir onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 53",
+            "text": "<p>Desta vez, ele te pegou. Seu lábio inferior se afunda e desce, esticando-se como a mandíbula desarticulada de uma cobra. “Ah, ah, ah,” uma voz profunda interrompe por trás de você, e um homem em um terno elegante se destaca da parede. “Negócios antes do prazer.” Os buracos onde os olhos do Flayed Man outrora estiveram se alargam. “Vou lidar com você mais tarde,” diz o homem, antes de se voltar para você. “Agora, o que faremos com você?”<br/><br/> Leia o <b>Momento 13</b>. Você pode continuar com a Fase de Acampamento e o In-Between para descobrir onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 54",
+            "text": "<p>O luar entra nos vagões do trem mais uma vez, e a feiura circundante se transforma de volta na madeira simples dos vagões vazios. O 13th sorri de uma maneira que é tanto genuína quanto aterrorizante, como se ele estivesse grato pelo que você alcançou e ansioso para que você veja seu fim. Ele se curva graciosamente e então desaparece.<br/><br/> Se todos os 3 Rituals foram completados e nenhum Vagrant tiver mais de 2 Wounds (cada) no final do Cenário, ganhe o The Night Away Mile Post. <br/><br/> Continue com a Fase de Acampamento e o In-Between para descobrir onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 55",
+            "text": "<p>Um homem feito de escuridão entra na pista de dança, seus sapatos de duas tonalidades finos clicando e batendo contra os ossos. O 13th of Leeds se curva profundamente, nervoso. “Chifres, cascos... um diabo à minha própria altura.” Ele pega você pela mão, a música começa, e a dança recomeça.<br/><br/> Leia o <b>Momento 13</b>. Você pode continuar com a Fase de Acampamento e o In-Between para descobrir onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 56",
+            "text": "<p>Demora um ou dois segundos, mas você percebe que algo está acontecendo assim que as tábuas do chão começam a tremer novamente. Aquele velho carvalho está parecendo bem doente de repente, encolhendo como uma passa ao sol. Observando de longe está aquele velho homem. Quase sorri quando a árvore se transforma em pó.<br/><br/> Se todos os 3 Rituals foram completados durante o Cenário, ganhe o Six Feet Under Mile Post. <br/><br/> Após a Fase de Acampamento, continue para o próximo Cenário na página 67 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 57",
+            "text": "<p>Uma brisa fresca atravessa o trem, e as paredes começam a se fechar. Antes que você possa reagir, torrões de terra começam a atingir seu rosto, até não sobrar nada para ver. No escuro, um homem vestido de preto tira a terra do ombro e lhe oferece uma mão.<br/><br/> Leia o <b>Momento 13</b>. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 67 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 58",
+            "text": "<p>Coisas perdidas e coisas esquecidas... todas encontradas por aqueles que sentiram ser necessário começar a procurar. Alguém tem que garantir que essas histórias sejam contadas. Você respira fundo, e é tão bom respirar novamente.<br/><br/> Ganhe o Breathe in the Air Mile Post. <br/><br/> Após a Fase de Acampamento, continue para o próximo Cenário na página 71.</p>"
+        },
+        {
+            "title": "Momento 59",
+            "text": "<p>Não consigo deixar de ouvir os malditos sinos tocando. Parece muito mais abafado desta vez. Alguém está gritando. Você pode ouvir sua respiração ofegante. Espere... isso está vindo de você, e não de mais ninguém. Você tropeça no escuro, e um homem de preto te pega. <br/><br/> Leia o <b>Momento 13</b>. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 71.</p>"
+        },
+        {
+            "title": "Momento 60",
+            "text": "<p>Um ato de bondade em um mundo cruel faz toda a diferença. A estátua pausa, observando seus arredores. Ela dá um passo lento à frente, e outro, e outro. Pedaços de pedra caem até restar apenas um espírito brilhante, e logo até isso desaparece como centenas de pétalas de flores.<br/><br/> Se todos os 3 Rituals foram completados durante o Cenário e nenhum Vagrant em jogo tem Luck o’ the Lady, ganhe o Craggy Aggie Mile Post. <br/><br/> Após a Fase de Acampamento, continue para o próximo Cenário na página 75 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 61",
+            "text": "<p>Está tudo desmoronando ao seu redor, e não há nada que você possa fazer. Grandes pedaços de gesso e pedra se desprendem da estátua, voando para cada canto do trem. Uma figura emerge da poeira... um homem de terno, segurando uma rosa murcha na mão.<br/><br/> Leia o <b>Momento 13</b>. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 75 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 62",
+            "text": "<p>Finalmente, o som dos sinos para. A expressão torta da Bell Witch suaviza-se em um sorriso caloroso. Ela não diz uma palavra - não precisa - e, em vez disso, aproveita o silêncio. Ela fecha os olhos e desaparece em uma névoa.<br/><br/> Ganhe o Broken Bells Mile Post e 3 Coins durante esta Fase de Acampamento. <br/><br/> Após a Fase de Acampamento, continue para o próximo Cenário na página 79 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 63",
+            "text": "<p>“Oh meu, que ajudantes maravilhosos vocês são. Todas as minhas tarefas estão concluídas. Agora, o que esta velha senhora fará com seu tempo?” Ela desaparece ao som de sinos tocando e risadas. <br/><br/> Após a Fase de Acampamento, continue para o próximo Cenário na página 79 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 64",
+            "text": "<p>Aqueles sinos continuam ressoando dentro do seu crânio, e eles não param. Você fecha os olhos com força, tentando bloquear o som constante, mas eles surgem em ondas de branco. E naquela brancura... uma figura escura. <br/><br/> Leia o <b>Momento 13</b>. Após a Fase de Acampamento, você pode continuar para o próximo Cenário na página 79 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 65",
+            "text": "<p>Se a culpa pressiona as costuras por tempo suficiente, algo está prestes a se romper eventualmente. Todos aqueles membros se transformam em gelatina. Você já viu esse tipo de desespero antes. Como puxar um fio de uma gaze, ele começa a se desfazer, almas roubadas gritando enquanto escapam daquela prisão carnuda. Logo, não resta nada além de uma capa velha e mofada. <br/><br/> Se todos os 3 Rituals foram completados e não houve Vagrants que se tornaram Westbound durante o Cenário, ganhe o Into the Hollow Mile Post. <br/><br/> Continue com a Fase de Acampamento e o In-Between para descobrir onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 66",
+            "text": "<p>Uma sombra se projeta sobre você, e uma voz tão profunda quanto o oceano ressoa dela. “Um contrato foi assinado, e você deve cumprir. Você pode tê-lo tirado de mim, mas uma alma deve ser entregue.”<br/><br/> Ele pega você pela mão, e juntos, vocês mergulham na escuridão. Nada além da sua sombra permanece, e mesmo isso logo desaparece. Aqueles que ainda estão lá olham ao redor, sem saber o que fazer. Sem saber o que dizer. Sua história termina aqui, mas você não será esquecido.</p>"
+        },
+        {
+            "title": "Momento 67",
+            "text": "<p>Para uma criatura como esta, nunca é o suficiente. Aqueles longos braços de espaguete estão por toda parte... surgindo de todas as fendas do assoalho, transportando você como um barco em um rio de membros. Sua capa se abre, e essa é a última coisa que você vê. Mas um desses membros parece diferente. Uma manga preta sob medida... <br/><br/> Leia o <b>Momento 13</b>. Você pode continuar com a Fase de Acampamento e o In-Between para descobrir onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 68",
+            "text": "<p>Por um momento, tudo desacelera até quase parar. As ondas do oceano rugem para sempre. Gotas de água e suor caem no assoalho em explosões lentas. O farol à distância se apaga. <br/><br/> Se não houve Vagrants que se tornaram Westbound durante o Cenário, ganhe o See the Light Mile Post. <br/><br/> Continue com a Fase de Acampamento e o In-Between para descobrir onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 69",
+            "text": "<p>Eles sempre dizem que os mares são brilhantes, não importa a costa, mas isso é outra coisa. A luz está toda errada, torcendo em ângulos engraçados. A escuridão também... Tentáculos pairam sobre você, se contorcendo, desaparecendo e reaparecendo... Uma sombra se destaca da luz contorcida. “Não é bem o que você tinha em mente para umas férias à beira-mar, não é?” <br/><br/> Leia o <b>Momento 13</b>. Você pode continuar com a Fase de Acampamento e o In-Between para descobrir onde a jornada o levará a seguir.</p>"
+        },
+        {
+            "title": "Momento 70",
+            "text": "<p>Você se encontra em um vagão de carga tão simples quanto pode ser - não há nada reconhecível ou memorável sobre o lugar. Paredes de madeira e pisos vazios... e ainda assim, de alguma forma, uma sombra se forma. De dentro dela, uma forma familiar, mas não tão acolhedora, se destaca. O homem de preto. “Eu te dei todas as oportunidades, mas agora não tenho escolha a não ser usar suas almas como isca para atrair o grande lobo mau.” O som do violino à distância não parece mais tão distante. Cada nota soa tão alta que o som do trem é abafado. “E se você não puder vencê-lo, se juntará a ele.” <br/><br/> Continue com a Fase de Acampamento, mas em vez de ler o cartão In-Between ou passar para o próximo Cenário, vá para a página 97 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 71",
+            "text": "<p>“Bem, olhe para você. Isso é um monte de dobrões que você está disposto a se desfazer. Muito bem, você pagou um preço justo. Vou te dar uma mão com esses fantasmas errantes.”<br/><br/> Compre e coloque a carta Junk #32 (carta Favor do DC) no tabuleiro do trem na (ou abaixo da) posição “?” perto das cartas Ritual. Pelo resto do jogo, no início de cada Cenário, compre uma carta Junk aleatória do seu maior Nível e coloque-a na carta Favor do DC. Todos os Vagrants ganham os efeitos desse Junk durante o Cenário. No final do Cenário, embaralhe o Junk comprado de volta no baralho de Junk. Esse Junk não pertence a nenhum Vagrant e não pode ser quebrado quando a Humanity de um Vagrant chega a 0.</p>"
+        },
+        {
+            "title": "Momento 72",
+            "text": "<p>Um ar fétido... faz seu estômago se contorcer. <br/><br/> Compre e coloque a carta Malady 1 no tabuleiro do trem na posição “?” perto das cartas Ritual. Em seguida, adicione o Token Malady ao Bindle. De agora até o fim do jogo, o Token Malady será colocado de volta no Bindle no início de cada Cenário. O efeito Malady é permanente e continua de Cenário para Cenário.<br/><br/> Quando o Token Malady é retirado, trate-o como um Token de Evento (tanto os Vagrants quanto os Haints compram outro Token de Rummage após o Token Malady ser retirado) e coloque-o na próxima rodada. No início dessa rodada, o Haint faz a primeira jogada dessa rodada, depois a ordem dos turnos continua normalmente. O Token Malady permanece nessa rodada pelo resto do Cenário, depois é adicionado de volta ao Bindle no final do Cenário.</p>"
+        },
+        {
+            "title": "Momento 74",
+            "text": "<p>Você se sente fraco, como se seus ossos fossem feitos de vidro e o ar que você está respirando fosse impossível de absorver. <br/><br/> Compre e coloque a carta Malady 3 no tabuleiro do trem na posição “?” perto das cartas Ritual. Ela substitui a carta Malady 2 (que pode voltar para a caixa). O efeito escrito nesta carta Malady permanece em vigor até o fim do jogo. Este efeito é adicional à carta Malady anterior, não em substituição. O Efeito Malady é permanente e continua de Cenário para Cenário.<br/><br/> De agora até o fim do jogo, se um Vagrant estiver Wounded, todos os outros Vagrants perdem 1 Humanity.</p>"
+        },
+        {
+            "title": "Momento 75",
+            "text": "<p>Raios de luz azul escapam e fogem do trem, lançando-se no desconhecido... uma tempestade de almas dissipando-se na escuridão. Mas estão livres, não mais contidas ou presas por este lugar ou sua canção. E logo depois, os caixões que cobriam os vagões flutuam do chão e começam a se desintegrar. O Flayed Man não tem o mesmo destino. Ele estende a mão para o Skelly Man enquanto sua pele é completamente arrancada, perdida para sempre. Sem seu público infinito de almas capturadas, a canção que ele toca soa muito mais vazia.<br/><br/> Ninguém está dançando. <br/><br/> Ninguém está correndo. <br/><br/> Uma vez que a Fase de Acampamento esteja completa, vá para a página 97 do Livro de Cenários para continuar para o próximo e último Cenário.</p>"
+        },
+        {
+            "title": "Momento 76",
+            "text": "<p>O ritmo da música te domina. O tempo parece estar se desfazendo e se esticando. Não parece mais que você tem muito controle sobre seus próprios movimentos. Você não consegue parar de dançar ao ritmo.<br/><br/> O trem solta um apito alto o suficiente para derrubar montanhas. Em seu eco, tudo ao seu redor desaparece na escuridão.<br/><br/> Você acorda e o mundo ao seu redor é um tom de azul. Uma voz chama como letras de uma canção. “Estamos indo para o oeste, para sempre e sempre!”<br/><br/> O jogo acabou, e você perdeu. Você está preso para sempre no trem fantasma, e o Skelly Man manteve suas almas por toda a eternidade. Você agora está preso em um lugar entre mundos, existindo apenas para garantir a existência de outra pessoa.</p>"
+        },
+        {
+            "title": "Momento 77",
+            "text": "<p>Cravado com Pregos de Ferro, o Flayed Man treme e se expande em retaliação violenta. As perfurações se tornam canhões temporários, pois cada Prego de Ferro é projetado em todas as direções. Qualquer Vagrant Enveloped não está mais Enveloped e é colocado em espaço(s) aberto(s) adjacente(s) ao Flayed Man. Então, todos os Vagrants rolam 1 Bone e resolvem o efeito com base no número rolado:<br/><br/>1-2: Perde 3 Humanity<br/>3-4: Perde 2 Humanity<br/>5-6: Perde 1 Humanity</p>"
+        },
+        {
+            "title": "Momento 78",
+            "text": "<p>A Lost Soul sorri bem largo. Seu rosto azul gelo fica vermelho rosado. “Você encontrou meus irmãos? Kurt e Oscar? Não vejo nenhum deles desde que a avalanche desabou... O Cachecol do Kurt deve estar por aqui em algum lugar...”<br/><br/> Remova a Lost Soul que recebeu as Luvas do tabuleiro do trem. O Vagrant que realizou o Ritual cura um Wound e perde Frostbitten se atualmente tiver o Haint Effect.</p>"
+        },
+        {
+            "title": "Momento 79",
+            "text": "<p>Ele enrola o cachecol firmemente ao redor do rosto, cobrindo tudo, exceto seus olhos alegres. “Aqueles pobres Boilermen fizeram tudo o que podiam quando a avalanche atingiu, mas... não havia comida, nem escape. Por dias. Você encontrou meus irmãos, Oscar e Bernie? As Luvas do Bernie devem estar por aqui em algum lugar...”<br/><br/> O Vagrant que realizou o Ritual cura um Wound e perde Frostbitten se atualmente tiver o Haint Effect.</p>"
+        },
+        {
+            "title": "Momento 80",
+            "text": "<p>Do infinito além, flocos de neve vermelha caem. Eles grudam no trem como melaço. No pó carmesim que se acumula, aparecem duas pegadas - um par de botas velhas e outro de saltos altos. Ambos levam para o próximo vagão de forma independente, e quando você os segue, dois espíritos flutuantes se formam sob a neve, cruzando caminhos, mas nunca se encontrando.<br/><br/> Não leia o próximo cartão In-Between. Em vez disso, após gastar Coins e Gerenciar Vagrants durante a Fase de Acampamento, vá imediatamente para a página 87 e comece esse Cenário.</p>"
+        },
+        {
+            "title": "Momento 81",
+            "text": "<p>Ambos os Haints flutuam lentamente e caem no chão, seus pés tocando o piso pela primeira vez. As penas da Blackbird desvanecem, revelando a pessoa que ela foi um dia, e o vestido da Lady in White se acalma. Suas mãos se encontram enquanto começam a descer do trem, mas antes de fazê-lo, eles se viram para oferecer sua gratidão.<br/><br/> Ganhe o Reunited Mile Post. <br/><br/> Então escolha uma:<br/><ul><li>Uma carta de agradecimento da rápida Blackbird: Compre Skill #33.</li><li>A Lady in White mostra sua humanidade e um pouco de apreço: Compre Skill #34.</li></ul><br/> Continue com a Fase de Acampamento, resolvendo o cartão In-Between, como de costume. Após a Fase de Acampamento, o próximo Cenário depende do Cenário jogado anteriormente a este.<br/><br/>• Se Black & Blue, continue para a página 23 do Livro de Cenários.<br/>• Se So Far Away, continue para a página 41 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 82",
+            "text": "<p>Suas mãos se estendem uma para a outra, mas um vazio negro entre elas começa a se espalhar e se expandir até que seus dedos não possam mais se tocar. A escuridão continua a se expandir, e com ela, a barreira entre os dois. Eles se afastam em direções opostas, incapazes de se encontrar novamente. Do vazio, o homem feito de sombra aparece.<br/><br/> “O luto está pesando em você?” Ele olha para cada espírito flutuante, depois balança a cabeça. “Não deixe que se torne uma prisão.”<br/><br/> Leia o <b>Momento 13</b>. Então continue com a Fase de Acampamento, resolvendo o cartão In-Between, como de costume. Após a Fase de Acampamento, o próximo Cenário depende do Cenário jogado anteriormente a este.<br/><br/>• Se Black & Blue, continue para a página 23 do Livro de Cenários.<br/>• Se So Far Away, continue para a página 41 do Livro de Cenários.</p>"
+        },
+        {
+            "title": "Momento 83",
+            "text": "<p>“Graças a você, talvez eu tenha a chance de comprar um bilhete para sair deste trem, afinal. Aqui está um token de minha gratidão.”<br/><br/> Procure o baralho de Junk e remova qualquer número de cartas Junk de Nível 1 ou Nível 2 do baralho de Junk. Essas cartas são colocadas de volta na caixa e não podem ser adquiridas pelo resto do jogo. Em seguida, embaralhe o baralho de Junk, compre a carta do topo e adicione-a aos seus Pertences.</p>"
+        },
+        {
+            "title": "Momento 84",
+            "text": "<p>O gato preto faz contato visual com você enquanto empurra a pilha de Coins para fora do trem, escorregando como pó de ouro ao vento. “Hora de usar as coisas boas.”<br/><br/> Procure o baralho de Junk e remova qualquer número de cartas de Nível 1 do baralho de Junk. Essas cartas são colocadas de volta na caixa e não podem ser adquiridas pelo resto do jogo. Em seguida, embaralhe o baralho de Junk, compre a carta do topo e adicione-a aos seus Pertences.</p>"
+        },
+        {
+            "title": "Momento 85",
+            "text": "<p>Se você tiver 25 Banked Coins, leia o <b>Momento 17</b> agora.<br/><br/> “Não foi o suficiente se tornar o maior”, admite o Skelly Man. “Eu precisava ser lembrado. Enquanto houvesse pessoas para ouvir minhas canções, eu poderia me apegar a este lugar. Suponho que pensei que permanecer vivo para sempre era a única maneira de manter as pessoas pensando em mim. Não importava quantas almas pobres eu arrastasse junto para a jornada.”<br/><br/> “Fácil perder de vista o que é importante”, ele continua. “Sonhos podem te cegar. Se você não tomar cuidado, as pessoas que você ama se tornam as pessoas que você machuca. Ainda mais se você estiver disposto a fazer um acordo...” Ele olha para a escuridão, como se estivesse procurando por alguém. O trem treme e sacode, e o Skelly Man também, enquanto ele caminha em direção a uma porta que aparece por perto.<br/><br/> Ele se vira para você, seus ossos se transformando em músculos, seus músculos se transformando em carne, e seu semblante se transformando em um sorriso... lições aprendidas e tudo mais. Então ele te dá uma piscada.<br/><br/> “A próxima parada é toda sua”, ele diz sem ritmo ou rima. “Não fique muito tempo depois disso. E quando sair, leve de mim: não faça acordos que possa se arrepender.”<br/><br/> E assim, ele se foi. Todas as histórias, boas e ruins, devem chegar ao fim. Quando o Skelly Man desce do trem e desaparece na névoa, você não pode deixar de pensar que suas canções serão lembradas, afinal, mesmo que ele não. Desaparecido, mas não esquecido.<br/><br/> No silêncio, você e seus amigos se olham, sem palavras, sem saber o que fazer ou dizer após finalmente serem libertados.<br/><br/> Se você tiver o Signed & Sealed Mile Post, um acordo foi feito. Um Vagrant deve escolher honrar seu lado da barganha e ler o <b>Momento 66</b>.<br/><br/> Cada um dos Vagrants em jogo lê sua seção abaixo:<br/><br/> <b>Songsmith:</b> As multidões rugindo soam um pouco vazias. Talvez seja tudo sobre tocar nas velhas estradas e buracos na parede para pessoas que apreciam a canção do vagabundo. De vez em quando, você até toca uma melodia que soa muito familiar.<br/><br/> <b>Runaway:</b> Você aprendeu que o mundo é muito maior do que seu quintal. Todos os tipos de pessoas e lugares para visitar, e você está apenas começando. Mas realmente não há lugar como o lar, e você sabe disso agora, melhor do que nunca.<br/><br/> <b>Empress:</b> Você percebeu que não precisa de um exército, afinal, apenas alguns amigos próximos. Sua espada permanece embainhada na maioria dos dias, mas ainda é útil de vez em quando, especialmente quando alguém precisa ser convencido a assinar um decreto.<br/><br/> <b>Cursebearer:</b> No segundo em que você desceu do trem, um peso escuro foi levantado. A maldição se foi, ou pelo menos ficou para trás. Você não precisa mais correr. Pela primeira vez na vida, você pode parar e sentir o cheiro das rosas.<br/><br/> <b>Revivalist:</b> Você voltou para casa e percebeu que não era um fracasso como pensava. Confiar em outras pessoas lhe ensinou uma lição valiosa. Armado com essa nova perspectiva, você percebe que há muitas pessoas lá fora que você pode ajudar. Melhor começar logo.<br/><br/> <b>Wayfarer:</b> Acontece que você nunca é velho demais para se envolver em outra história. Agora você tem tempo para revisar suas notas rabiscadas e enviá-las para uma revista. Suas histórias e lendas estão prestes a se espalhar por todo o campo.</p>"
+        },
+        {
+            "title": "Momento 86",
+            "text": "<p>Se você tiver 25 Banked Coins, leia o <b>Momento 17</b> agora.<br/><br/> Não há muito trem sobrando. É só você, o Skelly Man e o que quer que esteja além.<br/><br/> Nesta escuridão, neste vazio, neste lugar entre os vivos e os mortos, uma voz chama.<br/><br/> “Faz muito tempo, Johnny. Tempo demais na minha contagem.” Está ao seu redor, ecoando como se você estivesse em uma vasta caverna.<br/><br/> O Skelly Man não diz uma palavra ao homem envolto em escuridão. Em vez disso, ele se vira para você, desapontado e desesperado.<br/><br/> A única coisa que ainda brilha por aqui é aquele violino dourado, e quando ele desaparece, parece que o sol foi engolido. De repente, o homem de preto está segurando um estojo de violino ao seu lado, com aquele cheiro horrível de enxofre.<br/><br/> “Espere só um segundo. Mais uma aposta, mais uma aposta. Uma última dança. O que você acha?” O Skelly Man implora, mas é como se seu microfone tivesse sido desligado, e você estivesse do outro lado do palco.<br/><br/> “É o fim da linha, garoto. Esta é a última canção que você vai cantar.” O homem de preto começa a assobiar a canção do Skelly Man.<br/><br/> Se você tiver o Signed & Sealed Mile Post: leia o <b>Momento 86.a</b>.<br/><br/> Caso contrário: leia o <b>Momento 86.b</b>.</p>"
+        },
+        {
+            "title": "Momento 86.a",
+            "text": "<p>“Você fez o acordo errado.”<br/><br/> Talvez você tenha feito, talvez não. Neste ponto, a única coisa que importa é sair deste trem e voltar para casa. Não importa o custo. Não importa o contrato.<br/><br/> Sem um gemido, os ossos do Skelly Man se desfazem em pó e desaparecem na obscuridade.<br/><br/> Não resta nada além de você e a escuridão, e o homem que gosta de ficar envolto em sombras.<br/><br/> “Você fez bem. Eu sabia que tudo isso daria certo. Agora vá embora. E se você algum dia se encontrar em perigo, você sabe onde me encontrar. Apenas lembre-se de trazer uma caneta.”<br/><br/> O trem para, ou pelo menos o que resta dele.<br/><br/> À medida que cada um de vocês desce, finalmente livre deste fardo, você não pode deixar de se perguntar o custo, ou se está realmente livre deste lugar.</p>"
+        },
+        {
+            "title": "Momento 86.b",
+            "text": "<p>Sem um gemido, os ossos do Skelly Man se desfazem em pó. O homem envolto em escuridão se ajoelha e pega um punhado de pó de osso, depois o solta ao vento. “Este é um presente muito bom e inesperado. Você tem meus agradecimentos.” Ele joga uma moeda em sua direção. “Considere isso um pagamento adiantado. Se algum dia precisar da minha ajuda, basta lançá-la.”<br/><br/> Exceto por um arranhão profundo de um lado, a moeda parece relativamente simples. Mas quando você termina de investigá-la, o homem de preto já se foi. E com essa revelação, o trem para, ou pelo menos o que resta dele.<br/><br/> À medida que cada um de vocês desce, finalmente livre deste fardo, você não pode deixar de se perguntar o que vem a seguir, ou o que teve que fazer para chegar aqui. Mas pelo menos você está livre.</p>"
         }
     ]
 }
