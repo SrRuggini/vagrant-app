@@ -3,8 +3,7 @@
 }
 
 .InBetween__Button {
-  background: rgb(19 14 18 / 83%);
-  /* border: solid 2px rgb(248 237 222 / 22%); */
+  background: transparent;
   border: none;
   border-bottom: dotted 2px rgb(248 237 222 / 22%);
   color: #f8edde;
@@ -26,16 +25,6 @@
   background: #021227;
 }
 
-/* .InBetween__ButtonNumber {
-  display: block;
-  border: 3px solid #67e1da;
-  height: 36px;
-  width: 36px;
-  text-align: center;
-  line-height: 30px;
-  border-radius: 50%;
-  margin-right: 16px;
-} */
 .InBetween__ButtonNumber {
   display: block;
   color: #67e1da;
@@ -67,8 +56,7 @@
 .InBetween__Description ul li {
   border: 2px solid #67e1da;
   margin: 0 0 24px;
-  padding: 16px;
-  border-radius: 8px;
+  padding: 24px;
   position: relative;
   font-size: 15px;
   line-height: 21px;
@@ -76,7 +64,7 @@
 .InBetween__Description ul li span {
   display: block;
   width: 30px;
-  margin: -26px auto 0;
+  margin: -36px auto 10px;
   text-align: center;
   font-size: 23px;
   background: #021227;
@@ -112,7 +100,7 @@
 .InBetween__Title {
   padding: 16px;
   text-align: center;
-  font-size: 29px;
+  font-size: 23px;
   letter-spacing: 0.02rem;
 }
 
@@ -126,7 +114,6 @@
 
 .InBetween__ModalContent {
   background: #021227;
-  border-radius: 18px;
   border: solid 2px rgb(103 225 218 / 19%);
   max-width: 550px;
   width: 90vw;

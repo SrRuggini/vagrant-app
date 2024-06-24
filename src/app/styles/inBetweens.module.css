@@ -6,6 +6,7 @@
 }
 
 .InBetweens__Card {
-  padding: 16px;
+  background: rgb(19 14 18 / 83%);
   border: solid 2px rgb(248 237 222 / 22%);
+  padding: 16px;
 }
