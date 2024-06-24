@@ -6,14 +6,18 @@
 }
 
 .Scenario__Item {
-  padding: 0 8px;
+  border-bottom: 2px dotted #b3b3b3;
 }
 
 .Scenario__Link {
   display: flex;
   justify-content: space-between;
-  padding: 16px 0;
-  border-bottom: 2px dotted #b3b3b3;
+  padding: 16px 8px;
+  transition: all .4s ease;
+}
+
+.Scenario__Link:hover {
+  background-color: #d9cfbe;
 }
 
 .Scenario__Subtitle {

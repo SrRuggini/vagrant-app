@@ -37,18 +37,23 @@ export default async function Scenario({ params }) {
                                                 __html: scenarioData.story.description,
                                             }}
                                         />
-                                        {scenarioData.story?.image && (
-                                            <Image
-                                                className={styles.Scenario__Haint}
-                                                src={`/haints/${scenarioData.story.image}`}
-                                                width={450}
-                                                height={645}
-                                                alt="Vagrantsong"
-                                            />
-                                        )}
                                     </>
                                 )}                             
-
+                            </div>
+                            <div className={styles.Scenario__ImageContainer}> 
+                                {scenarioData?.story?.image && (
+                                    <>
+                                        <Image
+                                            className={styles.Scenario__Haint}
+                                            src={`/haints/${scenarioData.story.image}`}
+                                            width={450}
+                                            height={645}
+                                            alt="Vagrantsong"
+                                        />
+                                    </>
+                                )}
+                            </div>
+                            <div className={styles.Scenario__Card}>
                                 {scenarioData?.rules &&
                                     scenarioData?.rules?.map((rule, index) => (
                                         <div key={index}>

@@ -18,14 +18,24 @@
 }
 
 .Section__Item {
+  margin-bottom: 8px;
+}
+
+.Section__Item a {
+  display: block;
   padding: 16px;
   border: solid 2px #d9cfbe;
-  margin-bottom: 16px;
+  color: #4f352b;
+  transition: all ease .3s;
+}
+
+.Section__Item a:hover {
+  background: #d9cfbe;
+  border: solid 2px #4f352b;
 }
 
 .Section__Title {
   font-family: "Alfa Slab One", serif;
   display: block;
-  color: #4f352b;
   font-size: 32px;
 }
