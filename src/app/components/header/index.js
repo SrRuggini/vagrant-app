@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from './collapsible.module.css';
+import styles from './header.module.css';
 import clsx from 'clsx';
 
 import { TbArrowBackUp, TbMenu2 } from 'react-icons/tb';

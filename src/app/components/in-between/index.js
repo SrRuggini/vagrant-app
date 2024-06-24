@@ -19,8 +19,8 @@ const InBetween = ({ data }) => {
                 onClick={() => toggleModalOpen()}
                 className={styles.InBetween__Button}
             >
-                <span className={styles.InBetween__ButtonNumber}>{number}</span>
                 <span className={styles.InBetween__ButtonTitle}>{title}</span>
+                <span className={styles.InBetween__ButtonNumber}>{number}</span>
             </button>
             {modalOpen && (
                 <div className={styles.InBetween__Modal}>

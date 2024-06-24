@@ -1,0 +1,11 @@
+.PageTitle {
+  color: #66e1db;
+  font-size: 48px;
+  letter-spacing: 0.04rem;
+  margin-bottom: 21px;
+}
+
+.InBetweens__Card {
+  padding: 16px;
+  border: solid 2px rgb(248 237 222 / 22%);
+}

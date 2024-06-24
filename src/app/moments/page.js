@@ -12,13 +12,14 @@ export default async function Moments() {
             <Header inner={true} />
             <main className={styles.Moments}>
                 <div className="container">
+                    <h1 className={styles.PageTitle}>Momentos</h1>
                     <div className="content-wrap">
                         <div className={styles.Moments__Card}>
                             {data?.moments?.map((moment, index) => {
                                 const { title, text } = moment;
                                 return (
                                     <div
-                                        className={styles.Vagrant__Item}
+                                        className={styles.Moments__Item}
                                         key={`scenario-${index}`}
                                     >
                                         <Collapsible

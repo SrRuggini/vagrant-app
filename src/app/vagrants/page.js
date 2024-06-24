@@ -12,6 +12,7 @@ export default async function Home() {
             <Header inner={true} />
             <main className={styles.main}>
                 <div className="container">
+                    <h1 className={styles.PageTitle}>Vagrants</h1>
                     <div className="content-wrap">
                         {data?.vagrants?.map((vagrant, index) => {
                             const { description, image, passive, passiveDescription, skills, playstyle } = vagrant;

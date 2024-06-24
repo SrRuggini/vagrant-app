@@ -1,20 +1,19 @@
 .InBetween__Item {
-  color: white;
-  margin-bottom: 8px;
-  margin-left: -16px;
-  margin-right: -16px;
+  color: #f8edde;
 }
 
 .InBetween__Button {
   background: rgb(19 14 18 / 83%);
-  border-radius: 18px;
-  border: solid 2px rgb(255 255 255 / 26%);
-  color: white;
+  /* border: solid 2px rgb(248 237 222 / 22%); */
+  border: none;
+  border-bottom: dotted 2px rgb(248 237 222 / 22%);
+  color: #f8edde;
   font-family: "Alfa Slab One", serif;
   font-weight: 300;
-  font-size: 1.17em;
+  font-size: 17px;
   padding: 16px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   text-align: left;
@@ -23,19 +22,23 @@
 }
 
 .InBetween__Button:hover {
-  border: 2px solid #67e1da;
+  border-color: #67e1da;
   background: #021227;
 }
 
-.InBetween__ButtonNumber {
+/* .InBetween__ButtonNumber {
   display: block;
   border: 3px solid #67e1da;
-  height: 50px;
-  width: 50px;
+  height: 36px;
+  width: 36px;
   text-align: center;
-  line-height: 46px;
+  line-height: 30px;
   border-radius: 50%;
   margin-right: 16px;
+} */
+.InBetween__ButtonNumber {
+  display: block;
+  color: #67e1da;
 }
 
 .InBetween__ButtonTitle {
@@ -48,7 +51,7 @@
   overflow: auto;
   margin-right: -8px;
   padding-right: 8px;
-  color: #e5e5e5;
+  color: #f8edde;
 }
 
 .InBetween__ModalContent p {
@@ -89,7 +92,7 @@
 }
 
 .InBetween__Description::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: #f8edde;
 }
 
 .InBetween__Number {
@@ -118,6 +121,7 @@
   inset: 0;
   background-color: rgb(0 0 0 / 84%);
   animation: fadeIn .3s cubic-bezier(0,0,0.2,1);
+  z-index: 10;
 }
 
 .InBetween__ModalContent {

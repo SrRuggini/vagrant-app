@@ -1,3 +1,10 @@
+.PageTitle {
+    color: #66e1db;
+    font-size: 48px;
+    letter-spacing: 0.04rem;
+    margin-bottom: 21px;
+  }
+
 .Moments__Card {
-    padding: 0 16px;
+    padding: 16px 32px;
 }
