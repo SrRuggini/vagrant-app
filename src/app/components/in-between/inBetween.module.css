@@ -1,0 +1,177 @@
+.InBetween__Item {
+  background: rgb(19 14 18 / 83%);
+  border-radius: 18px;
+  border: solid 2px rgb(255 255 255 / 26%);
+  color: white;
+  margin-bottom: 8px;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.InBetween__Button {
+  background: none;
+  border: none;
+  color: white;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 300;
+  font-size: 1.17em;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  letter-spacing: 0.06rem;
+}
+
+.InBetween__ButtonNumber {
+  display: block;
+  border: 3px solid #67e1da;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.InBetween__ButtonTitle {
+  width: calc(100% - 80px);
+  display: block;
+}
+
+.InBetween__Description {
+  max-height: 70vh;
+  overflow: auto;
+  margin-right: -8px;
+  padding-right: 8px;
+  color: #e5e5e5;
+}
+
+.InBetween__ModalContent p {
+  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.InBetween__Description ul {
+  list-style: none;
+}
+
+.InBetween__Description ul li {
+  border: 2px solid #67e1da;
+  margin: 0 0 24px;
+  padding: 16px;
+  border-radius: 8px;
+  position: relative;
+  font-size: 15px;
+  line-height: 21px;
+}
+.InBetween__Description ul li span {
+  display: block;
+  width: 30px;
+  margin: -26px auto 0;
+  text-align: center;
+  font-size: 23px;
+  background: #021227;
+  font-family: "Alfa Slab One", serif;
+}
+
+.InBetween__Description::-webkit-scrollbar {
+  width: 4px;
+}
+
+.InBetween__Description::-webkit-scrollbar-track {
+  background-color: rgb(255 255 255 / 26%);
+}
+
+.InBetween__Description::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
+.InBetween__Number {
+  display: block;
+  font-size: 32px;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  border: 3px solid #67e1da;
+  height: 65px;
+  width: 65px;
+  text-align: center;
+  line-height: 65px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.InBetween__Title {
+  padding: 16px;
+  text-align: center;
+  font-size: 29px;
+  letter-spacing: 0.02rem;
+}
+
+.InBetween__Modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgb(0 0 0 / 84%);
+  animation: fadeIn .3s cubic-bezier(0,0,0.2,1);
+}
+
+.InBetween__ModalContent {
+  background: #021227;
+  border-radius: 18px;
+  border: solid 2px rgb(103 225 218 / 19%);
+  max-width: 550px;
+  width: 90vw;
+  margin: auto;
+  inset: 0;
+  padding: 16px 16px 32px;
+  position: absolute;
+  max-height: 93vh;
+  opacity: 0;
+  animation: slideUp .3s .2s cubic-bezier(0,0,0.2,1) forwards;
+}
+
+.InBetween__ModalCloseIcon {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  background: none;
+  border: none;
+  font-size: 36px;
+  color: white;
+}
+
+.InBetween__ModalCloseButton {
+  color: #4f352b;
+  background: #e9e0cf;
+  border: solid 3px #d9cfbe;
+  padding: 16px;
+  position: absolute;
+  width: 90%;
+  margin: auto;
+  inset: auto 0 16px 0;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

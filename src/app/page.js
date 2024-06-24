@@ -13,8 +13,8 @@ export default function Home() {
                             <Link href={'/'}>
                                 <Image
                                     src="/logotipo.png"
-                                    width={265}
-                                    height={45}
+                                    width={300}
+                                    height={66}
                                     alt="Vagrantsong"
                                 />
                             </Link>
@@ -40,6 +40,11 @@ export default function Home() {
                             <div className={styles.Section__Item}>
                                 <Link href="/moments/">
                                     <span className={styles.Section__Title}>Momentos</span>
+                                </Link>
+                            </div>
+                            <div className={styles.Section__Item}>
+                                <Link href="/in-betweens/">
+                                    <span className={styles.Section__Title}>In-Betweens</span>
                                 </Link>
                             </div>
                         </div>
