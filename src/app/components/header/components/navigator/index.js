@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 'use client';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import styles from './navigator.module.css';
 import clsx from 'clsx';
