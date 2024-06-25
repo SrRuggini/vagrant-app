@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import styles from './inBetween.module.css';
+import styles from './component.module.css';
 import { IoMdClose } from 'react-icons/io';
 
 const InBetween = ({ data }) => {

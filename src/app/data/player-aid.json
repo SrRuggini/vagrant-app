@@ -1,0 +1,103 @@
+{
+  "playerAid": [
+    {
+      "title": "Turn & Rounds",
+      "steps": [
+        {
+          "step": "A rodada começa! Mova o Marcador de Rodada para cima uma posição e quaisquer Eventos (ou Tokens) nesse espaço na Trilha de Rodada são acionados. Em seguida, quaisquer regras especiais de “início da rodada” são acionadas."
+        },
+        {
+          "step": "Os Vagrants decidem juntos qual Vagrant deve realizar seu turno primeiro.",
+          "substeps": [
+            "Esse Vagrant resolve quaisquer efeitos de “início do turno”.",
+            "Esse Vagrant toma nota de quaisquer Skills (ou Junk) que tenham Coins neles, e então recolhe suas Coins.",
+            "Esse Vagrant decide o que quer fazer em seu turno e coloca Coins nas Skills, Ações Gerais e Junk que deseja realizar ou ativar. Lembre-se: Skills usadas no turno anterior não podem ser usadas neste turno!",
+            "Esse Vagrant resolve as Ações e efeitos com Coins neles em qualquer ordem. Veja a página 12 para mais detalhes sobre o uso de Coins.",
+            "Resolva quaisquer efeitos de “fim do turno”.",
+            "Verifique o Cycle e resolva-o, se aplicável.",
+            "Esse Vagrant não pode realizar outro turno até o início da próxima rodada."
+          ]
+        },
+        {
+          "step": "O Haint realiza um turno.",
+          "substeps": [
+            "Resolva quaisquer efeitos de “início do turno” para o Haint.",
+            "O Vagrant que realizou o turno mais recente puxa um Token de Rummage para o Haint.",
+            "Se um Token de Evento for puxado, resolva-o e puxe novamente.",
+            "Resolva o efeito desse Token de Rummage com base no Humor do Haint.",
+            "Coloque esse token na Trilha de Cycle.",
+            "Resolva quaisquer efeitos de “fim do turno”.",
+            "Verifique o Cycle e resolva-o, se aplicável."
+          ]
+        },
+        {
+          "step": "Os Vagrants escolhem então outro Vagrant para realizar um turno. Repita os passos 2 e 3 até que todos os Vagrants tenham realizado um turno, com o Haint realizando o último turno durante a rodada."
+        },
+        {
+          "step": "Efeitos de fim de rodada são ativados."
+        },
+        {
+          "step": "Retorne ao topo do gráfico e comece novamente!"
+        }
+      ]
+    },
+    {
+      "title": "Camp Phase",
+      "steps": [
+        {
+          "step": "Leia e resolva o Momento de Vitória ou Derrota, com base no resultado do Cenário anterior."
+        },
+        {
+          "step": "Desmonte o Cenário recém-concluído.",
+          "substeps": [
+            "Cada Vagrant restaura sua Humanidade completa (deixe Skills Feridas e Junk Quebrado como estão por enquanto).",
+            "Limpe o Cenário anterior.",
+            "Guarde os componentes do jogo.",
+            "Descarte quaisquer Efeitos de Haint ou Tokens de Rummage nos Vagrants.",
+            "Restaure o Bindle ao estado inicial padrão (pg. 10). Lembre-se: Alguns Momentos mudam esse estado padrão.",
+            "Se a Séance não for usada, descarte-a."
+          ]
+        },
+        {
+          "step": "Construção: Junte suas Coins para usar como um recurso coletivo e prepare-se para o próximo Cenário.",
+          "substeps": [
+            "Cada Vagrant que jogou no Cenário anterior adiciona suas Coins ao pool.",
+            "Verifique os Rituals concluídos no Cenário anterior e adicione quaisquer Coins dados por eles.",
+            "Os Vagrants podem vender Junk Quebrado para DC por 1 Coin cada.",
+            "Embaralhe o baralho de Junk e revele a carta do topo."
+          ]
+        },
+        {
+          "step": "Escolha em grupo como gastar essas Coins. Veja as páginas 29-30 para detalhes dessas Ações.",
+          "substeps": [
+            "Adquirir novas Skills (2 Coins cada, a menos que a página da Camp Phase diga o contrário). As Skills recém-compradas vão para os Pertences, mas um Vagrant pode optar por adicioná-las ao seu cartão de Vagrant se houver um slot de Skill disponível (e os outros Vagrants concordarem que ele deve ter a Skill).",
+            "Curar uma Ferida ou Consertar Junk Quebrado (1 Coin cada).",
+            "Rummage (1 Coin cada). Esses Tokens de Rummage são transferidos para o próximo Cenário.",
+            "Os Vagrants podem comprar um Junk por Camp Phase (3 Coins).",
+            "Revelar novo Junk (1 Coin).",
+            "Realizar uma Séance (1 Coin por Vagrant). Exemplo: Em um jogo de 3 jogadores, realizar uma Séance requer 3 Coins.",
+            "Guardar Coins com DC (1 Coin, repetível)."
+          ]
+        },
+        {
+          "step": "Salvar Jogo."
+        },
+        {
+          "step": "Gerenciar Vagrants (pg. 30).",
+          "substeps": [
+            "Os jogadores decidem se querem mudar o Vagrant que estão jogando. É nesse momento que novos jogadores podem entrar no jogo.",
+            "Skills e Junk em Vagrants que não serão jogados no próximo Cenário voltam para os Pertences.",
+            "Novos Vagrants adicionados recebem suas Skills e Junk iniciais e podem pegar Skills e Junk adicionais dos Pertences.",
+            "Todos os Vagrants podem trocar Skills ou Junk por quaisquer dos Pertences ou que outros jogadores queiram trocar."
+          ]
+        },
+        {
+          "step": "Testemunhe o In-Bewtween (pg. 31)."
+        },
+        {
+          "step": "Inicie o Próximo Cenário: Isso geralmente é determinado pelo Cenário anterior jogado, mas algumas cartas de Entre-Meio especificam um Cenário diferente para jogar a seguir."
+        }
+      ]
+    }
+  ]
+}

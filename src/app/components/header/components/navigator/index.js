@@ -2,7 +2,7 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
-import styles from './navigator.module.css';
+import styles from './component.module.css';
 import clsx from 'clsx';
 import { IoMdClose } from 'react-icons/io';
 import { FaChevronRight } from 'react-icons/fa';

@@ -7,13 +7,15 @@ import styles from './header.module.css';
 import clsx from 'clsx';
 
 import Navigator from './components/navigator';
-import { TbArrowBackUp, TbMenu2 } from 'react-icons/tb';
+import PlayerAid from '/src/app/components/player-aid';
+import { GiNotebook, GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = (props) => {
-  const { inner, backTo = '/' } = props;
+  const { inner } = props;
 
   const [hasScrolled, setHasScrolled] = useState(false);
   const [navigatorOpen, setNavigatorOpen] = useState(false);
+  const [playerAidOpen, setPlayerAidOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,32 +33,44 @@ const Header = (props) => {
   }, []);
 
   return (
-    <header
-      className={clsx({
-        [styles.Header]: true,
-        [styles.Header__Fixed]: inner && hasScrolled,
-      })}
-    >
-      <div className={styles.Header__Container}>
-        {inner && (
-          <TbMenu2 onClick={() => setNavigatorOpen(true)} className={styles.Header__MenuButton} />
-        )}
-        <Link href={'/'}>
-          <Image
-            src="/logotipo.svg"
-            width={180}
-            height={40}
-            alt="Vagrantsong"
-          />
-        </Link>
-        {inner && (
-          <Link className={styles.Header__BackButton} href={backTo}>
-            <TbArrowBackUp />
+    <>
+      <header
+        className={clsx({
+          [styles.Header]: true,
+          [styles.Header__Fixed]: inner && hasScrolled,
+        })}
+      >
+        <div className={styles.Header__Container}>
+          {inner && (
+            <GiHamburgerMenu 
+              onClick={() => setNavigatorOpen(true)}
+              className={styles.Header__MenuButton}
+            />
+          )}
+          <Link href={'/'}>
+            <Image
+              src="/logotipo.svg"
+              width={180}
+              height={40}
+              alt="Vagrantsong"
+            />
           </Link>
-        )}
-      </div>
-      <Navigator navigatorOpen={navigatorOpen} setNavigatorOpen={setNavigatorOpen} />
-    </header>
+          {inner && (
+            <div className={styles.Header__BackButton}>
+              <GiNotebook onClick={() => setPlayerAidOpen(true)} />
+            </div>
+          )}
+        </div>
+        <Navigator
+          navigatorOpen={navigatorOpen}
+          setNavigatorOpen={setNavigatorOpen}
+        />
+      </header>
+      <PlayerAid
+        playerAidOpen={playerAidOpen}
+        setPlayerAidOpen={setPlayerAidOpen}
+      />
+    </>
   );
 };
 export default Header;
