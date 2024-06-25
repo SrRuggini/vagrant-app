@@ -8,7 +8,7 @@
   },
   "rules": [
     {
-      "specialRules": "<ul><li>Se todos os Vagrants estiverem Enveloped, leia o Evento 9.</li><li>Vagrants que estão Enveloped são considerados adjacentes ao Flayed Man, mas não podem ser alvo.</li></ul>"
+      "specialRules": "<ul><li>Se todos os Vagrants estiverem Enveloped, leia o <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; border: 2px solid white; width: 27px; height: 27px; text-align: center; font-weight: bold; box-shadow: 0 0 3px #00000070;'>9</span>.</li><li>Vagrants que estão Enveloped são considerados adjacentes ao Flayed Man, mas não podem ser alvo.</li></ul>"
     },
     {
       "haintEffects": "<p><b>Enveloped (⬤):</b> Quando você ganha <b>Enveloped</b>, remova seu(s) Vagrant(s) do tabuleiro do trem (você ainda está em jogo). No começo do seu turno, perca 2 Humanity. Você só pode realizar a ação de Rummage e/ou usar Iron Nails enquanto estiver <b>Enveloped</b>. Após você ou outro Vagrant usar Iron Nails no Flayed Man, remova <b>Enveloped</b>. Quando <b>Enveloped</b> é removido, coloque seu Vagrant em um espaço aberto adjacente ao Flayed Man.<br /><b>Bleeding (O):</b> Quando você coloca uma Coin em Move, perca 1 Humanity (perdendo 1 Humanity para cada Coin). No final do seu turno, se você realizar com sucesso Patch Up, remova <b>Bleeding</b>.</p>"

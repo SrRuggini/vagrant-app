@@ -1,0 +1,20 @@
+{
+  "navigation": [
+    {
+      "url": "/scenarios/",
+      "title": "Cenários"
+    },
+    {
+      "url": "/moments/",
+      "title": "Momentos"
+    },
+    {
+      "url": "/in-betweens/",
+      "title": "In-Betweens"
+    },
+    {
+      "url": "/vagrants/",
+      "title": "Vagrants"
+    }
+  ]
+}

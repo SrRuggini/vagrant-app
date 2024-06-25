@@ -1,184 +1,184 @@
 {
-    "inBetweens": [
-        {
-            "number": 1,
-            "title": "Antes do Vento",
-            "text": "<p>Não há muito tempo para pensar entre os vagões. Um pequeno passo em falso aqui pode significar uma perna perdida ali. Mas, graças àquelas coisas sem rosto, há mais com o que se preocupar do que perder um membro agora. <br><br> Lá fora, pinheiros pontiagudos balançam contra o vento uivante. Na frente do trem, uma melodia suave chega até você. Um tocador de violino, mais rápido que um relâmpago...</p>",
-            "options": [
-                "O cheiro mentolado frio vindo dos pinheiros, normalmente revigorante, parece distante e frágil.",
-                "Você não consegue evitar imaginar um grande lobo sendo a fonte daquele uivo interminável.",
-                "A música é ao mesmo tempo familiar e não. É desconfortável, mas não é desagradável."
-            ]
-        },
-        {
-            "number": 2,
-            "title": "Três Portas",
-            "text": "<p>Três portas aparecem na parede do vagão.</p><p>Qual caminho?</p><p>Essa é uma escolha que deve ser feita em grupo. Discutam qual caminho todos querem tomar.</p>",
-            "options": [
-                "A tinta velha descasca de uma porta de madeira. A maçaneta começa a girar.",
-                "A porta de esmalte elegante luta para impedir que a geada penetre.",
-                "Vinhas entrelaçadas estão esculpidas em uma porta de pedra. Uma luz fraca se infiltra pelas rachaduras."
-            ]
-        },
-        {
-            "number": 3,
-            "title": "A Noite é uma criança",
-            "text": "<p>Está quieto. Até o som do trem é distante.</p><p>Uma névoa crescente segue as colinas ondulantes. Não demora muito antes que ela roube o céu noturno.</p>",
-            "options": [
-                "Inspirando, expirando, o ar frio se move através de você, roubando um momento só seu.",
-                "Você se concentra na maneira como a névoa se move e balança como dedos arranhando o intangível.",
-                "Sua mente preenche o silêncio com os ecos do que você ouviu desde que embarcou."
-            ]
-        },
-        {
-            "number": 4,
-            "title": "Nunca Viu o Oceano",
-            "text": "<p>Nada além da longa extensão de grama selvagem, fluindo juntas, assombrando e hipnotizando...</p><p>Permanece tanto quanto passa.</p>",
-            "options": [
-                "Os campos de grama alta se transformam em ondas do oceano, te convidando a entrar.",
-                "O som, ele cintila...",
-                "É perturbador como você fica facilmente encantado. Você se vira."
-            ]
-        },
-        {
-            "number": 5,
-            "title": "Isso Me Domina",
-            "text": "<p>Carros enferrujados estão parados e esperando em uma estrada coberta de mato... cascos engolidos pelos selvagens não domados.</p><p> Dando lugar à terra emergente.</p>",
-            "options": [
-                "Você não deixa isso te afetar. Não era sua estrada, e não era sua cidade.",
-                "Cada marca e modelo que você sempre sonhou em possuir, tomado.",
-                "Você não sabe se deve lamentar pelo que foi perdido ou ter esperança pelo que foi ganho."
-            ]
-        },
-        {
-            "number": 6,
-            "title": "Um Pomar",
-            "text": "<p>Filas de macieiras passam balançando.</p><p>Perfeitamente ritmadas, perfeitamente plantadas, brilhando como joias ao luar.</p><p>Parece infinito.</p>",
-            "options": [
-                "Estranhamente reconfortante, assistir o pomar ir e vir e ir novamente. Como contar carneirinhos...",
-                "Seus olhos se detêm nas próprias maçãs. Seu estômago ronca.",
-                "É difícil de acreditar. Sem casa de fazenda, sem cercas, sem imperfeições."
-            ]
-        },
-        {
-            "number": 7,
-            "title": "Ele Retorna",
-            "text": "<p>Você ouve um som familiar vindo do vagão à frente.</p><p>O esticar da pele... e um violino à distância.</p><p>A porta se abre lentamente, e uma mão enluvada te acolhe.</p>"
-        },
-        {
-            "number": 8,
-            "title": "Duas Portas",
-            "text": "<p>As mesmas portas de antes, mas agora restam apenas duas.</p><p>Qual caminho a seguir?</p><p>Esta é uma escolha que deve ser feita em grupo. Discutam qual caminho todos querem tomar. Você não pode escolher a mesma porta que foi escolhida anteriormente.</p>",
-            "options": [
-                "A tinta velha descasca de uma porta de madeira. A maçaneta começa a girar.",
-                "A porta de esmalte elegante luta para impedir que a geada penetre.",
-                "Vinhas entrelaçadas estão esculpidas em uma porta de pedra. Uma luz fraca se infiltra pelas rachaduras."
-            ]
-        },
-        {
-            "number": 9,
-            "title": "Monólito Fumegante",
-            "text": "<p>Uma fábrica de aço e ferro alcança as nuvens com dedos enfumaçados.</p><p>Ela se espalha em silêncio, barricada atrás de cercas de arame, protegida do nada ao redor.</p>",
-            "options": [
-                "Você não pode deixar de pensar na floresta ou no prado que antes existia ali, apenas para ser destruído.",
-                "É um lembrete chocante de que havia um mundo vivo e uma vida normal antes deste trem.",
-                "A fumaça e as nuvens se encontram e se misturam como algodão solto contra um cobertor. É reconfortante de assistir."
-            ]
-        },
-        {
-            "number": 10,
-            "title": "Cidades Fantasmas Nunca Dormem",
-            "text": "<p>Os restos de uma cidade mineradora abandonada flutuam, esgotada de pessoas e desprovida de recursos, deixada para se tornar outra nuvem de poeira.</p><p>Uma estrada de terra solitária consegue escapar, mas parece não levar a lugar nenhum.</p>",
-            "options": [
-                "Você já viu lugares como este antes, e conhecia pessoas que tiveram que pegar suas coisas e partir quando seus poços secaram.",
-                "Ver este lugar é como um eco de uma memória distante. Uma cidade distante, de um tempo há muito passado.",
-                "Quanto tempo mais até que a poeira leve a cidade embora?"
-            ]
-        },
-        {
-            "number": 11,
-            "title": "Entre as Linhas",
-            "text": "<p>Há uma longa fila de pessoas correndo paralelas aos trilhos. Cada uma delas está segurando colheres grandes nas mãos, alheias a você ou ao trem.</p><p>Sem fim e repetindo até que de repente não... Um pequeno prédio quadrado, sem características distintas, exceto por uma grande porta aberta, os acolhe.</p>",
-            "options": [
-                "Seu estômago ronca, e por um momento, você considera pular e se juntar a eles.",
-                "Entre a fila, você jura de cima a baixo que viu alguém que você costumava conhecer.",
-                "Você olha o que tem com você e considera jogar algo para eles comerem."
-            ]
-        },
-        {
-            "number": 12,
-            "title": "Dançando a Noite Toda",
-            "text": "<p>Na luz do luar enevoado, você vê um casal dançando em um campo aberto. Suas formas e movimentos são borrados, vagos...</p><p>Mas se há uma coisa clara, é que eles estão se divertindo, sem se importar com quem possa estar assistindo.</p>",
-            "options": [
-                "Você grita para eles. Talvez eles possam te ajudar a sair deste trem.",
-                "É uma música que você ouve? Você nem tem certeza mais. Não, há algo ali...",
-                "A grama se move ao lado deles como notas dedilhadas por uma sinfonia de cordas."
-            ]
-        },
-        {
-            "number": 13,
-            "title": "Uma Música Mortal",
-            "text": "<p>Tudo o que você pode ouvir é aquele maldito violino de novo.</p><p>Tudo o que você pode ver é quem você imagina tocando. Cada um de vocês pensa em alguém diferente.</p><p>Assim que você começa a descrever a música que ouve, fica claro que todos estão ouvindo sua própria melodia.</p><p>Mas essa música que você ouve com certeza faz seus pés se mexerem.</p>"
-        },
-        {
-            "number": 14,
-            "title": "A Última Porta",
-            "text": "<p>As mesmas três portas... mas apenas uma resta para entrar.</p><p>Esta é uma escolha que já foi feita. Escolha a última porta.</p>",
-            "options": [
-                "A tinta velha descasca de uma porta de madeira. A maçaneta começa a girar.",
-                "A porta de esmalte elegante luta para impedir que a geada penetre.",
-                "Vinhas entrelaçadas estão esculpidas em uma porta de pedra. Uma luz fraca se infiltra pelas rachaduras."
-            ]
-        },
-        {
-            "number": 15,
-            "title": "A Ponte Entre",
-            "text": "<p>Não há muito o que ver lá fora. Mas pelos sons, o trem deve ter começado a seguir por uma longa e frágil ponte.</p><p>Não muito tempo depois, qualquer semelhança com o mundo que você conhecia desaparece na escuridão infinita que se estende além.</p>",
-            "options": [
-                "Imaginando o que está abaixo, você precisa de toda sua força para não olhar para baixo.",
-                "O ritmo cadenciado do trem rastejando pela ponte poderia te embalar para dormir.",
-                "Nunca gostei de ficar no escuro por muito tempo..."
-            ]
-        },
-        {
-            "number": 16,
-            "title": "Rachar o Céu",
-            "text": "<p>Não há nada além da escuridão lá fora... Mal dá para ouvir o trem agora.</p><p>Difícil dizer se você está perdendo a cabeça ou os sentidos.</p><p>Pequenas faíscas brancas flutuam e desaparecem das rodas, sumindo na noite como estrelas cadentes.</p>",
-            "options": [
-                "Elas são tão infrequentes que você começa a contá-las: 13, 14, 15...",
-                "Mesmo que sejam apenas faíscas, ver uma estrela cadente faz você pensar em alguém. Alguém que se foi.",
-                "Talvez um de nós devesse fazer um desejo..."
-            ]
-        },
-        {
-            "number": 17,
-            "title": "Está Tudo Acabado",
-            "text": "<p>Não há nada lá fora. Não mais. Nenhum campo de grama, ou macieiras, ou filas de sopa...</p><p>Nada além da noite fria, da escuridão infinita e deste trem.</p><p>Ah, e o violino. Será que ele nunca parou de tocar? Difícil lembrar.</p>",
-            "options": [
-                "Pelo menos é uma melodia agradável. Cada vez que você a nota, não consegue evitar bater o pé.",
-                "Queria muito poder ver suas mãos na sua frente. Um lembrete de que você ainda está vivo.",
-                "Deve haver algo lá fora. Não podemos estar andando sobre trilhos feitos de nada."
-            ]
-        },
-        {
-            "number": 18,
-            "title": "Soprando ao Vento",
-            "text": "<p>O vento está se intensificando, feroz e implacável, trazendo consigo a agitação de uma tempestade iminente.</p><p>De vez em quando, uma faixa de luz azul cegante atravessa a escuridão. Deve estar vindo de onde este trem está indo.</p><p>É... é o som de ondas?</p>",
-            "options": [
-                "Você já não deveria ter visto a lua ou as estrelas?",
-                "Sim, o som das ondas quebrando, repetidamente...",
-                "Aquela luz... é um aviso ou um guia?"
-            ]
-        },
-        {
-            "number": 19,
-            "title": "Brilhe",
-            "text": "<p>É difícil de explicar, mas quando você sai para ver o que o mundo se tornou enquanto você estava fora, você se sente leve.</p><p>O trem, os trilhos... estão subindo, espiralando para dentro, chegando a um ponto onde a luz e a escuridão se encontram.</p><p>E quando você chega lá...</p>"
-        },
-        {
-            "number": 20,
-            "title": "Uma Velha Canção de Violino",
-            "text": "<p>Aquele violino errante está ficando assustadoramente perto.</p><p>Parece que quem está tocando essa coisa até a morte está bem na sua frente.</p><p>Se não fosse tão difícil de ver - como uma névoa tão escura quanto a noite, mas tão ofuscante quanto o sol do meio-dia - você poderia até conseguir vislumbrá-lo.</p><p>Este violinista... você sabe que ele é a razão pela qual você está aqui, e por que você ainda está aqui.</p><p>Há algo naquela melodia que ele está tocando.</p><p>Triste, mas acolhedora, quente, mas gelada, edificante, mas interminável...</p>"
-        }
-    ]
+  "inBetweens": [
+    {
+      "number": 1,
+      "title": "Antes do Vento",
+      "text": "<p>Não há muito tempo para pensar entre os vagões. Um pequeno passo em falso aqui pode significar uma perna perdida ali. Mas, graças àquelas coisas sem rosto, há mais com o que se preocupar do que perder um membro agora. <br><br> Lá fora, pinheiros pontiagudos balançam contra o vento uivante. Na frente do trem, uma melodia suave chega até você. Um tocador de violino, mais rápido que um relâmpago...</p>",
+      "options": [
+        "O cheiro mentolado frio vindo dos pinheiros, normalmente revigorante, parece distante e frágil.",
+        "Você não consegue evitar imaginar um grande lobo sendo a fonte daquele uivo interminável.",
+        "A música é ao mesmo tempo familiar e não. É desconfortável, mas não é desagradável."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Três Portas",
+      "text": "<p>Três portas aparecem na parede do vagão.</p><p>Qual caminho?</p><p>Essa é uma escolha que deve ser feita em grupo. Discutam qual caminho todos querem tomar.</p>",
+      "options": [
+        "A tinta velha descasca de uma porta de madeira. A maçaneta começa a girar.",
+        "A porta de esmalte elegante luta para impedir que a geada penetre.",
+        "Vinhas entrelaçadas estão esculpidas em uma porta de pedra. Uma luz fraca se infiltra pelas rachaduras."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "A Noite é uma criança",
+      "text": "<p>Está quieto. Até o som do trem é distante.</p><p>Uma névoa crescente segue as colinas ondulantes. Não demora muito antes que ela roube o céu noturno.</p>",
+      "options": [
+        "Inspirando, expirando, o ar frio se move através de você, roubando um momento só seu.",
+        "Você se concentra na maneira como a névoa se move e balança como dedos arranhando o intangível.",
+        "Sua mente preenche o silêncio com os ecos do que você ouviu desde que embarcou."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Nunca Viu o Oceano",
+      "text": "<p>Nada além da longa extensão de grama selvagem, fluindo juntas, assombrando e hipnotizando...</p><p>Permanece tanto quanto passa.</p>",
+      "options": [
+        "Os campos de grama alta se transformam em ondas do oceano, te convidando a entrar.",
+        "O som, ele cintila...",
+        "É perturbador como você fica facilmente encantado. Você se vira."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Isso Me Domina",
+      "text": "<p>Carros enferrujados estão parados e esperando em uma estrada coberta de mato... cascos engolidos pelos selvagens não domados.</p><p> Dando lugar à terra emergente.</p>",
+      "options": [
+        "Você não deixa isso te afetar. Não era sua estrada, e não era sua cidade.",
+        "Cada marca e modelo que você sempre sonhou em possuir, tomado.",
+        "Você não sabe se deve lamentar pelo que foi perdido ou ter esperança pelo que foi ganho."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Um Pomar",
+      "text": "<p>Filas de macieiras passam balançando.</p><p>Perfeitamente ritmadas, perfeitamente plantadas, brilhando como joias ao luar.</p><p>Parece infinito.</p>",
+      "options": [
+        "Estranhamente reconfortante, assistir o pomar ir e vir e ir novamente. Como contar carneirinhos...",
+        "Seus olhos se detêm nas próprias maçãs. Seu estômago ronca.",
+        "É difícil de acreditar. Sem casa de fazenda, sem cercas, sem imperfeições."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Ele Retorna",
+      "text": "<p>Você ouve um som familiar vindo do vagão à frente.</p><p>O esticar da pele... e um violino à distância.</p><p>A porta se abre lentamente, e uma mão enluvada te acolhe.</p>"
+    },
+    {
+      "number": 8,
+      "title": "Duas Portas",
+      "text": "<p>As mesmas portas de antes, mas agora restam apenas duas.</p><p>Qual caminho a seguir?</p><p>Esta é uma escolha que deve ser feita em grupo. Discutam qual caminho todos querem tomar. Você não pode escolher a mesma porta que foi escolhida anteriormente.</p>",
+      "options": [
+        "A tinta velha descasca de uma porta de madeira. A maçaneta começa a girar.",
+        "A porta de esmalte elegante luta para impedir que a geada penetre.",
+        "Vinhas entrelaçadas estão esculpidas em uma porta de pedra. Uma luz fraca se infiltra pelas rachaduras."
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Monólito Fumegante",
+      "text": "<p>Uma fábrica de aço e ferro alcança as nuvens com dedos enfumaçados.</p><p>Ela se espalha em silêncio, barricada atrás de cercas de arame, protegida do nada ao redor.</p>",
+      "options": [
+        "Você não pode deixar de pensar na floresta ou no prado que antes existia ali, apenas para ser destruído.",
+        "É um lembrete chocante de que havia um mundo vivo e uma vida normal antes deste trem.",
+        "A fumaça e as nuvens se encontram e se misturam como algodão solto contra um cobertor. É reconfortante de assistir."
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Cidades Fantasmas Nunca Dormem",
+      "text": "<p>Os restos de uma cidade mineradora abandonada flutuam, esgotada de pessoas e desprovida de recursos, deixada para se tornar outra nuvem de poeira.</p><p>Uma estrada de terra solitária consegue escapar, mas parece não levar a lugar nenhum.</p>",
+      "options": [
+        "Você já viu lugares como este antes, e conhecia pessoas que tiveram que pegar suas coisas e partir quando seus poços secaram.",
+        "Ver este lugar é como um eco de uma memória distante. Uma cidade distante, de um tempo há muito passado.",
+        "Quanto tempo mais até que a poeira leve a cidade embora?"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Entre as Linhas",
+      "text": "<p>Há uma longa fila de pessoas correndo paralelas aos trilhos. Cada uma delas está segurando colheres grandes nas mãos, alheias a você ou ao trem.</p><p>Sem fim e repetindo até que de repente não... Um pequeno prédio quadrado, sem características distintas, exceto por uma grande porta aberta, os acolhe.</p>",
+      "options": [
+        "Seu estômago ronca, e por um momento, você considera pular e se juntar a eles.",
+        "Entre a fila, você jura de cima a baixo que viu alguém que você costumava conhecer.",
+        "Você olha o que tem com você e considera jogar algo para eles comerem."
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Dançando a Noite Toda",
+      "text": "<p>Na luz do luar enevoado, você vê um casal dançando em um campo aberto. Suas formas e movimentos são borrados, vagos...</p><p>Mas se há uma coisa clara, é que eles estão se divertindo, sem se importar com quem possa estar assistindo.</p>",
+      "options": [
+        "Você grita para eles. Talvez eles possam te ajudar a sair deste trem.",
+        "É uma música que você ouve? Você nem tem certeza mais. Não, há algo ali...",
+        "A grama se move ao lado deles como notas dedilhadas por uma sinfonia de cordas."
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Uma Música Mortal",
+      "text": "<p>Tudo o que você pode ouvir é aquele maldito violino de novo.</p><p>Tudo o que você pode ver é quem você imagina tocando. Cada um de vocês pensa em alguém diferente.</p><p>Assim que você começa a descrever a música que ouve, fica claro que todos estão ouvindo sua própria melodia.</p><p>Mas essa música que você ouve com certeza faz seus pés se mexerem.</p>"
+    },
+    {
+      "number": 14,
+      "title": "A Última Porta",
+      "text": "<p>As mesmas três portas... mas apenas uma resta para entrar.</p><p>Esta é uma escolha que já foi feita. Escolha a última porta.</p>",
+      "options": [
+        "A tinta velha descasca de uma porta de madeira. A maçaneta começa a girar.",
+        "A porta de esmalte elegante luta para impedir que a geada penetre.",
+        "Vinhas entrelaçadas estão esculpidas em uma porta de pedra. Uma luz fraca se infiltra pelas rachaduras."
+      ]
+    },
+    {
+      "number": 15,
+      "title": "A Ponte Entre",
+      "text": "<p>Não há muito o que ver lá fora. Mas pelos sons, o trem deve ter começado a seguir por uma longa e frágil ponte.</p><p>Não muito tempo depois, qualquer semelhança com o mundo que você conhecia desaparece na escuridão infinita que se estende além.</p>",
+      "options": [
+        "Imaginando o que está abaixo, você precisa de toda sua força para não olhar para baixo.",
+        "O ritmo cadenciado do trem rastejando pela ponte poderia te embalar para dormir.",
+        "Nunca gostei de ficar no escuro por muito tempo..."
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Rachar o Céu",
+      "text": "<p>Não há nada além da escuridão lá fora... Mal dá para ouvir o trem agora.</p><p>Difícil dizer se você está perdendo a cabeça ou os sentidos.</p><p>Pequenas faíscas brancas flutuam e desaparecem das rodas, sumindo na noite como estrelas cadentes.</p>",
+      "options": [
+        "Elas são tão infrequentes que você começa a contá-las: 13, 14, 15...",
+        "Mesmo que sejam apenas faíscas, ver uma estrela cadente faz você pensar em alguém. Alguém que se foi.",
+        "Talvez um de nós devesse fazer um desejo..."
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Está Tudo Acabado",
+      "text": "<p>Não há nada lá fora. Não mais. Nenhum campo de grama, ou macieiras, ou filas de sopa...</p><p>Nada além da noite fria, da escuridão infinita e deste trem.</p><p>Ah, e o violino. Será que ele nunca parou de tocar? Difícil lembrar.</p>",
+      "options": [
+        "Pelo menos é uma melodia agradável. Cada vez que você a nota, não consegue evitar bater o pé.",
+        "Queria muito poder ver suas mãos na sua frente. Um lembrete de que você ainda está vivo.",
+        "Deve haver algo lá fora. Não podemos estar andando sobre trilhos feitos de nada."
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Soprando ao Vento",
+      "text": "<p>O vento está se intensificando, feroz e implacável, trazendo consigo a agitação de uma tempestade iminente.</p><p>De vez em quando, uma faixa de luz azul cegante atravessa a escuridão. Deve estar vindo de onde este trem está indo.</p><p>É... é o som de ondas?</p>",
+      "options": [
+        "Você já não deveria ter visto a lua ou as estrelas?",
+        "Sim, o som das ondas quebrando, repetidamente...",
+        "Aquela luz... é um aviso ou um guia?"
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Brilhe",
+      "text": "<p>É difícil de explicar, mas quando você sai para ver o que o mundo se tornou enquanto você estava fora, você se sente leve.</p><p>O trem, os trilhos... estão subindo, espiralando para dentro, chegando a um ponto onde a luz e a escuridão se encontram.</p><p>E quando você chega lá...</p>"
+    },
+    {
+      "number": 20,
+      "title": "Uma Velha Canção de Violino",
+      "text": "<p>Aquele violino errante está ficando assustadoramente perto.</p><p>Parece que quem está tocando essa coisa até a morte está bem na sua frente.</p><p>Se não fosse tão difícil de ver - como uma névoa tão escura quanto a noite, mas tão ofuscante quanto o sol do meio-dia - você poderia até conseguir vislumbrá-lo.</p><p>Este violinista... você sabe que ele é a razão pela qual você está aqui, e por que você ainda está aqui.</p><p>Há algo naquela melodia que ele está tocando.</p><p>Triste, mas acolhedora, quente, mas gelada, edificante, mas interminável...</p>"
+    }
+  ]
 }

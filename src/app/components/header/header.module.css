@@ -3,7 +3,7 @@
 }
 
 .Header__Fixed {
-  animation: slideDown .3s ease-in-out;
+  animation: slideDown 0.3s ease-in-out;
   background-color: #130e12;
   position: sticky;
   top: 0;
@@ -17,7 +17,7 @@
   margin: auto;
   max-width: 560px;
   width: 100%;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   padding: 16px;
 }
 
@@ -32,6 +32,7 @@
   justify-content: center;
   height: 44px;
   width: 44px;
+  padding: 8px;
 }
 
 @keyframes slideDown {

@@ -6,56 +6,57 @@ import Image from 'next/image';
 import styles from './header.module.css';
 import clsx from 'clsx';
 
+import Navigator from './components/navigator';
 import { TbArrowBackUp, TbMenu2 } from 'react-icons/tb';
 
 const Header = (props) => {
-    const { inner, backTo = '/' } = props;
+  const { inner, backTo = '/' } = props;
 
-    const [hasScrolled, setHasScrolled] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(false);
+  const [navigatorOpen, setNavigatorOpen] = useState(false);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 0) {
-                setHasScrolled(true);
-            } else {
-                setHasScrolled(false);
-            }
-        };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setHasScrolled(true);
+      } else {
+        setHasScrolled(false);
+      }
+    };
 
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
-    return (
-        <header
-            className={clsx({
-                [styles.Header]: true,
-                [styles.Header__Fixed]: inner && hasScrolled,
-            })}
-        >
-            <div className={styles.Header__Container}>
-                {inner && (
-                    <Link className={styles.Header__MenuButton} href={backTo}>
-                        <TbMenu2 />
-                    </Link>
-                )}
-                <Link href={'/'}>
-                    <Image
-                        src="/logotipo.png"
-                        width={180}
-                        height={40}
-                        alt="Vagrantsong"
-                    />
-                </Link>
-                {inner && (
-                    <Link className={styles.Header__BackButton} href={backTo}>
-                        <TbArrowBackUp />
-                    </Link>
-                )}
-            </div>
-        </header>
-    );
+  return (
+    <header
+      className={clsx({
+        [styles.Header]: true,
+        [styles.Header__Fixed]: inner && hasScrolled,
+      })}
+    >
+      <div className={styles.Header__Container}>
+        {inner && (
+          <TbMenu2 onClick={() => setNavigatorOpen(true)} className={styles.Header__MenuButton} />
+        )}
+        <Link href={'/'}>
+          <Image
+            src="/logotipo.svg"
+            width={180}
+            height={40}
+            alt="Vagrantsong"
+          />
+        </Link>
+        {inner && (
+          <Link className={styles.Header__BackButton} href={backTo}>
+            <TbArrowBackUp />
+          </Link>
+        )}
+      </div>
+      <Navigator navigatorOpen={navigatorOpen} setNavigatorOpen={setNavigatorOpen} />
+    </header>
+  );
 };
 export default Header;

@@ -8,7 +8,7 @@
   },
   "rules": [
     {
-      "specialRules": "<p>A primeira vez que uma Candle for colocada em cada vagão do trem, leia Evento 1.</p><p>Vagrants não podem mirar em personagens, a menos que o alvo esteja em Range 3 de uma Candle.</p><p>Aquelas Skills e Junk que são tratadas como Candles também são tratadas como Candles para efeitos neste Cenário.</p>"
+      "specialRules": "<p>A primeira vez que uma Candle for colocada em cada vagão do trem, leia Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; border: 2px solid white; width: 27px; height: 27px; text-align: center; font-weight: bold; box-shadow: 0 0 3px #00000070;'>1</span>.</p><p>Vagrants não podem mirar em personagens, a menos que o alvo esteja em Range 3 de uma Candle.</p><p>Aquelas Skills e Junk que são tratadas como Candles também são tratadas como Candles para efeitos neste Cenário.</p>"
     },
     {
       "haintEffects": "<p><b>Racing Heart:</b> No início do seu turno, role 1 Bone. Em um 4+, remova Racing Heart. Caso contrário, o Visitor realiza Wheezing Whispers, mirando em você.</p> <br/><p><b>Paralyzed:</b> Você não pode realizar a Ação de Move. Para remover Paralyzed, seja mirado por um Vagrant com uma Ação bem-sucedida ou um Vagrant adjacente pode usar uma Coin durante o turno dele.</p>"
@@ -59,7 +59,8 @@
     },
     {
       "title": "Evento 0",
-      "description": "<p>De todos os lados, saindo das paredes e do chão... murmúrios sussurrantes, vozes baixas e tons abafados... São reconfortantes. Reconfortantes o suficiente para acordar você. Se você tiver Paralyzed ou estiver a uma distância de 2 de um Vagrant com Paralyzed, remova Paralyzed. Coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; border: 2px solid white; width: 27px; height: 27px; text-align: center; font-weight: bold; box-shadow: 0 0 3px #00000070;'>0</span> de volta no Bindle.</p>"
+      "description": "<p>De todos os lados, saindo das paredes e do chão... murmúrios sussurrantes, vozes baixas e tons abafados... São reconfortantes. Reconfortantes o suficiente para acordar você. Se você tiver Paralyzed ou estiver a uma distância de 2 de um Vagrant com Paralyzed, remova Paralyzed. Coloque o Evento <span style='border-radius: 50%; background: #8d7e62; color: white; display: inline-block; border: 2px solid white; width: 27px; height: 27px; text-align: center; font-weight: bold; box-shadow: 0 0 px #00000070;'>0</span> de volta no Bindle.</p>"
     }
   ]
 }
+
