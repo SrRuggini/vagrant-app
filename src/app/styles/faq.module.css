@@ -1,0 +1,44 @@
+.PageTitle {
+  color: #66e1db;
+  font-size: 48px;
+  letter-spacing: 0.04rem;
+  margin-bottom: 21px;
+}
+
+.Faq {
+  color: #4f352b;
+  padding: 16px 0;
+}
+
+.Faq__Group {
+  margin-bottom: 32px;
+}
+
+.Faq__Group h2{
+  color: #df651f;
+  margin-bottom: 16px;
+}
+
+.Faq__GroupDescription {
+  max-height: 100vh;
+  overflow: auto;
+  padding-right: 16px;
+}
+
+.Faq__GroupDescription::-webkit-scrollbar {
+  width: 8px;
+}
+
+.Faq__GroupDescription::-webkit-scrollbar-track {
+  background-color: #d9cfbe;
+}
+
+.Faq__GroupDescription::-webkit-scrollbar-thumb {
+  background-color: #4f352b;
+}
+
+.Faq__Group p{
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 8px;
+}

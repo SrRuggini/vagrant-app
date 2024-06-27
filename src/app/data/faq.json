@@ -1,0 +1,201 @@
+{
+  "General": [
+    {
+      "question": "Por que há tantos Tokens de Humanity (os corações) para os Vagrants?",
+      "answer": "Você só precisa de 1 Token de Humanity por Vagrant. O resto são extras caso você os perca durante o caos dos Cenários (ou no seu carpete). Você pode usar os Tokens de Humanity extras para rastrear outros aspectos do jogo, como o progresso dos Rituals."
+    },
+    {
+      "question": "O baralho de Junk: todas as cartas de Junk são adicionadas ao baralho de Junk no início do jogo? E, se não, como se cria o baralho de Junk?",
+      "answer": "Durante a primeira Camp Phase, apenas adicione as cartas de Junk do Tier 1 ao baralho de Junk (pg. 10). As cartas de Junk do Tier 2 e Tier 3 serão adicionadas posteriormente ao baralho de Junk. As cartas de Junk especiais nunca são adicionadas ao baralho de Junk."
+    },
+    {
+      "question": "O que faço com as cartas de Cadence?",
+      "answer": "Até que você seja instruído a fazer algo com essas cartas, apenas as ignore. Elas aparecem mais tarde no jogo."
+    },
+    {
+      "question": "Se um efeito (como usar um Rummage Token) causa um Haint a Break e completa um Ritual, o que é resolvido primeiro?",
+      "answer": "O Break é resolvido primeiro (incluindo quaisquer potenciais Eventos ligados ao Break), então o Ritual é completado. Por exemplo, se um Vagrant usou um Iron Nail para fazer um Haint ganhar 2 Humanity, o que causa um Break, todos os Vagrants ganhariam 1 Humanity e a próxima vez do Haint será pulada (de acordo com as regras do Break). Então, se houver um Evento no Break Track que deva ser lido, ele é resolvido imediatamente. Finalmente, o Ritual associado é completado, e suas Recompensas são resolvidas."
+    },
+    {
+      "question": "Junk quebrado pode ir para os Pertences?",
+      "answer": "Sim, mas o Junk permanece quebrado até que seja consertado durante a Camp Phase. Skills feridas, no entanto, não podem ir para os Pertences. Junk quebrado também pode ser vendido para DC por Coins para serem usadas durante a Camp Phase (pg. 28)."
+    },
+    {
+      "question": "Quando um Malady Token é retirado, ele é removido após ser resolvido?",
+      "answer": "Não. Malady Tokens permanecem no Round Track uma vez retirados."
+    },
+    {
+      "question": "Preciso pagar 1 Coin para guardar Coins no banco durante a Camp Phase?",
+      "answer": "Não. Todas as Coins que você decidir gastar na Ação de guardar Coins no banco são colocadas no rastreador; não há 'taxa' exigida para realizar a Ação."
+    },
+    {
+      "question": "Se várias coisas acontecerem ao mesmo tempo, o que é resolvido primeiro?",
+      "answer": "Os efeitos são sempre resolvidos na ordem em que acontecem. No entanto, várias coisas podem ser ativadas ao mesmo tempo, como Breaks, Eventos e Cycling. Nesses casos, consulte a lista a seguir para determinar em que ordem eles são resolvidos cada vez que você resolver a Ação. Lembre-se, sempre resolva completamente a Ação atual antes de começar outra: a. Selecionar Alvo: A maioria das Ações tem um alvo, que é identificado usando o Passo de Prioridade de Alvo encontrado nas Ações do Haint (pg. 21). Se uma Ação não tiver alvo, esse passo pode ser pulado. b. Perda/Ganho de Humanity. c. Efeitos de Ação: Resolva coisas como Mover Vagrants e remover Terrain. d. Usar Rummage Tokens: Vagrants podem usar Rummage Tokens neste momento. e. Efeitos de Break. f. Evento: Leia e/ou resolva quaisquer Eventos que sejam ativados pela Ação. g. Cycling: Ciclar o Bindle, e resolver quaisquer efeitos de Cycling apropriados. h. Trocar Humores: Se a Ação gerou um efeito que troca Humores, faça isso agora. i. Mudança de Vagrant: Isso inclui todas as mudanças que afetam Vagrants, como completar Devious Deeds e se tornar Westbound. j. Remoção de Tokens: Remova quaisquer Tokens que foram descartados ou que não estão mais em uso."
+    },
+    {
+      "question": "O Risky Business acumula com quaisquer Coins colocadas na Ação Geral que eu decidir tomar?",
+      "answer": "Não. O Risky Business afirma que você pode realizar uma Ação Geral como se tivesse 2 Coins nela. Isso é considerado uma Ação separada e não pode ser influenciada por quaisquer Coins adicionais. Por exemplo, selecionar a Ação de Bust para o Risky Business enquanto você tem 3 Coins em Bust significaria que você gera duas Ações de Bust separadas: uma com 2 Coins e outra com 3 Coins."
+    },
+    {
+      "question": "A Skill Two Step Shuffle afirma: 'O alvo ganha 2 Humanity. Para cada sucesso, você pode Mover 1 para longe do alvo.' Preciso ter um sucesso para que o alvo ganhe 2 Humanity?",
+      "answer": "Sim. Você deve ter pelo menos um sucesso para que qualquer parte da Skill aconteça, você apenas ganhará efeitos adicionais com mais sucessos. Isso geralmente se aplica a todas as Skills."
+    },
+    {
+      "question": "A segunda regra no Hobo Code me confunde. Você pode fornecer alguns exemplos de quando os jogadores precisam escolher a pior opção possível e quando os jogadores podem escolher qualquer opção?",
+      "answer": "Claro que sim! 'Coloque um Event Token em um espaço aberto no Train Car A.' Nesse caso, o jogador que for instruído a fazer isso pode colocar o Event Token em qualquer espaço aberto naquele vagão; ele pode escolher o espaço aberto. Isso ocorre porque 'um espaço aberto' sugere que há várias opções para escolher. 'Coloque um Event Token em um espaço aberto adjacente ao Snow mais próximo.' Nesse caso, o jogador que for instruído a fazer isso deve colocar o Event Token adjacente a um terreno específico. Eles não podem escolher qual Snow, mas podem escolher livremente qual espaço aberto específico adjacente a esse Snow para colocar o Evento. Se o Vagrant estiver equidistante de 2 diferentes terrenos de Snow, então os jogadores devem escolher o resultado que é pior para os Vagrants. 'Escolha fazer A ou B.' Em qualquer caso em que uma escolha como essa é dada, os jogadores não precisam escolher a pior opção. A única instância em que a escolha é removida desses tipos de prompts é quando um jogador já tem uma das opções, como um Haint Effect, e deve escolher a outra opção, pois não pode ganhar 2 Haint Effects de um único tipo ao mesmo tempo. Uma Ação do Haint afirma 'Mova 4. Assombre o máximo de Vagrants possível.' Neste exemplo, há 3 Vagrants em Range, mas devido ao número de espaços que o Haint pode Mover, apenas 2 dos 3 podem ser assombrados. Nesse caso, os jogadores devem escolher quais 2 Vagrants serão assombrados de forma que o pior resultado para os Vagrants seja alcançado. Um dos Vagrants pode ter menos Humanity no total do que os outros, ou talvez eles não tenham o Haint Effect que seria ganho ao ser assombrado, mas os outros Vagrants têm."
+    }
+  ],
+  "Vagrants and Vagrant Actions": [
+    {
+      "question": "Onde eu coloco o Token de Humanity do meu Vagrant no início de um Cenário?",
+      "answer": "No número mais alto de seu Humanity do Vagrant (a menos que seu Humanity tenha sido ajustado devido a um efeito externo, como uma carta de In-Between)."
+    },
+    {
+      "question": "Posso realizar a mesma Action várias vezes durante um turno? Por exemplo, se eu colocar 3 Coins em Investigate, posso Investigate 3 vezes separadas, rolando um bone cada vez?",
+      "answer": "Não, você coloca todas as suas Coins de uma vez, depois resolve as Actions na ordem de sua escolha. Múltiplas Coins na mesma Action melhoram-na de maneiras específicas, mas não permitem que você realize essa Action várias vezes durante seu turno (pg. 12)."
+    },
+    {
+      "question": "Há uma maneira de rastrear quem já tomou seus turnos em cada round?",
+      "answer": "Sugerimos virar suas Coins para rastrear que você já tomou seu turno. O Séance Scenario e as expansões Vagrantsong: Encore também incluem rastreadores de turno."
+    },
+    {
+      "question": "Quando posso usar um Rabbit’s Foot?",
+      "answer": "Ao mesmo tempo em que você usaria uma Coin (pg. 17)."
+    },
+    {
+      "question": "Rummage Tokens: se eu já tenho o número máximo de Rummage Tokens que meu Vagrant pode segurar ao mesmo tempo, ainda posso Rummage? O que acontece quando eu faço isso?",
+      "answer": "Sim, você ainda pode Rummage normalmente. Depois de escolher qual Rummage Token manter, você deve colocar os Rummage Tokens de volta no Bindle até ter um número igual ao seu valor de Rummage."
+    },
+    {
+      "question": "Posso usar um Rummage Token antes de colocar Coins no meu turno?",
+      "answer": "Sim, desde que esse Rummage Token possa ser usado naquele momento, como um Iron Nail ou uma Candle. Os efeitos padrão para Salt ou um Rabbit’s Foot não podem ser usados durante este tempo específico."
+    },
+    {
+      "question": "Skill Card #22 (Spoilers). Para Survival Skills, se um Vagrant tiver sucesso várias vezes, quantos Rummage Tokens eles podem manter enquanto Rummaging?",
+      "answer": "Um. Os efeitos dessa Skill são cumulativos. Se um Vagrant tiver 3 sucessos, eles poderiam Mover 3, Rummage 3 e Investigate 3. Como lembrete, quando um Vagrant faz Rummage 3, eles tiram 3 Rummage Tokens do Bindle e mantêm apenas 1."
+    },
+    {
+      "question": "Skill Card #26 (Spoilers). A Skill card, Wandering Willow, diz para colocar o Willow em Range. Isso significa usar a standee do Whispering Willow?",
+      "answer": "Sim. O Willow neste caso está se referindo à standee do Whispering Willow. O Wandering Willow é um Summon (pg. 13)."
+    },
+    {
+      "question": "Se eu usei uma Skill em um turno, e ela se torna Wounded e é curada antes do meu próximo turno, posso usar essa Skill durante meu próximo turno?",
+      "answer": "Não, se você usar uma Skill durante um turno, não pode usar essa mesma Skill durante seu próximo turno, independentemente de ter se tornado Wounded (pg. 15)."
+    },
+    {
+      "question": "O que acontece se um Haint Mover para o espaço de um Vagrant, mas não há espaços abertos adjacentes ao Haint para o Vagrant se Mover?",
+      "answer": "Se um espaço adjacente ao Haint estiver ocupado por um Rummage Token, Event, ou Terrain que tenha regras específicas do Cenário que permitam ao Vagrant Mover para (e terminar seu turno) naquele espaço, então aquele Vagrant deve se Mover para lá. Caso contrário, o Vagrant se Moverá para o espaço aberto mais próximo disponível (a menos que especificado de outra forma nas regras de um Cenário (pg. 20))."
+    },
+    {
+      "question": "Para Skills que Summon, se a Skill usada para Summon o Haint for virada para seu lado Wounded, o Haint Summoned é removido do jogo?",
+      "answer": "Não, o Haint Summoned permanece em jogo (e seus efeitos ainda estão ativos) até ser Haunted (pg. 13)."
+    },
+    {
+      "question": "Uma Ação de Westbound pode ser usada em rounds consecutivos?",
+      "answer": "Sim, um Vagrant Westbound pode usar sua Ação de Westbound de round a round."
+    },
+    {
+      "question": "Um Vagrant pode usar um Rummage Token entre desenhar Rummage Tokens e descartar até seu limite?",
+      "answer": "Não, os Vagrants devem primeiro adicionar o Rummage Token ao seu total, depois devem colocar os Rummage Tokens de volta no Bindle até terem um número igual ao seu valor de Rummage, e então podem usar o Rummage Token retirado."
+    },
+    {
+      "question": "Quais efeitos afetam tanto o Runaway quanto o Pup?",
+      "answer": "O Runaway compartilha tudo com o Pup, incluindo valores de Ações Gerais e Haint Effects. Qualquer coisa que afete o Runaway também afetará o Pup*. Lembre-se, o Runaway e o Pup só podem ser afetados uma vez por um único efeito, mesmo que isso prejudique ou afete tanto o Pup quanto o Runaway. Isso inclui perda de Humanity, ser forçado a Mover e ser alvo de efeitos de área. *O Pup não pode ser Haunted, então quaisquer Haint Effects, perda de Humanity ou outros efeitos que um efeito de Haunted teria são negados se o Pup for Haunted."
+    },
+    {
+      "question": "O Runaway sofre com os Haint Effects baseados na posição do Pup? O Runaway perderia 2 Humanity se ela tiver Spooked (•) e o Pup terminar um turno dentro de Range 2 dos Turned Faces?",
+      "answer": "Sim, o Runaway sempre considera a posição do Pup ao resolver efeitos de “você”. Como “você” (referindo-se ao Runaway ou ao Pup) terminou dentro de Range 2 dos Turned Faces, a perda de Humanity de Spooked (•) seria ativada."
+    },
+    {
+      "question": "O Pup pode descartar Rummage Tokens?",
+      "answer": "Não, o Pup não pode descartar Rummage Tokens; o Runaway deve ser o único a descartá-los. Qualquer Rummage Tokens que o Pup tenha ainda deve ser trocado ou dado a outro Vagrant antes de poderem ser usados."
+    },
+    {
+      "question": "O Pup conta como um Vagrant para efeitos que dependem de números de Vagrants (como ver quantos Vagrants estão no mesmo vagão ou ter todos os Vagrants alcançando um certo local para vencer)?",
+      "answer": "Não. Em circunstâncias que especificamente denotam Vagrants, apenas o Runaway é considerado o “Vagrant”; o Pup não é."
+    },
+    {
+      "question": "O Pup se beneficia de qualquer Junk que o Runaway tenha que ofereça benefícios passivos, como o Twirling Compass ou a Fishing Line?",
+      "answer": "Sim, o Pup também recebe esses benefícios."
+    },
+    {
+      "question": "Um Vagrant pode ser Haunted por um único Haint mais de uma vez por turno?",
+      "answer": "Não, um Vagrant só pode ser Haunted por cada Haint individual uma vez por turno. No entanto, se houver vários Haints, um Vagrant pode ser Haunted por cada um deles uma vez por turno como de costume."
+    },
+    {
+      "question": "Se um Vagrant for instruído a Mover um número de espaços em direção ou afastado, mas o Terrain estiver no caminho, o que acontece?",
+      "answer": "O Vagrant deve continuar se movendo na direção mencionada no efeito (ao redor do terreno, se necessário). No entanto: alguns Events e efeitos especificarão o contrário. Por exemplo, se um efeito declarar “Target Vagrant Moves 3 toward Round side. Se seu Move terminaria devido a uma borda de Terrain, esse Vagrant interrompe seu Movement”, então eles não continuariam Movendo normalmente e, em vez disso, terminariam seu Movement assim que tivessem que mudar de direção devido à borda ou ao Terrain (pgs. 22-23)."
+    },
+    {
+      "question": "Os Vagrants podem curar mais do que seu máximo de Humanity? Se eu for o Revivalist com Humanity máxima e me curar, posso usar meu Passive?",
+      "answer": "Não. Os Vagrants não podem “overheal” e não contam como curados se estiverem com a Humanity máxima."
+    },
+    {
+      "question": "Que parte de uma Ação do Haint o Salt pode cancelar?",
+      "answer": "Quando o Salt é usado, o Vagrant pode ignorar os efeitos da próxima Ação do Haint que os almejar. O Salt não anula o Move de um Haint gerado pela Ação, Haunted Effects incorridos pela Ação, ou efeitos gerados por outro Vagrant que não usou o Salt (como um efeito que almeja todos os Vagrants na área). Ele anula coisas como perda de Humanity, forçar o Vagrant a Mover, ganhar Haint Effects, reduções de valores de Ação e perda de Coins/Rummage Tokens. Se a Ação de um Haint almejar ou afetar vários Vagrants, apenas o Vagrant usando o Salt ignora os efeitos."
+    },
+    {
+      "question": "Podemos obter mais clareza sobre como os Summons funcionam?",
+      "answer": "Certamente! A coisa mais importante, Summons não tomam turnos, nem se Movem ou interagem com um Cenário de qualquer maneira diferente daquela listada na Skill card que os Summon. Summons também não são considerados personagens; eles não serão almejados por Haints (mas ainda podem ser afetados por Haints, como ser Haunted se Moverem através deles) e não podem ser almejados por Skills diferentes da que os Summon, a menos que especificado de outra forma. Por fim, um Vagrant pode usar Skills de Summon quando o Summon relevante já estiver no tabuleiro do trem. Se tiver sucesso, o Summon é removido do tabuleiro do trem antes de ser colocado como a Skill instrui. Se um Vagrant Mover através de um Summon, ele não Haunta aquele Vagrant."
+    },
+    {
+      "question": "A carta de Junk Fishing Line diz para “aumentar Range em +1”. Isso se refere apenas ao Range máximo de uma Skill?",
+      "answer": "Fishing Line aumentará o Range máximo de uma Skill. Por exemplo, uma Skill com Range 1-2 aumentaria seu Range para 1-3 se o Vagrant tiver a Fishing Line."
+    }
+  ],
+  "Haints, Haint Effects, and Haint Actions": [
+    {
+      "question": "Haint Actions: qual é a diferença entre “target furthest Vagrant” e “target furthest Vagrant in Range”?",
+      "answer": "“Target furthest Vagrant” almeja o Vagrant mais distante, independentemente do Range, porque o Range é todo o tabuleiro do trem, enquanto “target furthest Vagrant in Range” almeja o Vagrant mais distante dentro do valor de Range da Ação do Haint (pgs. 21-22)."
+    },
+    {
+      "question": "Haint Effects: se um Haint Effect declara para descartar um Rummage Token (específico ou geral), eu tenho que usar aquele Rummage Token para remover o efeito?",
+      "answer": "Não. Você colocaria o Rummage Token na Cycle Track para descartá-lo, então o Haint Effect é removido. Você não ganha o benefício de usar o Rummage Token quando ele é descartado dessa maneira (pg. 18)."
+    },
+    {
+      "question": "Se uma Ação do Haint diz para fazer X ou Y, mas eu não posso escolher uma dessas opções, eu tenho que escolher a outra opção?",
+      "answer": "Sim. Por exemplo, se uma Ação do Haint declara que você deve ganhar Burning ou perder 2 Humanity, mas você já tem Burning, então você deve perder 2 Humanity."
+    },
+    {
+      "question": "Um Haint “trava” em um alvo antes de Mover ou se o Move leva o Haint para dentro do Range de um alvo de prioridade mais alta, o alvo mudará?",
+      "answer": "Após o Passo 2 da Ação do Haint “Determine The Target Priority”, a Prioridade de Alvo não mudará para o restante da Ação. Observe que há uma exceção, durante o passo 4 “Resolve The Action”, se o personagem com Prioridade de Alvo estiver fora do Range, uma nova Prioridade de Alvo é então estabelecida."
+    },
+    {
+      "question": "Se um Haint como o Blackbird tirar o Rummage Token Candle ou Iron Nail, alvejando assim o Vagrant mais distante, o Blackbird tentaria se afastar daquele alvo para Hauntar um Vagrant diferente se não puder alcançar seu alvo inicial?",
+      "answer": "Não."
+    }
+  ],
+
+  "Flayed Man (Under My Skin)": [
+    {
+      "question": "Ação Super Elastic do Flayed Man: não lista um Range. Como funciona?",
+      "answer": "Há um erro na forma como a Ação está escrita. A Ação deve ser lida como 'Target furthest Vagrant in Range.' O Flayed Man deve almejar o Vagrant mais distante dentro de Range 4. Em seguida, continue com o restante da Ação, como de costume."
+    },
+    {
+      "question": "Event 7 e o Pup (Spoilers!). Se o Pup ganhasse este Event Token e se tornasse Special Target Priority, o Pup se tornaria a Target Priority ou seria o Runaway?",
+      "answer": "Se o Pup tiver o Event Token, então ele ganharia Special Target Priority, conforme a página 7 ('O Pup é considerado um Vagrant para fins de targeting...'). Lembre-se de que o Pup e o Runaway ainda compartilham Humanity!"
+    },
+    {
+      "question": "Se eu tirar o Event 7 em Under My Skin enquanto tenho o número máximo de Rummage Tokens, esse pode ser o que escolho colocar de volta no Bindle?",
+      "answer": "Não. Você deve escolher outro Rummage Token para colocar de volta no Bindle."
+    }
+  ],
+  "Lady in White (So Far Away)": [
+    {
+      "question": "Ação I Appear Missing da Lady in White: Como Funciona?",
+      "answer": "I Appear Missing funciona de maneira diferente da maioria das Ações de Haint porque o Movement do Haint faz parte da resolução da Ação (Passo 4), enquanto a maioria dos Movements de Haint acontecem no Passo 3. Veja como I Appear Missing funciona: - Primeiro, a Lady in White tentará almejar um Vagrant apropriado em Range 3. - Se não houver alvo em Range, a Lady in White não se Move e, em vez disso, perde 1 Humanity (lembre-se, não ganha!), então a Ação termina. - Se houver um alvo disponível, a Lady in White Move-se 6 espaços na direção imediata do vagão mais distante. Então o Vagrant alvo perde Humanity e é colocado em um espaço adjacente à Lady in White."
+    }
+  ],
+  "The Visitor (The Stillness & the Quiet)": [
+    {
+      "question": "Ação Peeling Shadow do Visitor: Como Funciona?",
+      "answer": "O Visitor almeja o Vagrant mais próximo (independentemente do Range). Então o Visitor Move-se 3 em direção ao alvo, Hauntando qualquer Vagrant no caminho, desde que o alvo permaneça o Vagrant mais próximo no final do Movement do Visitor. Se o alvo tiver Paralyzed, ele perde 5 Humanity. Se não tiver Paralyzed, então o alvo perde apenas 3 Humanity."
+    }
+  ],
+  "The Skelly Man (Face the Music)": [
+    {
+      "question": "Event 8 (Spoilers!). O Event 8 declara tanto descartar o Event Token quanto adicioná-lo de volta ao Bindle quando terminar. O que eu faço?",
+      "answer": "Adicione o Event Token 8 de volta ao Bindle após o Event ser resolvido. Por favor, ignore a frase 'Then discard this Event Token.'"
+    }
+  ]
+}
