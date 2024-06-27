@@ -3,8 +3,10 @@
 import React, { useState } from 'react';
 import styles from './component.module.css';
 import clsx from 'clsx';
-import { IoMdClose } from 'react-icons/io';
 import data from '/src/app/data/player-aid.json';
+
+import { IoMdClose } from 'react-icons/io';
+import { GiNotebook } from 'react-icons/gi';
 
 const PlayerAid = (props) => {
   const { playerAidOpen = false, setPlayerAidOpen } = props;

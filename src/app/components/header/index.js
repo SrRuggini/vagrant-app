@@ -37,7 +37,7 @@ const Header = (props) => {
       <header
         className={clsx({
           [styles.Header]: true,
-          [styles.Header__Fixed]: inner && hasScrolled,
+          [styles.Header__Fixed]: hasScrolled && !navigatorOpen,
         })}
       >
         <div className={styles.Header__Container}>

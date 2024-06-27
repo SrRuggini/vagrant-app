@@ -5,23 +5,24 @@
   justify-content: center;
 }
 
-.Home__Card {
-  background-color: #e9e0cf;
-  padding: 16px;
-  margin-top: -50px;
-}
-
 .Home__Cat {
   display: block;
   margin-left: auto;
   position: relative;
 }
 
-.Section__Item {
+.Home__Card {
+  background-color: #e9e0cf;
+  padding: 24px 16px 8px;
+  margin-top: -50px;
+  list-style: none;
+}
+
+.Home__Card li {
   margin-bottom: 8px;
 }
 
-.Section__Item a {
+.Home__Card li a {
   display: block;
   padding: 16px;
   border: solid 2px #d9cfbe;
@@ -29,13 +30,13 @@
   transition: all ease .3s;
 }
 
-.Section__Item a:hover {
+.Home__Card li a:hover {
   background: #d9cfbe;
   border: solid 2px #4f352b;
 }
 
-.Section__Title {
+.Home__Card li span {
   font-family: "Alfa Slab One", serif;
   display: block;
-  font-size: 32px;
+  font-size: 21px;
 }

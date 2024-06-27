@@ -64,7 +64,6 @@
   padding: 8px;
   margin: 0 1px;
   opacity: 0.5;
-  width: 50%;
 }
 
 .PlayerAid__SelectorActive {
@@ -73,13 +72,17 @@
 
 /* Styling content */
 .PlayerAid__Content {
-  max-height: calc(100% - 105px);
+  max-height: calc(100% - 140px);
   padding-right: 16px;
   overflow: auto;
 }
 
-.PlayerAid__Content ol,
+.PlayerAid__Content ol {
+  list-style: none;
+}
+
 .PlayerAid__Content ul {
+  list-style: disc;
   padding-left: 24px;
 }
 

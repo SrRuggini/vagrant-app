@@ -21,13 +21,18 @@ const Navigator = (props) => {
     >
       <div className={styles.Navigator__Content}>
         <div>
-          <IoMdClose className={styles.Navigator__Close} onClick={() => setNavigatorOpen(false)} />
+          <IoMdClose
+            className={styles.Navigator__Close}
+            onClick={() => setNavigatorOpen(false)}
+          />
         </div>
         <ul>
           {navigation.map((menu) => (
             <li key={menu.title}>
               <Link href={menu.url}>
-                <span className={styles.Section__Title}>{menu.title}</span>
+                <span className={styles.Section__Title}>
+                  {menu.title}
+                </span>
                 <span>
                   <FaChevronRight />
                 </span>

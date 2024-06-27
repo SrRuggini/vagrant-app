@@ -10,7 +10,7 @@
   font-family: "Alfa Slab One", serif;
   font-weight: 300;
   font-size: 17px;
-  padding: 16px;
+  padding: 16px 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -2,8 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '/src/app/styles/home.module.css';
+import data from '/src/app/data/navigation.json';
 
 export default function Home() {
+  const { navigation = [] } = data;
+
   return (
     <>
       <main>
@@ -26,32 +29,18 @@ export default function Home() {
               height={190}
               alt="Vagrantsong"
             />
-            <div className={styles.Home__Card}>
-              <div className={styles.Section__Item}>
-                <Link href="/scenarios/">
-                  <span className={styles.Section__Title}>Cenários</span>
-                </Link>
-              </div>
-              <div className={styles.Section__Item}>
-                <Link href="/moments/">
-                  <span className={styles.Section__Title}>Momentos</span>
-                </Link>
-              </div>
-              <div className={styles.Section__Item}>
-                <Link href="/in-betweens/">
-                  <span className={styles.Section__Title}>In-Betweens</span>
-                </Link>
-              </div>
-              <div className={styles.Section__Item}>
-                <Link href="/vagrants/">
-                  <span className={styles.Section__Title}>Vagrants</span>
-                </Link>
-              </div>
-            </div>
+            <ul className={styles.Home__Card}>
+              {navigation.map((menu) => (
+                <li key={menu.title}>
+                  <Link href={menu.url}>
+                    <span>{menu.title}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </main>
     </>
   );
 }
-

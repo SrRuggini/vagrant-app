@@ -12,7 +12,7 @@ export default async function Scenario() {
       <Header inner={true} />
       <main className={styles.main}>
         <div className="container">
-          <h1 className={styles.PageTitle}></h1>
+          <h1 className={styles.PageTitle}>Cenários</h1>
 
           <div className="content-wrap">
             {scenarios.map((scenario, index) => {
