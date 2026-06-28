@@ -2,8 +2,8 @@
 
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { IoMdPlay, IoMdPause } from 'react-icons/io';
+import PropTypes from 'prop-types';
 import styles from './scenario-audio-button.module.css';
-
 
 const ScenarioAudioButton = ({ scenario }) => {
   const audioRef = useRef(null);
@@ -46,16 +46,19 @@ const ScenarioAudioButton = ({ scenario }) => {
     audioRef.current.load();
   }, [scenario, storageKey]);
 
-  const formatTime = useMemo(() => (timeInSeconds) => {
-    if (!Number.isFinite(timeInSeconds)) {
-      return '00:00';
-    }
+  const formatTime = useMemo(
+    () => (timeInSeconds) => {
+      if (!Number.isFinite(timeInSeconds)) {
+        return '00:00';
+      }
 
-    const minutes = Math.floor(timeInSeconds / 60);
-    const seconds = Math.floor(timeInSeconds % 60);
+      const minutes = Math.floor(timeInSeconds / 60);
+      const seconds = Math.floor(timeInSeconds % 60);
 
-    return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-  }, []);
+      return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+    },
+    [],
+  );
 
   const handleToggleAudio = async () => {
     if (!audioRef.current) {
@@ -138,43 +141,51 @@ const ScenarioAudioButton = ({ scenario }) => {
 
   return (
     <div className={styles.AudioPlayer}>
-      <audio
-        ref={audioRef}
-        src={`/scenarios/${scenario}.wav`}
-        preload="metadata"
-        onPause={handlePause}
-        onEnded={handleEnded}
-        onTimeUpdate={handleTimeUpdate}
-        onLoadedMetadata={handleLoadedMetadata}
-      />
-      <button
-        type="button"
-        onClick={handleToggleAudio}
-        className={styles.PlayButton}
-      >
-        {isPlaying ? <IoMdPause /> : <IoMdPlay />}
-      </button>
+      {scenario && (
+        <>
+          <audio
+            ref={audioRef}
+            src={`/scenarios/${scenario}.wav`}
+            preload="metadata"
+            onPause={handlePause}
+            onEnded={handleEnded}
+            onTimeUpdate={handleTimeUpdate}
+            onLoadedMetadata={handleLoadedMetadata}
+          />
+          <button
+            type="button"
+            onClick={handleToggleAudio}
+            className={styles.PlayButton}
+          >
+            {isPlaying ? <IoMdPause /> : <IoMdPlay />}
+          </button>
 
-      <div className={styles.ProgressWrapper}>
-        <input
-          type="range"
-          min="0"
-          max={duration > 0 ? duration : 1}
-          step="0.1"
-          value={Math.min(currentTime, duration || 0)}
-          onInput={handleSeek}
-          onChange={handleSeek}
-          disabled={duration === 0}
-          className={styles.ProgressBar}
-          aria-label="Progresso do audio"
-        />
-        <div className={styles.TimeRow}>
-          <span>{formatTime(currentTime)}</span>
-          <span>{formatTime(duration)}</span>
-        </div>
-      </div>
+          <div className={styles.ProgressWrapper}>
+            <input
+              type="range"
+              min="0"
+              max={duration > 0 ? duration : 1}
+              step="0.1"
+              value={Math.min(currentTime, duration || 0)}
+              onInput={handleSeek}
+              onChange={handleSeek}
+              disabled={duration === 0}
+              className={styles.ProgressBar}
+              aria-label='Progresso do audio'
+            />
+            <div className={styles.TimeRow}>
+              <span>{formatTime(currentTime)}</span>
+              <span>{formatTime(duration)}</span>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };
 
 export default ScenarioAudioButton;
+
+ScenarioAudioButton.propTypes = {
+  scenario: PropTypes.string,
+};
