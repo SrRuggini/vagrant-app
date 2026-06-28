@@ -1,0 +1,36 @@
+.AudioPlayer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.PlayButton {
+  background: transparent;
+  border: none;
+  font-size: 32px;
+  color: #e9e0cf;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.ProgressWrapper {
+  flex: 1;
+}
+
+.ProgressBar {
+  width: 100%;
+  accent-color: #e9e0cf;
+  cursor: pointer;
+}
+
+.TimeRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  font-size: 12px;
+  color: #e9e0cf;
+}

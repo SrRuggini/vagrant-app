@@ -28,7 +28,10 @@ export default async function Scenario({ params }) {
                 pag. {scenarioData.key}
               </h4>
               <h1 className={styles.Scenario__Title}>{scenarioData.title}</h1>
-              <ScenarioAudioButton />
+
+              <div className={styles.Scenario__PlayButton}>
+                  <ScenarioAudioButton scenario={params.scenario} />
+                </div>
 
               <div className={styles.Scenario__Card}>
                 {scenarioData?.story && (
