@@ -2,6 +2,7 @@ import React from 'react';
 import { importJsonByName } from '/src/app/utils/importJson';
 import Event from '/src/app/components/event';
 import Header from '/src/app/components/header';
+import ScenarioAudioButton from '/src/app/components/scenario-audio-button';
 import Image from 'next/image';
 
 import PropTypes from 'prop-types';
@@ -27,6 +28,7 @@ export default async function Scenario({ params }) {
                 pag. {scenarioData.key}
               </h4>
               <h1 className={styles.Scenario__Title}>{scenarioData.title}</h1>
+              <ScenarioAudioButton />
 
               <div className={styles.Scenario__Card}>
                 {scenarioData?.story && (
